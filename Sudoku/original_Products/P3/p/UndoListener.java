@@ -14,7 +14,7 @@ public class UndoListener implements ActionListener
         this.bm = bm;
     }
 
-    
+
     public void actionPerformed(ActionEvent e)
     {
         bm.undo();

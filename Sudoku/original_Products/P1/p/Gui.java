@@ -45,17 +45,17 @@ public class Gui extends JFrame
         fileMenu.setText("File");
         fileMenu.add(createLoadMenuItem());
         fileMenu.add(createExitMenuItem());
-       // #if STATES
+        // #if STATES
 //@        if(p.R4Feature.STATES) {
 //@            fileMenu.add(createOpenStateMenuItem());
 //@        }
         // #endif
-       // #if STATES
+        // #if STATES
 //@        if(p.R4Feature.STATES) {
 //@            fileMenu.add(createSaveStateMenuItem());
 //@        }
         // #endif
-       // #if GENERATOR
+        // #if GENERATOR
 //@        if(p.R4Feature.GENERATOR) {
 //@            fileMenu.add(createGenerateSudokuMenuItem());
 //@        }
@@ -67,17 +67,17 @@ public class Gui extends JFrame
     {
         JMenu optionsMenu = new JMenu();
         optionsMenu.setText("Options");
-       // #if UNDO
+        // #if UNDO
 //@        if(p.R4Feature.UNDO) {
 //@            optionsMenu.add(createUndoMenuItem());
 //@        }
         // #endif
-       // #if SOLVER
+        // #if SOLVER
 //@        if(p.R4Feature.SOLVER) {
 //@            optionsMenu.add(createSolutionHintMenuItem());
 //@        }
         // #endif
-       // #if EXTENDED
+        // #if EXTENDED
 //@        if(p.R4Feature.EXTENDED) {
 //@            optionsMenu.add(createSetPossibilitiesMenuItem());
 //@        }
@@ -115,15 +115,15 @@ public class Gui extends JFrame
         this.listenerFactory = listenerFactory;
         setContentPane(createContentPane());
         setJMenuBar(createMenuBar());
-       // #if SOLVER
+        // #if SOLVER
 //@        if(p.R4Feature.SOLVER) {
 //@            JPanel glassPane = new JPanel(new BorderLayout());
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            glassPane.setBackground(new Color(Color.BLACK.getRed(), Color.BLACK
 //@                                              .getGreen(), Color.BLACK.getBlue(), GLASS_PANE_ALPHA));
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            glassPane.addMouseListener(new MouseListener() {
 //@                public void mousePressed(MouseEvent e) {
 //@                }
@@ -140,8 +140,8 @@ public class Gui extends JFrame
 //@                public void mouseClicked(MouseEvent e) {
 //@                }
 //@            });
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            glassPane.addKeyListener(new KeyListener() {
 //@                public void keyTyped(KeyEvent e) {
 //@                }
@@ -152,23 +152,23 @@ public class Gui extends JFrame
 //@                public void keyReleased(KeyEvent e) {
 //@                }
 //@            });
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            JLabel label = new JLabel("Busy...", JLabel.CENTER);
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            label.setForeground(Color.white);
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            glassPane.add(label, BorderLayout.CENTER);
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            setGlassPane(glassPane);
 //@        }
         // #endif
     }
 
-    
+
     protected void createAndShowGUI()
     {
         setTitle("Sudoku");
@@ -197,7 +197,7 @@ public class Gui extends JFrame
         getGlassPane().setVisible(false);
     }
 
-   // #if STATES
+    // #if STATES
 //@    @p.R4Feature(p.R4Feature.STATES)
 //@    protected JMenuItem createSaveStateMenuItem()
 //@    {
@@ -211,7 +211,7 @@ public class Gui extends JFrame
 //@    }
 //@
     // #endif
-   // #if STATES
+    // #if STATES
 //@    @p.R4Feature(p.R4Feature.STATES)
 //@    protected JMenuItem createOpenStateMenuItem()
 //@    {
@@ -225,7 +225,7 @@ public class Gui extends JFrame
 //@    }
 //@
     // #endif
-   // #if UNDO
+    // #if UNDO
 //@    @p.R4Feature(p.R4Feature.UNDO)
 //@    protected JMenuItem createUndoMenuItem()
 //@    {
@@ -238,12 +238,12 @@ public class Gui extends JFrame
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    private static final int GLASS_PANE_ALPHA = 180;
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public void setBusy(boolean busy)
 //@    {
@@ -255,7 +255,7 @@ public class Gui extends JFrame
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    protected JMenuItem createSolutionHintMenuItem()
 //@    {
@@ -269,7 +269,7 @@ public class Gui extends JFrame
 //@    }
 //@
     // #endif
-   // #if GENERATOR
+    // #if GENERATOR
 //@    @p.R4Feature(p.R4Feature.GENERATOR)
 //@    protected JMenuItem createGenerateSudokuMenuItem()
 //@    {
@@ -283,7 +283,7 @@ public class Gui extends JFrame
 //@    }
 //@
     // #endif
-   // #if EXTENDED
+    // #if EXTENDED
 //@    @p.R4Feature(p.R4Feature.EXTENDED)
 //@    protected JMenuItem createSetPossibilitiesMenuItem()
 //@    {

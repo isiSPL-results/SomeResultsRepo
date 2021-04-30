@@ -22,7 +22,7 @@ public class ListenerFactory
         return new GuiFieldPopupMenuListener(field, bm);
     }
 
-   // #if STATES
+    // #if STATES
 //@    @p.R4Feature(p.R4Feature.STATES)
 //@    public ActionListener getSaveStateListener()
 //@    {
@@ -30,7 +30,7 @@ public class ListenerFactory
 //@    }
 //@
     // #endif
-   // #if STATES
+    // #if STATES
 //@    @p.R4Feature(p.R4Feature.STATES)
 //@    public ActionListener getLoadStateListener()
 //@    {
@@ -38,7 +38,7 @@ public class ListenerFactory
 //@    }
 //@
     // #endif
-   // #if UNDO
+    // #if UNDO
 //@    @p.R4Feature(p.R4Feature.UNDO)
 //@    public ActionListener getUndoListener()
 //@    {
@@ -46,7 +46,7 @@ public class ListenerFactory
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public ActionListener getSolutionHintListener()
 //@    {
@@ -54,7 +54,7 @@ public class ListenerFactory
 //@    }
 //@
     // #endif
-   // #if GENERATOR
+    // #if GENERATOR
 //@    @p.R4Feature(p.R4Feature.GENERATOR)
 //@    public ActionListener getGenerateSudokuListener()
 //@    {
@@ -62,7 +62,7 @@ public class ListenerFactory
 //@    }
 //@
     // #endif
-   // #if EXTENDED
+    // #if EXTENDED
     @p.R4Feature(p.R4Feature.EXTENDED)
     public ActionListener getSetPossibilitiesListener()
     {

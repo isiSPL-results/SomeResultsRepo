@@ -18,7 +18,7 @@ public class GuiBox extends JPanel
     private ListenerFactory listenerFactory;
     private int index;
 
-    
+
     public GuiBox(int index, ListenerFactory listenerFactory)
     {
         super();
@@ -62,7 +62,7 @@ public class GuiBox extends JPanel
         }
     }
 
-    
+
     public JLabel getLabel(int element)
     {
         return fields[element];

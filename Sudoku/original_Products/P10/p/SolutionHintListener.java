@@ -15,7 +15,7 @@ public class SolutionHintListener implements ActionListener
         this.bm = bm;
     }
 
-    
+
     public void actionPerformed(ActionEvent e)
     {
         Thread worker = new Thread() {

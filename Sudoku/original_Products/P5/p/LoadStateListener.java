@@ -16,7 +16,7 @@ package p;
 //@        this.bM = bM;
 //@    }
 //@
-//@    
+//@
 //@    public void actionPerformed(ActionEvent e)
 //@    {
 //@        showOpenDialog(null);

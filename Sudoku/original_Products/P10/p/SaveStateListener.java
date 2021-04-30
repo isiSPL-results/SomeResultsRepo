@@ -16,7 +16,7 @@ public class SaveStateListener extends JFileChooser implements ActionListener
         this.bm = bm;
     }
 
-    
+
     public void actionPerformed(ActionEvent e)
     {
         showSaveDialog(null);

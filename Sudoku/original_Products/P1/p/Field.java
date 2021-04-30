@@ -15,7 +15,7 @@ package p;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Field 
+public class Field
 // #ifdef STATES
 //@ implements
 //@    Cloneable
@@ -23,7 +23,7 @@ public class Field
 //@    Serializable
 // #endif
 {
-    
+
     public static int POSSIBILITIES = 9;
     protected boolean set;
     protected boolean initialSet;
@@ -33,17 +33,17 @@ public class Field
     {
         this.initialSet = false;
         this.set = false;
-       // #if SOLVER
+        // #if SOLVER
 //@        if(p.R4Feature.SOLVER) {
 //@            remainingPos = new LinkedList();
-            // #endif
-           // #if SOLVER
+        // #endif
+        // #if SOLVER
 //@            for (int i = 1; i <= POSSIBILITIES; i++)
-               // #if SOLVER
+        // #if SOLVER
 //@            {
 //@                remainingPos.add((Object) i);
 //@            }
-            // #endif
+        // #endif
 //@        }
         // #endif
     }
@@ -53,7 +53,7 @@ public class Field
         this.value = value;
         this.set = true;
         this.initialSet = initialSet;
-       // #if SOLVER
+        // #if SOLVER
 //@        if(p.R4Feature.SOLVER) {
 //@            remainingPos = new LinkedList();
 //@        }
@@ -65,32 +65,32 @@ public class Field
         this.value = value;
         this.set = true;
         this.initialSet = false;
-       // #if SOLVER
+        // #if SOLVER
 //@        if(p.R4Feature.SOLVER) {
 //@            remainingPos = new LinkedList();
 //@        }
         // #endif
     }
 
-    
+
     public int getValue()
     {
         return value;
     }
 
-    
+
     public boolean isInitialSet()
     {
         return initialSet;
     }
 
-    
+
     public boolean isSet()
     {
         return set;
     }
 
-   // #if STATES
+    // #if STATES
 //@    @p.R4Feature(p.R4Feature.STATES)
 //@    public Object clone() throws CloneNotSupportedException
 //@    {
@@ -98,28 +98,28 @@ public class Field
 //@        clone.initialSet = initialSet;
 //@        clone.set = set;
 //@        clone.value = value;
-       // #if SOLVER
+    // #if SOLVER
 //@        if(p.R4Feature.SOLVER) {
 //@            LinkedList remainingPosClone = new LinkedList();
-            // #endif
-           // #if SOLVER
+    // #endif
+    // #if SOLVER
 //@            for (int i = 0; i < remainingPos.size(); i++)
-               // #if SOLVER
+    // #if SOLVER
 //@            {
 //@                remainingPosClone.add(new Integer(((Integer) remainingPos.get(i))
 //@                                                  .intValue()));
 //@            }
-            // #endif
-            // #endif
-           // #if SOLVER
+    // #endif
+    // #endif
+    // #if SOLVER
 //@            clone.remainingPos = remainingPosClone;
 //@        }
-        // #endif
+    // #endif
 //@        return clone;
 //@    }
 //@
     // #endif
-   // #if STATES
+    // #if STATES
 //@    @p.R4Feature(p.R4Feature.STATES)
 //@    private void writeObject(ObjectOutputStream aOutputStream)
 //@    throws IOException
@@ -131,7 +131,7 @@ public class Field
 //@    }
 //@
     // #endif
-   // #if STATES
+    // #if STATES
 //@    @p.R4Feature(p.R4Feature.STATES)
 //@    private void readObject(ObjectInputStream aInputStream)
 //@    throws ClassNotFoundException, IOException
@@ -143,12 +143,12 @@ public class Field
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    protected List remainingPos;
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public Field(List remainingPos)
 //@    {
@@ -156,8 +156,8 @@ public class Field
 //@    }
 //@
     // #endif
-   // #if SOLVER
-//@    
+    // #if SOLVER
+//@
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public List getRemainingPos()
 //@    {
@@ -165,7 +165,7 @@ public class Field
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public String toString()
 //@    {
@@ -183,7 +183,7 @@ public class Field
 //@    }
 //@
     // #endif
-   // #if GENERATOR
+    // #if GENERATOR
 //@    @p.R4Feature(p.R4Feature.GENERATOR)
 //@    public void setInitial(boolean flag)
 //@    {

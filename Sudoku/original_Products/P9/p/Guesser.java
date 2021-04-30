@@ -11,8 +11,8 @@ public class Guesser
     {
         int structIndex = -1;
         int elementIndex = -1;
-        for (int i = 0; i < Field.POSSIBILITIES; i++){
-            for (int j = 0; j < Field.POSSIBILITIES; j++){
+        for (int i = 0; i < Field.POSSIBILITIES; i++) {
+            for (int j = 0; j < Field.POSSIBILITIES; j++) {
                 if (!board.getField(Structure.ROW, i, j).isSet()
                         && ((-1 == structIndex && -1 == elementIndex) || (board
                                 .getField(Structure.ROW, i, j)

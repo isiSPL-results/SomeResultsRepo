@@ -16,7 +16,7 @@ public class GenerateSudokuListener implements ActionListener
         sGen = new SudokuGenerator();
     }
 
-    
+
     public void actionPerformed(ActionEvent e)
     {
         Thread worker = new Thread() {

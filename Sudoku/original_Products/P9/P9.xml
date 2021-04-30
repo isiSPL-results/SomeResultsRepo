@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<configuration>
-	<feature name="SudokuSPL"/>
-	<feature manual="selected" name="EXTENDED"/>
-	<feature manual="selected" name="STATES"/>
-	<feature manual="selected" name="UNDO"/>
-	<feature manual="selected" name="SOLVER"/>
-	<feature manual="selected" name="GENERATOR"/>
-	<feature manual="selected" name="COLOR"/>
-</configuration>
+                             <configuration>
+                             <feature name="SudokuSPL"/>
+                                     <feature manual="selected" name="EXTENDED"/>
+                                             <feature manual="selected" name="STATES"/>
+                                                     <feature manual="selected" name="UNDO"/>
+                                                             <feature manual="selected" name="SOLVER"/>
+                                                                     <feature manual="selected" name="GENERATOR"/>
+                                                                             <feature manual="selected" name="COLOR"/>
+                                                                                     </configuration>

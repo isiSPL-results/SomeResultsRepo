@@ -16,7 +16,7 @@ package p;
 //@        sGen = new SudokuGenerator();
 //@    }
 //@
-//@    
+//@
 //@    public void actionPerformed(ActionEvent e)
 //@    {
 //@        Thread worker = new Thread() {

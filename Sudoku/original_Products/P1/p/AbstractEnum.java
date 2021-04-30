@@ -12,12 +12,12 @@ public abstract class AbstractEnum implements Comparable
     private static final Map ALL_VALUES_BY_NAME = new HashMap(4);
     private static final Map ALL_VALUES_BY_ORDINAL = new HashMap(4);
     private static final Map ALL_COUNTS = new HashMap(4);
-    
+
     private final int ordinal = createNextOrdinal(getClass());
-    
+
     private final String name;
 
-    
+
     protected static AbstractEnum[] values0(final Class clazz,
                                             final AbstractEnum[] array)
     {
@@ -30,7 +30,7 @@ public abstract class AbstractEnum implements Comparable
         return array;
     }
 
-    
+
     protected static int count(final Class clazz)
     {
         checkClassIsEnum(clazz);
@@ -38,7 +38,7 @@ public abstract class AbstractEnum implements Comparable
                .intValue() : 0;
     }
 
-    
+
     protected static AbstractEnum valueOf0(final Class clazz, final String name)
     throws IllegalArgumentException
     {
@@ -50,7 +50,7 @@ public abstract class AbstractEnum implements Comparable
         throw new IllegalArgumentException(name);
     }
 
-    
+
     protected AbstractEnum(final String name)
     {
         this.name = name;
@@ -58,31 +58,31 @@ public abstract class AbstractEnum implements Comparable
         getValuesByOrdinal(getClass()).add(this);
     }
 
-    
+
     public String name()
     {
         return name;
     }
 
-    
+
     public int ordinal()
     {
         return ordinal;
     }
 
-    
+
     protected Object clone() throws CloneNotSupportedException
     {
         throw new CloneNotSupportedException();
     }
 
-    
+
     public String toString()
     {
         return name;
     }
 
-    
+
     public int compareTo(final Object o)
     {
         if (!getClass().equals(o.getClass())) {

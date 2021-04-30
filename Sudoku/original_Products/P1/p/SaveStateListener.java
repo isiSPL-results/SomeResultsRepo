@@ -16,7 +16,7 @@ package p;
 //@        this.bm = bm;
 //@    }
 //@
-//@    
+//@
 //@    public void actionPerformed(ActionEvent e)
 //@    {
 //@        showSaveDialog(null);

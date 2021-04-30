@@ -1,11 +1,11 @@
 package p;
 public class NotSolvableException extends Exception
-  { 
-public NotSolvableException()
+{
+    public NotSolvableException()
     {
-}public NotSolvableException(String msg)
-    { 
-super(msg);
-} 
+    } public NotSolvableException(String msg)
+    {
+        super(msg);
+    }
 
- } 
+}

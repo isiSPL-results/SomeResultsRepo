@@ -1,119 +1,116 @@
 
-//#if -66326705 
-// Compilation Unit of /SaveStateListener.java 
- 
+//#if -66326705
+// Compilation Unit of /SaveStateListener.java
 
-//#if 177408895 
+
+//#if 177408895
 package p;
-//#endif 
+//#endif
 
 
-//#if -982201840 
+//#if -982201840
 import java.awt.event.ActionEvent;
-//#endif 
+//#endif
 
 
-//#if -412113288 
+//#if -412113288
 import java.awt.event.ActionListener;
-//#endif 
+//#endif
 
 
-//#if 1434549637 
+//#if 1434549637
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if -1124317305 
+//#if -1124317305
 import javax.swing.JFileChooser;
-//#endif 
+//#endif
 
 
-//#if 446913355 
+//#if 446913355
 
-//#if -923728309 
+//#if -923728309
 @p.R4Feature(p.R4Feature.STATES)
-//#endif 
+//#endif
 
-public class SaveStateListener extends 
-//#if 1752356291 
-JFileChooser
-//#endif 
+public class SaveStateListener extends
+//#if 1752356291
+    JFileChooser
+//#endif
 
- implements 
-//#if -1605609992 
-ActionListener
-//#endif 
+    implements
+//#if -1605609992
+    ActionListener
+//#endif
 
-  { 
+{
 
-//#if 1400429780 
-private BoardManager bm;
-//#endif 
-
-
-//#if 1546944351 
-public void actionPerformed(ActionEvent e)
-    { 
-
-//#if 645610699 
-showSaveDialog(null);
-//#endif 
+//#if 1400429780
+    private BoardManager bm;
+//#endif
 
 
-//#if -203005604 
-if(null != getSelectedFile())//1
-{ 
+//#if 1546944351
+    public void actionPerformed(ActionEvent e)
+    {
 
-//#if -1592470273 
-try //1
-{ 
-
-//#if 1685801368 
-bm.saveState(getSelectedFile());
-//#endif 
-
-} 
-
-//#if -151731604 
-catch (IOException ex)//1
-{ 
-
-//#if 775167195 
-ex.printStackTrace();
-//#endif 
-
-} 
-
-//#endif 
+//#if 645610699
+        showSaveDialog(null);
+//#endif
 
 
-//#endif 
+//#if -203005604
+        if(null != getSelectedFile()) { //1
 
-} 
+//#if -1592470273
+            try { //1
 
-//#endif 
+//#if 1685801368
+                bm.saveState(getSelectedFile());
+//#endif
 
-} 
+            }
 
-//#endif 
+//#if -151731604
+            catch (IOException ex) { //1
 
+//#if 775167195
+                ex.printStackTrace();
+//#endif
 
-//#if 254894112 
-public SaveStateListener(BoardManager bm)
-    { 
+            }
 
-//#if -2138986023 
-this.bm = bm;
-//#endif 
-
-} 
-
-//#endif 
-
- } 
-
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
+
+        }
+
+//#endif
+
+    }
+
+//#endif
+
+
+//#if 254894112
+    public SaveStateListener(BoardManager bm)
+    {
+
+//#if -2138986023
+        this.bm = bm;
+//#endif
+
+    }
+
+//#endif
+
+}
+
+//#endif
+
+
+//#endif
 

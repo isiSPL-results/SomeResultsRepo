@@ -34,29 +34,29 @@ public class GuiBoard extends JPanel
                 if (field.isInitialSet()) {
                     label.setText(String.valueOf(field.getValue()));
                     label.setBackground(Color.LIGHT_GRAY);
-                   // #if COLOR
+                    // #if COLOR
                     if(p.R4Feature.COLOR) {
                         label.setBackground(Color.BLACK);
                         // #endif
-                       // #if COLOR
+                        // #if COLOR
                         label.setForeground(Color.ORANGE);
                     }
                     // #endif
                 } else if (field.isSet()) {
                     label.setText(String.valueOf(field.getValue()));
                     label.setBackground(Color.WHITE);
-                   // #if COLOR
+                    // #if COLOR
                     if(p.R4Feature.COLOR) {
                         label.setForeground(Color.BLACK);
                         // #endif
-                       // #if COLOR
+                        // #if COLOR
                         label.setBackground(Color.ORANGE);
                     }
                     // #endif
                 } else {
                     label.setText("");
                     label.setBackground(Color.WHITE);
-                   // #if COLOR
+                    // #if COLOR
                     if(p.R4Feature.COLOR) {
                         label.setBackground(Color.WHITE);
                     }

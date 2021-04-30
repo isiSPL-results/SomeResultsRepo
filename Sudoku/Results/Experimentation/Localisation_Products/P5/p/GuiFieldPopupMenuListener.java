@@ -9,81 +9,73 @@ import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
 import javax.swing.border.Border;
 public class GuiFieldPopupMenuListener implements MouseListener
-,ActionListener
-  { 
-protected GuiField field;
-protected BoardManager boardManager;
-@p.R4Feature(p.R4Feature.COLOR)
+    ,ActionListener
+{
+    protected GuiField field;
+    protected BoardManager boardManager;
+    @p.R4Feature(p.R4Feature.COLOR)
     private static final int EMPH_BORDER_THICKNESS = 4;
-@p.R4Feature(p.R4Feature.COLOR)
+    @p.R4Feature(p.R4Feature.COLOR)
     Border oldBorder;
-public GuiFieldPopupMenuListener(GuiField field, BoardManager bM)
-    { 
-this.field = field;
-this.boardManager = bM;
-} 
-protected JPopupMenu createPopupMenu()
-    { 
-JPopupMenu m = new JPopupMenu();
-JMenuItem mi;
-boolean done = false;
-if(!done)//1
-{ 
-for (int i = 0; i < Field.POSSIBILITIES; i++) //1
-{ 
-mi = new JMenuItem(String.valueOf(i + 1));
-mi.addActionListener(this);
-m.add(mi);
-} 
-} 
-return m;
-} 
-public void actionPerformed(ActionEvent arg0)
-    { 
-boolean done = false;
-if(!done)//1
-{ 
-boardManager.setField(Structure.BOX, field.getBoxIndex(),
+    public GuiFieldPopupMenuListener(GuiField field, BoardManager bM)
+    {
+        this.field = field;
+        this.boardManager = bM;
+    }
+    protected JPopupMenu createPopupMenu()
+    {
+        JPopupMenu m = new JPopupMenu();
+        JMenuItem mi;
+        boolean done = false;
+        if(!done) { //1
+            for (int i = 0; i < Field.POSSIBILITIES; i++) { //1
+                mi = new JMenuItem(String.valueOf(i + 1));
+                mi.addActionListener(this);
+                m.add(mi);
+            }
+        }
+        return m;
+    }
+    public void actionPerformed(ActionEvent arg0)
+    {
+        boolean done = false;
+        if(!done) { //1
+            boardManager.setField(Structure.BOX, field.getBoxIndex(),
                                   field.getFieldIndex(),
                                   new Field(Integer.parseInt(arg0.getActionCommand())));
-} 
-} 
-public void mouseReleased(MouseEvent arg0)
+        }
+    }
+    public void mouseReleased(MouseEvent arg0)
     {
-}public void mouseEntered(MouseEvent arg0)
-    { 
-if(p.R4Feature.COLOR)//1
-{ 
-if(!boardManager.getField(Structure.BOX, field.getBoxIndex(),
-                                       field.getFieldIndex()).isInitialSet())//1
-{ 
-oldBorder = field.getBorder();
-field.setBorder(BorderFactory.createLineBorder(Color.ORANGE,
+    } public void mouseEntered(MouseEvent arg0)
+    {
+        if(p.R4Feature.COLOR) { //1
+            if(!boardManager.getField(Structure.BOX, field.getBoxIndex(),
+                                      field.getFieldIndex()).isInitialSet()) { //1
+                oldBorder = field.getBorder();
+                field.setBorder(BorderFactory.createLineBorder(Color.ORANGE,
                                 EMPH_BORDER_THICKNESS));
-} 
-} 
-} 
-public void mouseClicked(MouseEvent arg0)
-    { 
-if(!boardManager.getField(Structure.BOX, field.getBoxIndex(),
-                                   field.getFieldIndex()).isInitialSet())//1
-{ 
-createPopupMenu().show(arg0.getComponent(), arg0.getX(),
-                                   arg0.getY());
-} 
-} 
-public void mouseExited(MouseEvent arg0)
-    { 
-if(p.R4Feature.COLOR)//1
-{ 
-if(!boardManager.getField(Structure.BOX, field.getBoxIndex(),
-                                       field.getFieldIndex()).isInitialSet())//1
-{ 
-field.setBorder(oldBorder);
-} 
-} 
-} 
-public void mousePressed(MouseEvent arg0)
+            }
+        }
+    }
+    public void mouseClicked(MouseEvent arg0)
     {
+        if(!boardManager.getField(Structure.BOX, field.getBoxIndex(),
+                                  field.getFieldIndex()).isInitialSet()) { //1
+            createPopupMenu().show(arg0.getComponent(), arg0.getX(),
+                                   arg0.getY());
+        }
+    }
+    public void mouseExited(MouseEvent arg0)
+    {
+        if(p.R4Feature.COLOR) { //1
+            if(!boardManager.getField(Structure.BOX, field.getBoxIndex(),
+                                      field.getFieldIndex()).isInitialSet()) { //1
+                field.setBorder(oldBorder);
+            }
+        }
+    }
+    public void mousePressed(MouseEvent arg0)
+    {
+    }
 }
- } 

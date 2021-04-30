@@ -16,7 +16,7 @@ public class LoadStateListener extends JFileChooser implements ActionListener
         this.bM = bM;
     }
 
-    
+
     public void actionPerformed(ActionEvent e)
     {
         showOpenDialog(null);

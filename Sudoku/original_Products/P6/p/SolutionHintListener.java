@@ -15,7 +15,7 @@ package p;
 //@        this.bm = bm;
 //@    }
 //@
-//@    
+//@
 //@    public void actionPerformed(ActionEvent e)
 //@    {
 //@        Thread worker = new Thread() {

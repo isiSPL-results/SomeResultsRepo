@@ -22,17 +22,17 @@ import java.util.List;
 import java.util.Random;
 
 //#endif
-public class Board 
+public class Board
 // #ifdef STATES
- implements  Cloneable , Serializable
+    implements  Cloneable, Serializable
 // #endif
-    
+
 {
-    
+
     public static int ELEMENTS = Field.POSSIBILITIES * Field.POSSIBILITIES;
     protected Field[] board;
 
-    
+
     public Board()
     {
         this.board = new Field[ELEMENTS];
@@ -41,7 +41,7 @@ public class Board
         }
     }
 
-    
+
     public Field getField(Structure struct, int structNr, int element)
     {
         return board[getIndex(struct, structNr, element)];
@@ -54,11 +54,10 @@ public class Board
             return nr + (ele * Field.POSSIBILITIES);
         } else if (str.name().equals("ROW")) {
             return (nr * Field.POSSIBILITIES) + ele;
-        } else if (str.name().equals("BOX")){
+        } else if (str.name().equals("BOX")) {
             return Field.POSSIBILITIES * (nr / sqrt * sqrt + ele / sqrt)
                    + (nr % sqrt * sqrt + ele % sqrt);
-        }
-        else {
+        } else {
             return -1;
         }
     }
@@ -68,7 +67,7 @@ public class Board
         board[getIndex(structure, structNr, element)] = f;
     }
 
-   // #if STATES
+    // #if STATES
     @p.R4Feature(p.R4Feature.STATES)
     public Object clone() throws CloneNotSupportedException
     {
@@ -80,7 +79,7 @@ public class Board
     }
 
     // #endif
-   // #if STATES
+    // #if STATES
     @p.R4Feature(p.R4Feature.STATES)
     private void writeObject(ObjectOutputStream aOutputStream)
     throws IOException
@@ -90,7 +89,7 @@ public class Board
     }
 
     // #endif
-   // #if STATES
+    // #if STATES
     @p.R4Feature(p.R4Feature.STATES)
     private void readObject(ObjectInputStream aInputStream)
     throws ClassNotFoundException, IOException
@@ -100,11 +99,11 @@ public class Board
     }
 
     // #endif
-   // #if SOLVER
+    // #if SOLVER
     @p.R4Feature(p.R4Feature.SOLVER)
     public boolean isSolved()
     {
-        for (int i = 0; i < board.length; i++){
+        for (int i = 0; i < board.length; i++) {
             if (!board[i].isSet()) {
                 return false;
             }
@@ -113,7 +112,7 @@ public class Board
     }
 
     // #endif
-   // #if SOLVER
+    // #if SOLVER
     @p.R4Feature(p.R4Feature.SOLVER)
     public boolean trySetField(Structure str, int strIndex, int element, Field f)
     {
@@ -130,7 +129,7 @@ public class Board
     }
 
     // #endif
-   // #if SOLVER
+    // #if SOLVER
     @p.R4Feature(p.R4Feature.SOLVER)
     protected boolean removeValueFromStructures(int index, int value)
     {
@@ -151,7 +150,7 @@ public class Board
     }
 
     // #endif
-   // #if SOLVER
+    // #if SOLVER
     @p.R4Feature(p.R4Feature.SOLVER)
     protected int getStructureIndex(int index, Structure str)
     {
@@ -160,17 +159,16 @@ public class Board
             return index / Field.POSSIBILITIES;
         } else if (str.name().equals("COL")) {
             return index % Field.POSSIBILITIES;
-        } else if (str.name().equals("BOX")){
+        } else if (str.name().equals("BOX")) {
             return sqrt * (index / (sqrt * Field.POSSIBILITIES))
                    + (index % Field.POSSIBILITIES) / sqrt;
-        }
-        else {
+        } else {
             return -1;
         }
     }
 
     // #endif
-   // #if SOLVER
+    // #if SOLVER
     @p.R4Feature(p.R4Feature.SOLVER)
     protected List getRelatedFieldIndices(int index)
     {
@@ -191,8 +189,8 @@ public class Board
         return indices;
     }
     // #endif
-    
-   // #if GENERATOR
+
+    // #if GENERATOR
     @p.R4Feature(p.R4Feature.GENERATOR)
     public void removeRandomSetField()
     {
@@ -209,7 +207,7 @@ public class Board
             for (int j = 0; j < Field.POSSIBILITIES; j++) {
                 if (getIndex(Structure.ROW, i, j) != rIndex) {
                     Field f = getField(Structure.ROW, i, j);
-                    if (f.isSet()){
+                    if (f.isSet()) {
                         output.trySetField(Structure.ROW, i, j,
                                            new Field(f.getValue()));
                     }

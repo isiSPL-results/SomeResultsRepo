@@ -36,7 +36,7 @@ public class BoardManager
     public BoardManager()
     {
         sudokuViews = new LinkedList();
-       // #if STATES
+        // #if STATES
         if(p.R4Feature.STATES) {
             history = new Stack();
         }
@@ -106,10 +106,10 @@ public class BoardManager
     public void preSetFieldWrapper(Structure structure, int structNr,
                                    int element, Field f)
     {
-       // #if STATES
+        // #if STATES
         if(p.R4Feature.STATES) {
             try
-               // #if STATES
+                // #if STATES
             {
                 history.push(board.clone());
             }
@@ -122,7 +122,7 @@ public class BoardManager
 
     public void preLoadWrapper()
     {
-       // #if STATES
+        // #if STATES
         if(p.R4Feature.STATES) {
             history.clear();
         }
@@ -151,12 +151,12 @@ public class BoardManager
         this.board = board;
     }
 
-   // #if STATES
+    // #if STATES
     @p.R4Feature(p.R4Feature.STATES)
     protected Stack history;
 
     // #endif
-   // #if STATES
+    // #if STATES
     @p.R4Feature(p.R4Feature.STATES)
     public void loadState(File f) throws IOException, ClassNotFoundException
     {
@@ -167,7 +167,7 @@ public class BoardManager
     }
 
     // #endif
-   // #if STATES
+    // #if STATES
     @p.R4Feature(p.R4Feature.STATES)
     public void saveState(File f) throws IOException
     {
@@ -178,7 +178,7 @@ public class BoardManager
     }
 
     // #endif
-   // #if UNDO
+    // #if UNDO
 //@    @p.R4Feature(p.R4Feature.UNDO)
 //@    public void undo()
 //@    {
@@ -189,7 +189,7 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    protected void setBusy(boolean busy)
 //@    {
@@ -199,12 +199,12 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    protected boolean busy;
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    protected boolean trySetFieldPrivate(Structure structure, int structNr,
 //@                                         int element, Field f)
@@ -213,7 +213,7 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public boolean trySetField(Structure structure, int structNr, int element,
 //@                               Field f)
@@ -230,7 +230,7 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public boolean tryLoadFile(File f) throws IOException
 //@    {
@@ -283,7 +283,7 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    public boolean solutionHint()
 //@    {
@@ -317,7 +317,7 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if SOLVER
+    // #if SOLVER
 //@    @p.R4Feature(p.R4Feature.SOLVER)
 //@    protected List solve(Board board)
 //@    {
@@ -343,7 +343,7 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if GENERATOR
+    // #if GENERATOR
 //@    @p.R4Feature(p.R4Feature.GENERATOR)
 //@    public void loadSudoku(Board board)
 //@    {
@@ -353,7 +353,7 @@ public class BoardManager
 //@    }
 //@
     // #endif
-   // #if EXTENDED
+    // #if EXTENDED
     @p.R4Feature(p.R4Feature.EXTENDED)
     public void setPossibilities(int possibilities)
     {

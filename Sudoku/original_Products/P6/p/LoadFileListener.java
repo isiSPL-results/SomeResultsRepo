@@ -21,16 +21,16 @@ public class LoadFileListener extends JFileChooser implements ActionListener
         if (null != getSelectedFile()) {
             try {
                 boolean loaded = false;
-               // #if SOLVER
+                // #if SOLVER
 //@                if(p.R4Feature.SOLVER) {
 //@                    loaded = true;
-                    // #endif
-                   // #if SOLVER
+                // #endif
+                // #if SOLVER
 //@                    if (!bM.tryLoadFile(getSelectedFile()))
-                       // #if SOLVER
+                // #if SOLVER
 //@                        JOptionPane.showMessageDialog(null,
 //@                                                      "Invalid sudoku! File was not loaded.");
-                    // #endif
+                // #endif
 //@                }
                 // #endif
                 if (!loaded) {
