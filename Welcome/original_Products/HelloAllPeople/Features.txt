@@ -1,0 +1,3 @@
+ALL := Says Hello to all the people 
+
+PEOPLE := Says Hello to the People

@@ -1,0 +1,19 @@
+digraph G {
+    compound = true;
+    rankdir = "BT";
+    nodesep= 0.5;
+    ranksep =  10;
+
+// CO-OCCURENCE GROUPS
+
+// IMPLICATION
+//"A" -> "B" [lhead = cluster_0;color="blue"]
+    "COLOR"
+    -> "BASE"[color="blue"]
+        "WIPE" -> "BASE"[color="blue"]
+        "LINE" -> "BASE"[color="blue"]
+        "RECT" -> "BASE"[color="blue"]
+
+// MUTEX
+//"A" ->! "C" [arrowhead=invdot;color="red";]
+    }

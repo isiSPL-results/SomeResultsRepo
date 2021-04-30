@@ -1,0 +1,3 @@
+Welcome Office is a simple SPL of 1 file (WelcomeOffice.java), destined to display an HelloWorld message. There are 3 products, thus 
+3 configurations possible : HelloWorld that displays "Hello World", HelloPeople that displays "Hello People", HelloAllPeople that 
+display "Hello All People".

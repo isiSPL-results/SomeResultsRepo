@@ -1,0 +1,5 @@
+
+
+
+WIPE :
+    =  Wipe erase shape

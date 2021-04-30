@@ -1,0 +1,37 @@
+digraph G {
+  compound = true;
+  rankdir = "BT"; 
+  nodesep= 0.5;
+  ranksep =  10; 
+
+ // CO-OCCURENCE GROUPS 
+
+ // IMPLICATION 
+//"A" -> "B" [lhead = cluster_0;color="blue"]
+"DirectedCall" -> "ShortestPath"[color="blue"]
+"FIFO" -> "UndirectedCall"[color="blue"]
+"ShortestPath" -> "CallButtons"[color="blue"]
+"FloorPermission" -> "Service"[color="blue"]
+"UndirectedCall" -> "CallButtons"[color="blue"]
+
+ // MUTEX 
+//"A" ->! "C" [arrowhead=invdot;color="red";] 
+"DirectedCall" -> "FIFO" [ arrowhead=normalicurvecurve;color="red";]
+"DirectedCall" -> "UndirectedCall" [ arrowhead=normalicurvecurve;color="red";]
+"DirectedCall" -> "Sabbath" [ arrowhead=normalicurvecurve;color="red";]
+"FIFO" -> "DirectedCall" [ arrowhead=normalicurvecurve;color="red";]
+"FIFO" -> "ShortestPath" [ arrowhead=normalicurvecurve;color="red";]
+"FIFO" -> "FloorPermission" [ arrowhead=normalicurvecurve;color="red";]
+"FIFO" -> "Sabbath" [ arrowhead=normalicurvecurve;color="red";]
+"ShortestPath" -> "FIFO" [ arrowhead=normalicurvecurve;color="red";]
+"ShortestPath" -> "Sabbath" [ arrowhead=normalicurvecurve;color="red";]
+"FloorPermission" -> "FIFO" [ arrowhead=normalicurvecurve;color="red";]
+"UndirectedCall" -> "DirectedCall" [ arrowhead=normalicurvecurve;color="red";]
+"UndirectedCall" -> "Sabbath" [ arrowhead=normalicurvecurve;color="red";]
+"CallButtons" -> "Sabbath" [ arrowhead=normalicurvecurve;color="red";]
+"Sabbath" -> "DirectedCall" [ arrowhead=normalicurvecurve;color="red";]
+"Sabbath" -> "FIFO" [ arrowhead=normalicurvecurve;color="red";]
+"Sabbath" -> "ShortestPath" [ arrowhead=normalicurvecurve;color="red";]
+"Sabbath" -> "UndirectedCall" [ arrowhead=normalicurvecurve;color="red";]
+"Sabbath" -> "CallButtons" [ arrowhead=normalicurvecurve;color="red";]
+}

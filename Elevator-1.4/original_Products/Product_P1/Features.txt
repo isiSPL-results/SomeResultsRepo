@@ -1,0 +1,60 @@
+//#if Behavior 
+Behavior := x
+//#endif
+//#if Modes 
+Modes := x
+//#endif
+//#if Sabbath 
+//@Sabbath := x
+//#endif
+//#if FIFO 
+//@FIFO := x
+//#endif
+//#if ShortestPath 
+ShortestPath := x
+//#endif
+//#if Service 
+Service := x
+//#endif
+//#if Priorities 
+//@Priorities := x
+//#endif
+//#if RushHour 
+//@RushHour := x
+//#endif
+//#if FloorPriority 
+//@FloorPriority := x
+//#endif
+//#if PersonPriority 
+//@PersonPriority := x
+//#endif
+//#if VoiceOutput 
+//@VoiceOutput := x
+//#endif
+//#if CallButtons 
+CallButtons := x
+//#endif
+//#if DirectedCall 
+DirectedCall := x
+//#endif
+//#if UndirectedCall 
+//@UndirectedCall := x
+//#endif
+//#if Security 
+Security := x
+//#endif
+//#if Permission 
+Permission := x
+//#endif
+//#if FloorPermission 
+FloorPermission := x
+//#endif
+//#if PermissionControl 
+//@PermissionControl := x
+//#endif
+//#if Safety 
+//@Safety := x
+//#endif
+//#if Overloaded 
+//@Overloaded := x
+//#endif

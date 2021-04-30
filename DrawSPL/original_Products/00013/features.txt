@@ -1,0 +1,7 @@
+
+COLOR :
+    =  Colors Color
+       RECT :
+       =  Draw Rect Rectangle
+          WIPE :
+          =  Wipe erase shape

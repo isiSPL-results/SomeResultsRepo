@@ -1,0 +1,7 @@
+LINE :
+    =  Draw Lines line
+       COLOR :
+       =  Colors Color
+
+          WIPE :
+          =  Wipe erase shape

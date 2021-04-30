@@ -1,0 +1,6 @@
+
+
+RECT :
+    =  Draw Rect Rectangle
+       WIPE :
+       =  Wipe erase shape

@@ -1,0 +1,6 @@
+LINE :
+    =  Draw Lines line
+       COLOR :
+       =  Colors Color
+          RECT :
+          =  Draw Rect Rectangle
