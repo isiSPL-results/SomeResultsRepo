@@ -1,22 +1,22 @@
 
-//#if  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator  
-// Compilation Unit of /ClearGeneratorStrategy.java 
- 
+//#if  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator
+// Compilation Unit of /ClearGeneratorStrategy.java
+
 package generator;
 public class ClearGeneratorStrategy implements GeneratorStrategy
-  { 
-public String toString()
-    { 
-return "Clear Generator";
-} 
+{
+    public String toString()
+    {
+        return "Clear Generator";
+    }
 
-public int getNext(int x, int y)
-    { 
-return 0;
-} 
+    public int getNext(int x, int y)
+    {
+        return 0;
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

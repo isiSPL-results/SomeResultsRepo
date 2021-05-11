@@ -1,0 +1,576 @@
+MacBook-Pro-ISIA-de-Nicolas:isispl-integration-localisation-validitor nicolas$ clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+MacBook-Pro-ISIA-de-Nicolas:isispl-integration-localisation-validitor nicolas$ python3 analyser.py 
+starting Integration
+------------
+Integration Product : product_1 
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1 
+## Edge.java LoC : 61;  Char : 1543
+## EdgeIfc.java LoC : 11;   Char : 328
+## EdgeIter.java LoC : 12;  Char : 171
+## Graph.java LoC : 227;  Char : 8207
+## Main.java LoC : 20;  Char : 468
+## Neighbor.java LoC : 40;  Char : 904
+## NeighborIfc.java LoC : 5;  Char : 80
+## Vertex.java LoC : 133;   Char : 3861
+## VertexIter.java LoC : 12;  Char : 172
+## WorkSpace.java LoC : 10;   Char : 349
+## TOTAL : LoC : 531;   Char : 16083
+*********************
+Gumtree : Edge.java vs Edge.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/Edge.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/Edge.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIfc.java vs EdgeIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/EdgeIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/EdgeIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIter.java vs EdgeIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/EdgeIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/EdgeIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Graph.java vs Graph.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/Graph.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/Graph.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Neighbor.java vs Neighbor.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/Neighbor.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/Neighbor.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NeighborIfc.java vs NeighborIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/NeighborIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/NeighborIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Vertex.java vs Vertex.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/Vertex.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/Vertex.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : VertexIter.java vs VertexIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/VertexIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/VertexIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : WorkSpace.java vs WorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_1/GPL/WorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_1/GPL/WorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : product_2 
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2 
+## CycleWorkSpace.java LoC : 48;  Char : 1457
+## Edge.java LoC : 61;  Char : 1543
+## EdgeIfc.java LoC : 11;   Char : 326
+## EdgeIter.java LoC : 12;  Char : 171
+## Graph.java LoC : 242;  Char : 8525
+## Main.java LoC : 20;  Char : 468
+## Neighbor.java LoC : 17;  Char : 320
+## NeighborIfc.java LoC : 5;  Char : 80
+## NumberWorkSpace.java LoC : 15;   Char : 323
+## RegionWorkSpace.java LoC : 21;   Char : 418
+## Vertex.java LoC : 134;   Char : 3843
+## VertexIter.java LoC : 12;  Char : 172
+## WorkSpace.java LoC : 10;   Char : 349
+## TOTAL : LoC : 608;   Char : 17995
+*********************
+Gumtree : CycleWorkSpace.java vs CycleWorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/CycleWorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/CycleWorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Edge.java vs Edge.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/Edge.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/Edge.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIfc.java vs EdgeIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/EdgeIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/EdgeIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIter.java vs EdgeIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/EdgeIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/EdgeIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Graph.java vs Graph.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/Graph.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/Graph.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Neighbor.java vs Neighbor.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/Neighbor.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/Neighbor.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NeighborIfc.java vs NeighborIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/NeighborIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/NeighborIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NumberWorkSpace.java vs NumberWorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/NumberWorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/NumberWorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RegionWorkSpace.java vs RegionWorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/RegionWorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/RegionWorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Vertex.java vs Vertex.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/Vertex.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/Vertex.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : VertexIter.java vs VertexIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/VertexIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/VertexIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : WorkSpace.java vs WorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_2/GPL/WorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_2/GPL/WorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : product_3 
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3 
+## Edge.java LoC : 61;  Char : 1543
+## EdgeIfc.java LoC : 11;   Char : 326
+## EdgeIter.java LoC : 12;  Char : 171
+## GlobalVarsWrapper.java LoC : 6;  Char : 140
+## Graph.java LoC : 242;  Char : 8883
+## Main.java LoC : 20;  Char : 468
+## Neighbor.java LoC : 17;  Char : 320
+## NeighborIfc.java LoC : 5;  Char : 80
+## NumberWorkSpace.java LoC : 15;   Char : 323
+## Vertex.java LoC : 125;   Char : 3584
+## VertexIter.java LoC : 12;  Char : 172
+## WorkSpace.java LoC : 11;   Char : 380
+## TOTAL : LoC : 537;   Char : 16390
+*********************
+Gumtree : Edge.java vs Edge.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/Edge.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/Edge.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIfc.java vs EdgeIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/EdgeIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/EdgeIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIter.java vs EdgeIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/EdgeIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/EdgeIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GlobalVarsWrapper.java vs GlobalVarsWrapper.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/GlobalVarsWrapper.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/GlobalVarsWrapper.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Graph.java vs Graph.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/Graph.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/Graph.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Neighbor.java vs Neighbor.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/Neighbor.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/Neighbor.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NeighborIfc.java vs NeighborIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/NeighborIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/NeighborIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NumberWorkSpace.java vs NumberWorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/NumberWorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/NumberWorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Vertex.java vs Vertex.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/Vertex.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/Vertex.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  1 
+  moves :  0 
+*********************
+Gumtree : VertexIter.java vs VertexIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/VertexIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/VertexIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : WorkSpace.java vs WorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_3/GPL/WorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_3/GPL/WorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : product_4 
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4 
+## EdgeIfc.java LoC : 10;   Char : 292
+## EdgeIter.java LoC : 12;  Char : 171
+## GlobalVarsWrapper.java LoC : 6;  Char : 140
+## Graph.java LoC : 109;  Char : 3419
+## Main.java LoC : 20;  Char : 468
+## Neighbor.java LoC : 42;  Char : 888
+## NeighborIfc.java LoC : 5;  Char : 80
+## RegionWorkSpace.java LoC : 21;   Char : 418
+## Vertex.java LoC : 118;   Char : 3395
+## VertexIter.java LoC : 12;  Char : 172
+## WorkSpace.java LoC : 11;   Char : 380
+## TOTAL : LoC : 366;   Char : 9823
+*********************
+Gumtree : EdgeIfc.java vs EdgeIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/EdgeIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/EdgeIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIter.java vs EdgeIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/EdgeIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/EdgeIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GlobalVarsWrapper.java vs GlobalVarsWrapper.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/GlobalVarsWrapper.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/GlobalVarsWrapper.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Graph.java vs Graph.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/Graph.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/Graph.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Neighbor.java vs Neighbor.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/Neighbor.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/Neighbor.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  1 
+*********************
+Gumtree : NeighborIfc.java vs NeighborIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/NeighborIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/NeighborIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RegionWorkSpace.java vs RegionWorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/RegionWorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/RegionWorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Vertex.java vs Vertex.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/Vertex.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/Vertex.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  1 
+  moves :  0 
+*********************
+Gumtree : VertexIter.java vs VertexIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/VertexIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/VertexIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : WorkSpace.java vs WorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_4/GPL/WorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_4/GPL/WorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : product_5 
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5 
+## CycleWorkSpace.java LoC : 48;  Char : 1457
+## Edge.java LoC : 29;  Char : 687
+## EdgeIfc.java LoC : 11;   Char : 328
+## EdgeIter.java LoC : 12;  Char : 171
+## FinishTimeWorkSpace.java LoC : 22;   Char : 492
+## Graph.java LoC : 175;  Char : 5734
+## Main.java LoC : 20;  Char : 468
+## Neighbor.java LoC : 40;  Char : 847
+## NeighborIfc.java LoC : 5;  Char : 80
+## Vertex.java LoC : 132;   Char : 3968
+## VertexIter.java LoC : 12;  Char : 172
+## WorkSpace.java LoC : 10;   Char : 349
+## WorkSpaceTranspose.java LoC : 22;  Char : 500
+## TOTAL : LoC : 538;   Char : 15253
+*********************
+Gumtree : CycleWorkSpace.java vs CycleWorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/CycleWorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/CycleWorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Edge.java vs Edge.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/Edge.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/Edge.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIfc.java vs EdgeIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/EdgeIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/EdgeIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : EdgeIter.java vs EdgeIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/EdgeIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/EdgeIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FinishTimeWorkSpace.java vs FinishTimeWorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/FinishTimeWorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/FinishTimeWorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Graph.java vs Graph.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/Graph.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/Graph.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Neighbor.java vs Neighbor.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/Neighbor.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/Neighbor.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  1 
+*********************
+Gumtree : NeighborIfc.java vs NeighborIfc.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/NeighborIfc.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/NeighborIfc.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Vertex.java vs Vertex.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/Vertex.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/Vertex.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : VertexIter.java vs VertexIter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/VertexIter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/VertexIter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : WorkSpace.java vs WorkSpace.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/WorkSpace.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/WorkSpace.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : WorkSpaceTranspose.java vs WorkSpaceTranspose.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/product_5/GPL/WorkSpaceTranspose.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/product_5/GPL/WorkSpaceTranspose.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+_____________
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+================== RESULT =====================
+Number of Original Products : 5
+(Integration) Number of Products obtained from Artefact Configurations : 5
+(Localisation) Number of Products obtained from Feature Configurations : 5
+Number of Files : in between [10 - 13]
+=======
+
+  ==========      INTEGRATION SCORE    =============
+   By Products
+  For product_1 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 531 ; Char modified : 0/16083)
+  For product_2 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 608 ; Char modified : 0/17995)
+  For product_3 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  1 
+  moves :  0 
+similarity = 100.0%; LOC : 537 ; Char modified : 0/16390)
+  For product_4 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  1 
+  moves :  1 
+similarity = 100.0%; LOC : 366 ; Char modified : 0/9823)
+  For product_5 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  1 
+similarity = 100.0%; LOC : 538 ; Char modified : 0/15253)
+==
+TOTAL :
+TOTAL LoC Deleted : 0
+TOTAL LoC Inserted : 0
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  2 
+  moves :  2 

@@ -1,263 +1,243 @@
 
-//#if -764827235 
-// Compilation Unit of /Login.java 
- 
+//#if -764827235
+// Compilation Unit of /Login.java
+
 package healthwatcher.view.command;
 
-//#if 1302760574 
+//#if 1302760574
 import healthwatcher.Constants;
-//#endif 
+//#endif
 
 
-//#if -1196047644 
+//#if -1196047644
 import healthwatcher.model.employee.Employee;
-//#endif 
+//#endif
 
 
-//#if -2038657361 
+//#if -2038657361
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if -1072761577 
+//#if -1072761577
 import java.io.FileNotFoundException;
-//#endif 
+//#endif
 
 
-//#if -1612724837 
+//#if -1612724837
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if -431984946 
+//#if -431984946
 import javax.servlet.http.HttpSession;
-//#endif 
+//#endif
 
 
-//#if -1867972137 
+//#if -1867972137
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if 399377357 
+//#if 399377357
 import lib.exceptions.TransactionException;
-//#endif 
+//#endif
 
 
-//#if 627218020 
+//#if 627218020
 import lib.util.HTMLCode;
-//#endif 
+//#endif
 
 
-//#if -2135948417 
+//#if -2135948417
 import lib.util.Library;
-//#endif 
+//#endif
 
 
-//#if 2079725061 
+//#if 2079725061
 import lib.exceptions.CommunicationException;
-//#endif 
+//#endif
 
 
-//#if -8087547 
+//#if -8087547
 import lib.exceptions.FacadeUnavailableException;
-//#endif 
+//#endif
 
 public class Login extends Command
-  { 
-private String[] keywords = { "##SYSTEM_ROOT##", "##SERVLET_SERVER_PATH##",
+{
+    private String[] keywords = { "##SYSTEM_ROOT##", "##SERVLET_SERVER_PATH##",
                                   "##CLOSE##", "##SYSTEM_ACTION##"
                                 };
-private String[] newWords = { Constants.SYSTEM_ROOT,
+    private String[] newWords = { Constants.SYSTEM_ROOT,
                                   Constants.SERVLET_SERVER_PATH, HTMLCode.closeAdministrator(), Constants.SYSTEM_ACTION
                                 };
-public static final String EMPLOYEE = "employee";
+    public static final String EMPLOYEE = "employee";
 
-//#if 1550669371 
-public void execute()
-    { 
-PrintWriter out = null;
+//#if 1550669371
+    public void execute()
+    {
+        PrintWriter out = null;
 
-//#if -1512137940 
-HttpSession session = request.getSession(true);
-//#endif 
+//#if -1512137940
+        HttpSession session = request.getSession(true);
+//#endif
 
 
-//#if -452446617 
-response.setContentType("text/html");
-//#endif 
+//#if -452446617
+        response.setContentType("text/html");
+//#endif
 
-try //1
-{ 
-out = response.getWriter();
-} 
+        try { //1
+            out = response.getWriter();
+        }
 
-//#if -716503751 
-catch (Exception e) //1
-{ 
-e.printStackTrace();
-} 
+//#if -716503751
+        catch (Exception e) { //1
+            e.printStackTrace();
+        }
 
-//#endif 
+//#endif
 
 
 
-//#if 1501056820 
-String login = request.getParameter("login");
-//#endif 
+//#if 1501056820
+        String login = request.getParameter("login");
+//#endif
 
 
-//#if 382385140 
-String password = request.getParameter("password");
-//#endif 
+//#if 382385140
+        String password = request.getParameter("password");
+//#endif
 
 
-//#if -1868074731 
-String login = request.getInput("login");
-//#endif 
+//#if -1868074731
+        String login = request.getInput("login");
+//#endif
 
 
-//#if -2128399245 
-String password = request.getInput("password");
-//#endif 
+//#if -2128399245
+        String password = request.getInput("password");
+//#endif
 
-try //2
-{ 
-Employee employee = facade.searchEmployee(login);
-if(employee.validatePassword(password))//1
-{ 
+        try { //2
+            Employee employee = facade.searchEmployee(login);
+            if(employee.validatePassword(password)) { //1
 
-//#if 2000906981 
-employee.addObserver(facade);
-//#endif 
+//#if 2000906981
+                employee.addObserver(facade);
+//#endif
 
 
-//#if 1605009507 
-session.putValue(Login.EMPLOYEE, employee);
-//#endif 
+//#if 1605009507
+                session.putValue(Login.EMPLOYEE, employee);
+//#endif
 
 
-//#if -64694462 
-request.setAuthorized(true);
-//#endif 
+//#if -64694462
+                request.setAuthorized(true);
+//#endif
 
 
-//#if -2057961239 
-request.put(Login.EMPLOYEE, employee);
-//#endif 
+//#if -2057961239
+                request.put(Login.EMPLOYEE, employee);
+//#endif
 
-out.println(Library.getFileListReplace(keywords, newWords, Constants.FORM_PATH+"MenuEmployee.html"));
-} 
-else
-{ 
-out.println(HTMLCode.errorPage("Invalid password! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
-} 
+                out.println(Library.getFileListReplace(keywords, newWords, Constants.FORM_PATH+"MenuEmployee.html"));
+            } else {
+                out.println(HTMLCode.errorPage("Invalid password! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
+            }
 
-} 
+        }
 
-//#if -1285147506 
-catch (ObjectNotFoundException e) //1
-{ 
-out.println(HTMLCode.errorPage("Invalid login! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
-} 
+//#if -1285147506
+        catch (ObjectNotFoundException e) { //1
+            out.println(HTMLCode.errorPage("Invalid login! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
+        }
 
-//#endif 
+//#endif
 
 
-//#if -1218114677 
-catch (FileNotFoundException e) //1
-{ 
-out.println(HTMLCode.errorPage(e.getMessage()));
-} 
+//#if -1218114677
+        catch (FileNotFoundException e) { //1
+            out.println(HTMLCode.errorPage(e.getMessage()));
+        }
 
-//#endif 
-
-
-//#if -459424102 
-catch (TransactionException e) //1
-{ 
-out.println(HTMLCode.errorPage(e.getMessage()));
-} 
-
-//#endif 
+//#endif
 
 
-//#if -1239422048 
-catch (Exception e) //1
-{ 
-out.println(HTMLCode.errorPage(e.getMessage()));
-} 
+//#if -459424102
+        catch (TransactionException e) { //1
+            out.println(HTMLCode.errorPage(e.getMessage()));
+        }
 
-//#endif 
-
-finally { 
-out.close();
-} 
-
-} 
-
-//#endif 
+//#endif
 
 
-//#if 1645120743 
-public void execute() throws Exception
-    { 
-PrintWriter out = response.getWriter();
-String login = request.getInput("login");
-String password = request.getInput("password");
-try //1
-{ 
-Employee employee = facade.searchEmployee(login);
-if(employee.validatePassword(password))//1
-{ 
-employee.addObserver(facade);
-request.setAuthorized(true);
-request.put(Login.EMPLOYEE, employee);
-out.println(Library.getFileListReplace(keywords, newWords, Constants.FORM_PATH+"MenuEmployee.html"));
-} 
-else
-{ 
-out.println(HTMLCode.errorPage("Invalid password! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
-} 
+//#if -1239422048
+        catch (Exception e) { //1
+            out.println(HTMLCode.errorPage(e.getMessage()));
+        }
 
-} 
-catch (ObjectNotFoundException e) //1
-{ 
-out.println(HTMLCode.errorPage("Invalid login! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
-} 
+//#endif
 
-catch (FileNotFoundException e) //1
-{ 
-out.println(HTMLCode.errorPage(e.getMessage()));
-} 
+        finally {
+            out.close();
+        }
 
-catch (TransactionException e) //1
-{ 
-out.println(HTMLCode.errorPage(e.getMessage()));
-} 
+    }
 
-catch (CommunicationException e) //1
-{ 
-throw new FacadeUnavailableException();
-} 
-
-catch (Exception e) //1
-{ 
-out.println(HTMLCode.errorPage(e.getMessage()));
-} 
+//#endif
 
 
-} 
+//#if 1645120743
+    public void execute() throws Exception
+    {
+        PrintWriter out = response.getWriter();
+        String login = request.getInput("login");
+        String password = request.getInput("password");
+        try { //1
+            Employee employee = facade.searchEmployee(login);
+            if(employee.validatePassword(password)) { //1
+                employee.addObserver(facade);
+                request.setAuthorized(true);
+                request.put(Login.EMPLOYEE, employee);
+                out.println(Library.getFileListReplace(keywords, newWords, Constants.FORM_PATH+"MenuEmployee.html"));
+            } else {
+                out.println(HTMLCode.errorPage("Invalid password! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
+            }
 
-//#endif 
+        } catch (ObjectNotFoundException e) { //1
+            out.println(HTMLCode.errorPage("Invalid login! <br><a href=\""+Constants.SYSTEM_LOGIN+"\">Try again</a>"));
+        }
 
-public Login(IFacade f)
-    { 
-super(f);
-} 
+        catch (FileNotFoundException e) { //1
+            out.println(HTMLCode.errorPage(e.getMessage()));
+        }
 
- } 
+        catch (TransactionException e) { //1
+            out.println(HTMLCode.errorPage(e.getMessage()));
+        }
+
+        catch (CommunicationException e) { //1
+            throw new FacadeUnavailableException();
+        }
+
+        catch (Exception e) { //1
+            out.println(HTMLCode.errorPage(e.getMessage()));
+        }
 
 
-//#endif 
+    }
+
+//#endif
+
+    public Login(IFacade f)
+    {
+        super(f);
+    }
+
+}
+
+
+//#endif
 

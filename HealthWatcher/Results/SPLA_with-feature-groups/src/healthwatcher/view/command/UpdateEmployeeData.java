@@ -1,200 +1,188 @@
 
-//#if 1637668325 
-// Compilation Unit of /UpdateEmployeeData.java 
- 
+//#if 1637668325
+// Compilation Unit of /UpdateEmployeeData.java
+
 package healthwatcher.view.command;
 
-//#if -442438580 
+//#if -442438580
 import healthwatcher.model.employee.Employee;
-//#endif 
+//#endif
 
 
-//#if -2014497209 
+//#if -2014497209
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if 597830074 
+//#if 597830074
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if 1218050307 
+//#if 1218050307
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if -379352474 
+//#if -379352474
 import javax.servlet.http.HttpSession;
-//#endif 
+//#endif
 
 
-//#if -711301120 
+//#if -711301120
 import lib.exceptions.InvalidSessionException;
-//#endif 
+//#endif
 
 
-//#if 241337292 
+//#if 241337292
 import lib.util.HTMLCode;
-//#endif 
+//#endif
 
 public class UpdateEmployeeData extends Command
-  { 
-public UpdateEmployeeData(IFacade f)
-    { 
-super(f);
-} 
+{
+    public UpdateEmployeeData(IFacade f)
+    {
+        super(f);
+    }
 
 
-//#if -1936010764 
-public void execute() throws Exception
-    { 
-PrintWriter out = response.getWriter();
-String name = request.getInput("name");
-String newPassword = request.getInput("newPassword");
-Employee employee = null;
-try //1
-{ 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
+//#if -1936010764
+    public void execute() throws Exception
+    {
+        PrintWriter out = response.getWriter();
+        String name = request.getInput("name");
+        String newPassword = request.getInput("newPassword");
+        Employee employee = null;
+        try { //1
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
 
-employee = (Employee) request.get(Login.EMPLOYEE);
-employee.setName(name);
-if(!newPassword.equals(""))//1
-{ 
-employee.setPassword(newPassword);
-} 
+            employee = (Employee) request.get(Login.EMPLOYEE);
+            employee.setName(name);
+            if(!newPassword.equals("")) { //1
+                employee.setPassword(newPassword);
+            }
 
-out.println(HTMLCode.htmlPageAdministrator("Operation executed",
+            out.println(HTMLCode.htmlPageAdministrator("Operation executed",
                         "Employee updated"));
-} 
-catch (Exception e) //1
-{ 
-out.println(lib.util.HTMLCode.errorPage(e.getMessage()));
-e.printStackTrace(out);
-} 
+        } catch (Exception e) { //1
+            out.println(lib.util.HTMLCode.errorPage(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
 
-} 
+    }
 
-//#endif 
-
-
-//#if -974964530 
-public void execute()
-    { 
-PrintWriter out = null;
-
-//#if -21314698 
-HttpSession session = request.getSession(false);
-//#endif 
+//#endif
 
 
-//#if -492120185 
-String name = request.getParameter("name");
-//#endif 
+//#if -974964530
+    public void execute()
+    {
+        PrintWriter out = null;
+
+//#if -21314698
+        HttpSession session = request.getSession(false);
+//#endif
 
 
-//#if -1668679645 
-String newPassword = request.getParameter("newPassword");
-//#endif 
+//#if -492120185
+        String name = request.getParameter("name");
+//#endif
 
 
-//#if -1334451962 
-String name = request.getInput("name");
-//#endif 
+//#if -1668679645
+        String newPassword = request.getParameter("newPassword");
+//#endif
 
 
-//#if 2143585732 
-String newPassword = request.getInput("newPassword");
-//#endif 
-
-Employee employee = null;
-
-//#if -1469643852 
-response.setContentType("text/html");
-//#endif 
-
-try //1
-{ 
-out = response.getWriter();
-} 
-
-//#if -1589698151 
-catch (IOException e1) //1
-{ 
-e1.printStackTrace();
-} 
-
-//#endif 
+//#if -1334451962
+        String name = request.getInput("name");
+//#endif
 
 
-try //2
-{ 
+//#if 2143585732
+        String newPassword = request.getInput("newPassword");
+//#endif
 
-//#if -1592264410 
-if(session == null)//1
-{ 
-throw new InvalidSessionException();
-} 
+        Employee employee = null;
 
-//#endif 
+//#if -1469643852
+        response.setContentType("text/html");
+//#endif
 
+        try { //1
+            out = response.getWriter();
+        }
 
-//#if -869333372 
-employee = (Employee) session.getValue(Login.EMPLOYEE);
-//#endif 
+//#if -1589698151
+        catch (IOException e1) { //1
+            e1.printStackTrace();
+        }
 
-
-//#if 1245018351 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
-
-//#endif 
+//#endif
 
 
-//#if 1783691660 
-employee = (Employee) request.get(Login.EMPLOYEE);
-//#endif 
+        try { //2
 
-employee.setName(name);
-if(!newPassword.equals(""))//1
-{ 
-employee.setPassword(newPassword);
-} 
+//#if -1592264410
+            if(session == null) { //1
+                throw new InvalidSessionException();
+            }
 
-out.println(HTMLCode.htmlPageAdministrator("Operation executed",
+//#endif
+
+
+//#if -869333372
+            employee = (Employee) session.getValue(Login.EMPLOYEE);
+//#endif
+
+
+//#if 1245018351
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
+
+//#endif
+
+
+//#if 1783691660
+            employee = (Employee) request.get(Login.EMPLOYEE);
+//#endif
+
+            employee.setName(name);
+            if(!newPassword.equals("")) { //1
+                employee.setPassword(newPassword);
+            }
+
+            out.println(HTMLCode.htmlPageAdministrator("Operation executed",
                         "Employee updated"));
 
-//#if 164164457 
-facade.updateEmployee(employee);
-//#endif 
+//#if 164164457
+            facade.updateEmployee(employee);
+//#endif
 
-} 
+        }
 
-//#if 1668667898 
-catch (Exception e) //1
-{ 
-out.println(lib.util.HTMLCode.errorPage(e.getMessage()));
-e.printStackTrace(out);
-} 
+//#if 1668667898
+        catch (Exception e) { //1
+            out.println(lib.util.HTMLCode.errorPage(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-//#endif 
+//#endif
 
-finally { 
-out.close();
-} 
+        finally {
+            out.close();
+        }
 
-} 
+    }
 
-//#endif 
+//#endif
 
- } 
+}
 
 
-//#endif 
+//#endif
 

@@ -1,60 +1,58 @@
 
-//#if 1549299179 
-// Compilation Unit of /RMIFacadeFactory.java 
- 
+//#if 1549299179
+// Compilation Unit of /RMIFacadeFactory.java
+
 package healthwatcher.business.factories;
 
-//#if 1056711305 
+//#if 1056711305
 import healthwatcher.Constants;
-//#endif 
+//#endif
 
 
-//#if -2107353213 
+//#if -2107353213
 import healthwatcher.business.RMIFacadeAdapter;
-//#endif 
+//#endif
 
 
-//#if -583255868 
+//#if -583255868
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if -1107069873 
+//#if -1107069873
 import healthwatcher.view.RMIServletAdapter;
-//#endif 
+//#endif
 
 
-//#if 1631239376 
+//#if 1631239376
 import lib.exceptions.CommunicationException;
-//#endif 
+//#endif
 
 public class RMIFacadeFactory extends AbstractFacadeFactory
-  { 
-public void createServerFacade() throws CommunicationException
-    { 
-try //1
-{ 
-RMIFacadeAdapter.getInstance();
-} 
+{
+    public void createServerFacade() throws CommunicationException
+    {
+        try { //1
+            RMIFacadeAdapter.getInstance();
+        }
 
-//#if 763963309 
-catch (Exception e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 763963309
+        catch (Exception e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public IFacade createClientFacade() throws CommunicationException
-    { 
-return new RMIServletAdapter("//" + Constants.SERVER_NAME + "/" + Constants.SYSTEM_NAME);
-} 
+    public IFacade createClientFacade() throws CommunicationException
+    {
+        return new RMIServletAdapter("//" + Constants.SERVER_NAME + "/" + Constants.SYSTEM_NAME);
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

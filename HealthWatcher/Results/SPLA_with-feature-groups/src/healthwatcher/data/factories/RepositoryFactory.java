@@ -1,40 +1,37 @@
 
-//#if -959178123 
-// Compilation Unit of /RepositoryFactory.java 
- 
+//#if -959178123
+// Compilation Unit of /RepositoryFactory.java
+
 package healthwatcher.data.factories;
 
-//#if -1033606193 
+//#if -1033606193
 import healthwatcher.Constants;
-//#endif 
+//#endif
 
 
-//#if 824294604 
+//#if 824294604
 import healthwatcher.business.HealthWatcherFacade;
-//#endif 
+//#endif
 
-public class RepositoryFactory  { 
-protected static AbstractRepositoryFactory instance = null;
-public static AbstractRepositoryFactory getRepositoryFactory()
-    { 
-if(instance == null)//1
-{ 
-if(Constants.isPersistent())//1
-{ 
-instance = new RDBRepositoryFactory(HealthWatcherFacade.getPm());
-} 
-else
-{ 
-instance = new ArrayRepositoryFactory();
-} 
+public class RepositoryFactory
+{
+    protected static AbstractRepositoryFactory instance = null;
+    public static AbstractRepositoryFactory getRepositoryFactory()
+    {
+        if(instance == null) { //1
+            if(Constants.isPersistent()) { //1
+                instance = new RDBRepositoryFactory(HealthWatcherFacade.getPm());
+            } else {
+                instance = new ArrayRepositoryFactory();
+            }
 
-} 
+        }
 
-return instance;
-} 
+        return instance;
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

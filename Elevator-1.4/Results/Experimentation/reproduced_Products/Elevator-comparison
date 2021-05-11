@@ -1,0 +1,1623 @@
+starting Integration
+------------
+Integration Product : P1 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1 
+## ControlUnit.java LoC : 73;   Char : 2184
+## ITickListener.java LoC : 5;  Char : 203
+## ITriggerListener.java LoC : 0;   Char : 0
+## Request.java LoC : 0;  Char : 47
+## Elevator.java LoC : 17;  Char : 910
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 30;  Char : 1313
+## TestElevator.java LoC : 69;  Char : 1976
+## FloorChooseDialog.java LoC : 0;  Char : 12
+## FloorComposite.java LoC : 84;  Char : 2854
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 124;   Char : 4499
+## TOTAL : LoC : 424;   Char : 14833
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P10 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10 
+## ControlUnit.java LoC : 95;   Char : 2801
+## ITickListener.java LoC : 5;  Char : 203
+## ITriggerListener.java LoC : 0;   Char : 0
+## Request.java LoC : 0;  Char : 47
+## Elevator.java LoC : 24;  Char : 1311
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 46;  Char : 1810
+## TestElevator.java LoC : 69;  Char : 1976
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 89;  Char : 3066
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 160;   Char : 5888
+## TOTAL : LoC : 579;   Char : 20265
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P11 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11 
+## ControlUnit.java LoC : 128;  Char : 3855
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 89;   Char : 3353
+## Elevator.java LoC : 21;  Char : 1148
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 56;  Char : 2258
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 163;   Char : 5489
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 181;   Char : 6716
+## TOTAL : LoC : 810;   Char : 28520
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P11/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P11/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P12 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12 
+## ControlUnit.java LoC : 141;  Char : 4166
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 89;   Char : 3353
+## Elevator.java LoC : 24;  Char : 1311
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 62;  Char : 2417
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 163;   Char : 5489
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 203;   Char : 7521
+## TOTAL : LoC : 854;   Char : 29958
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P12/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P12/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P13 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13 
+## ControlUnit.java LoC : 110;  Char : 3315
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 44;   Char : 1107
+## Elevator.java LoC : 21;  Char : 1148
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 56;  Char : 2258
+## TestElevator.java LoC : 72;  Char : 2154
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 129;   Char : 4402
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 172;   Char : 6506
+## TOTAL : LoC : 705;   Char : 24457
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P13/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P13/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P14 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14 
+## ControlUnit.java LoC : 110;  Char : 3319
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 47;   Char : 1297
+## Elevator.java LoC : 21;  Char : 1148
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 56;  Char : 2258
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 129;   Char : 4402
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 172;   Char : 6506
+## TOTAL : LoC : 707;   Char : 24631
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P14/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P14/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P15 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15 
+## ControlUnit.java LoC : 123;  Char : 3626
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 44;   Char : 1107
+## Elevator.java LoC : 24;  Char : 1311
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 62;  Char : 2417
+## TestElevator.java LoC : 72;  Char : 2154
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 129;   Char : 4402
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 194;   Char : 7311
+## TOTAL : LoC : 749;   Char : 25895
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P15/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P15/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P16 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16 
+## ControlUnit.java LoC : 123;  Char : 3630
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 47;   Char : 1297
+## Elevator.java LoC : 24;  Char : 1311
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 62;  Char : 2417
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 129;   Char : 4402
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 194;   Char : 7311
+## TOTAL : LoC : 751;   Char : 26069
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P16/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P16/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P2 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2 
+## ControlUnit.java LoC : 86;   Char : 2495
+## ITickListener.java LoC : 5;  Char : 203
+## ITriggerListener.java LoC : 0;   Char : 0
+## Request.java LoC : 0;  Char : 47
+## Elevator.java LoC : 20;  Char : 1073
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 36;  Char : 1475
+## TestElevator.java LoC : 69;  Char : 1976
+## FloorChooseDialog.java LoC : 0;  Char : 12
+## FloorComposite.java LoC : 84;  Char : 2854
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 156;   Char : 5624
+## TOTAL : LoC : 478;   Char : 16594
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P3 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3 
+## ControlUnit.java LoC : 119;  Char : 3549
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 89;   Char : 3353
+## Elevator.java LoC : 17;  Char : 910
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 46;  Char : 1923
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 0;  Char : 12
+## FloorComposite.java LoC : 158;   Char : 5305
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 176;   Char : 6409
+## TOTAL : LoC : 708;   Char : 24834
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P4 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4 
+## ControlUnit.java LoC : 132;  Char : 3860
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 89;   Char : 3353
+## Elevator.java LoC : 20;  Char : 1073
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 52;  Char : 2082
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 0;  Char : 12
+## FloorComposite.java LoC : 158;   Char : 5305
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 198;   Char : 7214
+## TOTAL : LoC : 752;   Char : 26272
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P5 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5 
+## ControlUnit.java LoC : 101;  Char : 3009
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 44;   Char : 1107
+## Elevator.java LoC : 17;  Char : 910
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 46;  Char : 1923
+## TestElevator.java LoC : 72;  Char : 2154
+## FloorChooseDialog.java LoC : 65;   Char : 2239
+## FloorComposite.java LoC : 125;   Char : 4253
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 167;   Char : 6199
+## TOTAL : LoC : 669;   Char : 23033
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P6 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6 
+## ControlUnit.java LoC : 101;  Char : 3013
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 47;   Char : 1297
+## Elevator.java LoC : 17;  Char : 910
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 46;  Char : 1923
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 0;  Char : 12
+## FloorComposite.java LoC : 125;   Char : 4253
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 167;   Char : 6199
+## TOTAL : LoC : 606;   Char : 20980
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P7 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7 
+## ControlUnit.java LoC : 114;  Char : 3320
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 44;   Char : 1107
+## Elevator.java LoC : 20;  Char : 1073
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 52;  Char : 2082
+## TestElevator.java LoC : 72;  Char : 2154
+## FloorChooseDialog.java LoC : 65;   Char : 2239
+## FloorComposite.java LoC : 125;   Char : 4253
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 189;   Char : 7004
+## TOTAL : LoC : 713;   Char : 24471
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P8 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8 
+## ControlUnit.java LoC : 114;  Char : 3324
+## ITickListener.java LoC : 6;  Char : 264
+## ITriggerListener.java LoC : 4;   Char : 140
+## Request.java LoC : 47;   Char : 1297
+## Elevator.java LoC : 20;  Char : 1073
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 52;  Char : 2082
+## TestElevator.java LoC : 71;  Char : 2134
+## FloorChooseDialog.java LoC : 0;  Char : 12
+## FloorComposite.java LoC : 125;   Char : 4253
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 189;   Char : 7004
+## TOTAL : LoC : 650;   Char : 22418
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITriggerListener.java vs ITriggerListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/core/controller/ITriggerListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Request.java vs Request.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/core/controller/Request.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/core/controller/Request.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P9 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9 
+## ControlUnit.java LoC : 82;   Char : 2490
+## ITickListener.java LoC : 5;  Char : 203
+## ITriggerListener.java LoC : 0;   Char : 0
+## Request.java LoC : 0;  Char : 47
+## Elevator.java LoC : 21;  Char : 1148
+## ElevatorState.java LoC : 2;  Char : 121
+## SimulationUnit.java LoC : 40;  Char : 1651
+## TestElevator.java LoC : 69;  Char : 1976
+## FloorChooseDialog.java LoC : 69;   Char : 2328
+## FloorComposite.java LoC : 89;  Char : 3066
+## JBackgroundPanel.java LoC : 20;  Char : 714
+## MainWindow.java LoC : 133;   Char : 4918
+## TOTAL : LoC : 530;   Char : 18662
+*********************
+Gumtree : ControlUnit.java vs ControlUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/core/controller/ControlUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ITickListener.java vs ITickListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/core/controller/ITickListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Elevator.java vs Elevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/core/model/Elevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/core/model/Elevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ElevatorState.java vs ElevatorState.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/core/model/ElevatorState.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SimulationUnit.java vs SimulationUnit.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/sim/SimulationUnit.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : TestElevator.java vs TestElevator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/test/TestElevator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/test/TestElevator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorChooseDialog.java vs FloorChooseDialog.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/ui/FloorChooseDialog.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FloorComposite.java vs FloorComposite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/ui/FloorComposite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : JBackgroundPanel.java vs JBackgroundPanel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/ui/JBackgroundPanel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : MainWindow.java vs MainWindow.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/de/ovgu/featureide/examples/elevator/ui/MainWindow.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/de/ovgu/featureide/examples/elevator/ui/MainWindow.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+_____________
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+================== RESULT =====================
+Number of Original Products : 16
+(Integration) Number of Products obtained from Artefact Configurations : 16
+(Localisation) Number of Products obtained from Feature Configurations : 16
+Number of Files : in between [9 - 12]
+=======
+
+  ==========      INTEGRATION SCORE    =============
+   By Products
+  For P1 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 424 ; Char modified : 0/14833)
+  For P10 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 579 ; Char modified : 0/20265)
+  For P11 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 810 ; Char modified : 0/28520)
+  For P12 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 854 ; Char modified : 0/29958)
+  For P13 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 705 ; Char modified : 0/24457)
+  For P14 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 707 ; Char modified : 0/24631)
+  For P15 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 749 ; Char modified : 0/25895)
+  For P16 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 751 ; Char modified : 0/26069)
+  For P2 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 478 ; Char modified : 0/16594)
+  For P3 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 708 ; Char modified : 0/24834)
+  For P4 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 752 ; Char modified : 0/26272)
+  For P5 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 669 ; Char modified : 0/23033)
+  For P6 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 606 ; Char modified : 0/20980)
+  For P7 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 713 ; Char modified : 0/24471)
+  For P8 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 650 ; Char modified : 0/22418)
+  For P9 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 530 ; Char modified : 0/18662)
+==
+TOTAL :
+TOTAL LoC Deleted : 0
+AVERAGE LoC Deleted : 0.0
+TOTAL LoC Inserted : 0
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 

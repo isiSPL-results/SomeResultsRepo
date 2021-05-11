@@ -29,7 +29,7 @@ public  class  WorkSpaceTranspose  extends  WorkSpace
         if ( v.visited!=true ) {
             v.strongComponentNumber = SCCCounter;
         }
-        
+
     }
 
 

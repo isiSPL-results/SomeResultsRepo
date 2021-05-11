@@ -1,5 +1,5 @@
-// Compilation Unit of /SymptomRepositoryArray.java 
- 
+// Compilation Unit of /SymptomRepositoryArray.java
+
 package healthwatcher.data.mem;
 import healthwatcher.data.ISymptomRepository;
 import healthwatcher.model.complaint.Symptom;
@@ -7,158 +7,139 @@ import lib.exceptions.ObjectAlreadyInsertedException;
 import lib.exceptions.ObjectNotFoundException;
 import lib.exceptions.RepositoryException;
 
-//#if -1915790522 
+//#if -1915790522
 import java.util.Arrays;
-//#endif 
+//#endif
 
 
-//#if -1531458080 
+//#if -1531458080
 import lib.util.ConcreteIterator;
-//#endif 
+//#endif
 
 
-//#if -1194943691 
+//#if -1194943691
 import lib.util.IteratorDsk;
-//#endif 
+//#endif
 
 public class SymptomRepositoryArray implements ISymptomRepository
-  { 
-private Symptom[] vetor;
-private int indice;
-private int ponteiro;
-private int getIndex(int code)
-    { 
-int temp;
-boolean flag = false;
-int i = 0;
-while ((!flag) && (i < indice)) //1
-{ 
-temp = vetor[i].getCode();
-if(temp == code)//1
-{ 
-flag = true;
-} 
-else
-{ 
-i = i + 1;
-} 
+{
+    private Symptom[] vetor;
+    private int indice;
+    private int ponteiro;
+    private int getIndex(int code)
+    {
+        int temp;
+        boolean flag = false;
+        int i = 0;
+        while ((!flag) && (i < indice)) { //1
+            temp = vetor[i].getCode();
+            if(temp == code) { //1
+                flag = true;
+            } else {
+                i = i + 1;
+            }
 
-} 
+        }
 
-return i;
-} 
+        return i;
+    }
 
-public void reset()
-    { 
-this.ponteiro = 0;
-} 
+    public void reset()
+    {
+        this.ponteiro = 0;
+    }
 
-public void insert(Symptom symptom) throws RepositoryException, ObjectAlreadyInsertedException
-    { 
-if(symptom == null)//1
-{ 
-throw new IllegalArgumentException();
-} 
+    public void insert(Symptom symptom) throws RepositoryException, ObjectAlreadyInsertedException
+    {
+        if(symptom == null) { //1
+            throw new IllegalArgumentException();
+        }
 
-this.vetor[indice] = symptom;
-indice++;
-} 
+        this.vetor[indice] = symptom;
+        indice++;
+    }
 
 
-//#if -1836691870 
-public IteratorDsk getSymptomList() throws RepositoryException,	ObjectNotFoundException
-    { 
-return new ConcreteIterator(Arrays.asList(vetor));
-} 
+//#if -1836691870
+    public IteratorDsk getSymptomList() throws RepositoryException,	ObjectNotFoundException
+    {
+        return new ConcreteIterator(Arrays.asList(vetor));
+    }
 
-//#endif 
+//#endif
 
-public void remove(int code) throws RepositoryException, ObjectNotFoundException
-    { 
-int i = getIndex(code);
-if(i == indice)//1
-{ 
-throw new ObjectNotFoundException("Symptom not found");
-} 
-else
-{ 
-vetor[i] = vetor[indice - 1];
-indice = indice - 1;
-} 
+    public void remove(int code) throws RepositoryException, ObjectNotFoundException
+    {
+        int i = getIndex(code);
+        if(i == indice) { //1
+            throw new ObjectNotFoundException("Symptom not found");
+        } else {
+            vetor[i] = vetor[indice - 1];
+            indice = indice - 1;
+        }
 
-} 
+    }
 
-public Object next()
-    { 
-if(ponteiro >= indice)//1
-{ 
-return null;
-} 
-else
-{ 
-return vetor[ponteiro++];
-} 
+    public Object next()
+    {
+        if(ponteiro >= indice) { //1
+            return null;
+        } else {
+            return vetor[ponteiro++];
+        }
 
-} 
+    }
 
-public void update(Symptom s) throws RepositoryException, ObjectNotFoundException
-    { 
-int i = getIndex(s.getCode());
-if(i == indice)//1
-{ 
-throw new ObjectNotFoundException("Symptom not found");
-} 
-else
-{ 
-vetor[i] = s;
-} 
+    public void update(Symptom s) throws RepositoryException, ObjectNotFoundException
+    {
+        int i = getIndex(s.getCode());
+        if(i == indice) { //1
+            throw new ObjectNotFoundException("Symptom not found");
+        } else {
+            vetor[i] = s;
+        }
 
-} 
+    }
 
-public Symptom search(int code) throws RepositoryException, ObjectNotFoundException
-    { 
-Symptom response = null;
-int i = getIndex(code);
-if(i == indice)//1
-{ 
-throw new ObjectNotFoundException("Symptom not found");
-} 
-else
-{ 
-response = vetor[i];
-} 
+    public Symptom search(int code) throws RepositoryException, ObjectNotFoundException
+    {
+        Symptom response = null;
+        int i = getIndex(code);
+        if(i == indice) { //1
+            throw new ObjectNotFoundException("Symptom not found");
+        } else {
+            response = vetor[i];
+        }
 
-return response;
-} 
+        return response;
+    }
 
-public SymptomRepositoryArray()
-    { 
-vetor = new Symptom[100];
-indice = 0;
-} 
+    public SymptomRepositoryArray()
+    {
+        vetor = new Symptom[100];
+        indice = 0;
+    }
 
-public boolean exists(int codigo) throws RepositoryException
-    { 
-boolean flag = false;
-for (int i = 0; i < indice; i++) //1
-{ 
-if(this.vetor[i].getCode() == codigo)//1
-{ 
-flag = true;
-break;
+    public boolean exists(int codigo) throws RepositoryException
+    {
+        boolean flag = false;
+        for (int i = 0; i < indice; i++) { //1
+            if(this.vetor[i].getCode() == codigo) { //1
+                flag = true;
+                break;
 
-} 
+            }
 
-} 
+        }
 
-return flag;
-} 
+        return flag;
+    }
 
-public boolean hasNext()
-    { 
-return ponteiro < indice;
-} 
+    public boolean hasNext()
+    {
+        return ponteiro < indice;
+    }
 
- } 
+}
 
 

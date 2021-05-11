@@ -1,33 +1,33 @@
 
-//#if  Connected  
-// Compilation Unit of /RegionWorkSpace.java 
- 
+//#if  Connected
+// Compilation Unit of /RegionWorkSpace.java
+
 package GPL;
 public class RegionWorkSpace extends WorkSpace
-  { 
-int counter;
-public RegionWorkSpace( )
-    { 
-counter = 0;
-} 
+{
+    int counter;
+    public RegionWorkSpace( )
+    {
+        counter = 0;
+    }
 
-public void init_vertex( Vertex v )
-    { 
-v.componentNumber = -1;
-} 
+    public void init_vertex( Vertex v )
+    {
+        v.componentNumber = -1;
+    }
 
-public void postVisitAction( Vertex v )
-    { 
-v.componentNumber = counter;
-} 
+    public void postVisitAction( Vertex v )
+    {
+        v.componentNumber = counter;
+    }
 
-public void nextRegionAction( Vertex v )
-    { 
-counter ++;
-} 
+    public void nextRegionAction( Vertex v )
+    {
+        counter ++;
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

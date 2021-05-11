@@ -1,49 +1,50 @@
 
-//#if 568549645 
-// Compilation Unit of /Observer.java 
- 
+//#if 568549645
+// Compilation Unit of /Observer.java
 
-//#if -1972666571 
+
+//#if -1972666571
 package lib.patterns.observer;
-//#endif 
+//#endif
 
 
-//#if -682629371 
+//#if -682629371
 import java.rmi.RemoteException;
-//#endif 
+//#endif
 
 
-//#if 1147881058 
+//#if 1147881058
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if -17994148 
+//#if -17994148
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 1715333598 
+//#if 1715333598
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1572733730 
+//#if 1572733730
 import lib.exceptions.TransactionException;
-//#endif 
+//#endif
 
 
-//#if -655592590 
-public interface Observer  { 
+//#if -655592590
+public interface Observer
+{
 
-//#if -364287880 
-public void notify(Subject subject) throws RemoteException, TransactionException, ObjectNotFoundException, RepositoryException,ObjectNotValidException;
-//#endif 
+//#if -364287880
+    public void notify(Subject subject) throws RemoteException, TransactionException, ObjectNotFoundException, RepositoryException,ObjectNotValidException;
+//#endif
 
- } 
+}
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 

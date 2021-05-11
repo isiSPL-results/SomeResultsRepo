@@ -1,112 +1,111 @@
-// Compilation Unit of /ModelObservable.java 
- 
+// Compilation Unit of /ModelObservable.java
 
-//#if  ModelBase  
+
+//#if  ModelBase
 import java.util.LinkedList;
-//#endif 
+//#endif
 
 
-//#if  ModelBase  
+//#if  ModelBase
 import java.util.List;
-//#endif 
+//#endif
 
 
-//#if  ModelBase  
+//#if  ModelBase
 import java.util.Iterator;
-//#endif 
+//#endif
 
 
-//#if  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator  
+//#if  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator
 import generator.GeneratorStrategy;
-//#endif 
+//#endif
 
 
-//#if  ModelBase  
-public abstract class ModelObservable  { 
-private List observers=new LinkedList();
-public abstract void setPlayground(  int[][] pg);
+//#if  ModelBase
+public abstract class ModelObservable
+{
+    private List observers=new LinkedList();
+    public abstract void setPlayground(  int[][] pg);
 
-//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo  
-public abstract boolean undoAvailable();
-//#endif 
-
-
-//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo  
-public abstract void redo();
-//#endif 
+//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo
+    public abstract boolean undoAvailable();
+//#endif
 
 
-//#if  ( ModelBase  &&  GameOfLife  &&  View  &&  Model  &&  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator ) 
-public abstract void setGenerator(GeneratorStrategy generator);
-//#endif 
+//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo
+    public abstract void redo();
+//#endif
 
 
-//#if  ( ModelBase  &&  GameOfLife  &&  View  &&  Model  &&  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator ) 
-public abstract void generate();
-//#endif 
-
-public abstract void nextGeneration();
-
-//#if  ( ModelBase  &&  GameOfLife  &&  View  &&  Model  &&  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator ) 
-public abstract List getGeneratorStrategies();
-//#endif 
+//#if  ( ModelBase  &&  GameOfLife  &&  View  &&  Model  &&  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator )
+    public abstract void setGenerator(GeneratorStrategy generator);
+//#endif
 
 
-//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo  
-public abstract boolean redoAvailable();
-//#endif 
+//#if  ( ModelBase  &&  GameOfLife  &&  View  &&  Model  &&  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator )
+    public abstract void generate();
+//#endif
 
-public void attach(ModelObserver o)
-    { 
-if(o == null)//1
-{ 
-throw new IllegalArgumentException("Parameter is null");
-} 
+    public abstract void nextGeneration();
 
-observers.add(o);
-} 
-
-public abstract int[][] getPlayground();
-public void notifyObservers()
-    { 
-Iterator it = observers.iterator();
-while(it.hasNext()) //1
-{ 
-ModelObserver x;
-x = (ModelObserver) it.next();
-x.update();
-} 
-
-} 
-
-public void detach(  ModelObserver o)
-    { 
-if(o == null)//1
-{ 
-throw new IllegalArgumentException("Parameter is null");
-} 
-
-observers.remove(o);
-} 
-
-public abstract void setLifeform(  int coord,  int coord2,  int i);
-
-//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo  
-public abstract void undo();
-//#endif 
-
- } 
-
-//#endif 
+//#if  ( ModelBase  &&  GameOfLife  &&  View  &&  Model  &&  Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator )
+    public abstract List getGeneratorStrategies();
+//#endif
 
 
-//#if  ( Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator  &&  GameOfLife  &&  View  &&  Model ) && ! ( Composed  &&  UndoRedoGenerator  &&  UndoRedo )  && ! Test  && ! ModelBase  
-class ModelObservable  { 
-public abstract void generate();
-public abstract void setGenerator(GeneratorStrategy generator);
-public abstract List getGeneratorStrategies();
- } 
+//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo
+    public abstract boolean redoAvailable();
+//#endif
 
-//#endif 
+    public void attach(ModelObserver o)
+    {
+        if(o == null) { //1
+            throw new IllegalArgumentException("Parameter is null");
+        }
+
+        observers.add(o);
+    }
+
+    public abstract int[][] getPlayground();
+    public void notifyObservers()
+    {
+        Iterator it = observers.iterator();
+        while(it.hasNext()) { //1
+            ModelObserver x;
+            x = (ModelObserver) it.next();
+            x.update();
+        }
+
+    }
+
+    public void detach(  ModelObserver o)
+    {
+        if(o == null) { //1
+            throw new IllegalArgumentException("Parameter is null");
+        }
+
+        observers.remove(o);
+    }
+
+    public abstract void setLifeform(  int coord,  int coord2,  int i);
+
+//#if  Composed  &&  UndoRedoGenerator  &&  UndoRedo
+    public abstract void undo();
+//#endif
+
+}
+
+//#endif
+
+
+//#if  ( Options  &&  Generator  &&  DefaultGenerator  &&  FormDefaultGenerator  &&  ConcretGenerator  &&  FormGenerator  &&  AbstractGenerator  &&  GameOfLife  &&  View  &&  Model ) && ! ( Composed  &&  UndoRedoGenerator  &&  UndoRedo )  && ! Test  && ! ModelBase
+class ModelObservable
+{
+    public abstract void generate();
+    public abstract void setGenerator(GeneratorStrategy generator);
+    public abstract List getGeneratorStrategies();
+}
+
+//#endif
 
 

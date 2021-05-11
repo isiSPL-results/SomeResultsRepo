@@ -1,34 +1,35 @@
 
-//#if -416657920 
-// Compilation Unit of /CommandResponse.java 
- 
+//#if -416657920
+// Compilation Unit of /CommandResponse.java
 
-//#if -1428366320 
+
+//#if -1428366320
 package healthwatcher.view.command;
-//#endif 
+//#endif
 
 
-//#if 1351686110 
+//#if 1351686110
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if 1971906343 
+//#if 1971906343
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if 1170995527 
-public interface CommandResponse  { 
+//#if 1170995527
+public interface CommandResponse
+{
 
-//#if -1537612341 
-public PrintWriter getWriter() throws IOException;
-//#endif 
+//#if -1537612341
+    public PrintWriter getWriter() throws IOException;
+//#endif
 
- } 
+}
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 

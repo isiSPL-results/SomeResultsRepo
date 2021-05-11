@@ -1,277 +1,253 @@
 
-//#if 713010592 
-// Compilation Unit of /SearchDiseaseData.java 
- 
+//#if 713010592
+// Compilation Unit of /SearchDiseaseData.java
+
 package healthwatcher.view.command;
 
-//#if 1666672888 
+//#if 1666672888
 import healthwatcher.model.complaint.DiseaseType;
-//#endif 
+//#endif
 
 
-//#if -1076699771 
+//#if -1076699771
 import healthwatcher.model.complaint.Symptom;
-//#endif 
+//#endif
 
 
-//#if -12645642 
+//#if -12645642
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if 1981000683 
+//#if 1981000683
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if -1693746380 
+//#if -1693746380
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if -187923135 
+//#if -187923135
 import java.rmi.RemoteException;
-//#endif 
+//#endif
 
 
-//#if -1688739888 
+//#if -1688739888
 import java.util.Iterator;
-//#endif 
+//#endif
 
 
-//#if -2074937506 
+//#if -2074937506
 import lib.exceptions.CommunicationException;
-//#endif 
+//#endif
 
 
-//#if -1813492834 
+//#if -1813492834
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if -458822374 
+//#if -458822374
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if -1401591962 
+//#if -1401591962
 import lib.exceptions.TransactionException;
-//#endif 
+//#endif
 
 
-//#if 251715133 
+//#if 251715133
 import lib.util.HTMLCode;
-//#endif 
+//#endif
 
 
-//#if -512809762 
+//#if -512809762
 import lib.exceptions.FacadeUnavailableException;
-//#endif 
+//#endif
 
 public class SearchDiseaseData extends Command
-  { 
+{
 
-//#if -894655562 
-public void execute()
-    { 
-PrintWriter out = null;
-try //1
-{ 
-out = response.getWriter();
-} 
+//#if -894655562
+    public void execute()
+    {
+        PrintWriter out = null;
+        try { //1
+            out = response.getWriter();
+        }
 
-//#if 1990860834 
-catch (IOException e1) //1
-{ 
-e1.printStackTrace();
-} 
+//#if 1990860834
+        catch (IOException e1) { //1
+            e1.printStackTrace();
+        }
 
-//#endif 
+//#endif
 
 
 
-//#if 575428222 
-response.setContentType("text/html");
-//#endif 
+//#if 575428222
+        response.setContentType("text/html");
+//#endif
 
 
-//#if -1835361217 
-int codigoTipoDoenca = Integer.parseInt(request
+//#if -1835361217
+        int codigoTipoDoenca = Integer.parseInt(request
                                                 .getParameter("codTipoDoenca"));
-//#endif 
+//#endif
 
 
-//#if -323438594 
-int codigoTipoDoenca = Integer.parseInt(request
+//#if -323438594
+        int codigoTipoDoenca = Integer.parseInt(request
                                                 .getInput("codTipoDoenca"));
-//#endif 
+//#endif
 
-try //2
-{ 
-DiseaseType tp = facade.searchDiseaseType(codigoTipoDoenca);
-out.println(HTMLCode.open("Queries - Diseases"));
-out.println("<body><h1>Querie result<br>Disease</h1>");
-out.println("<P><h3>Name: " + tp.getName() + "</h3></P>");
-out.println("<P>Description: " + tp.getDescription() + "</P>");
-out.println("<P>How manifests: " + tp.getManifestation() + " </P>");
-out.println("<P>Duration: " + tp.getDuration() + " </P>");
-out.println("<P>Symptoms: </P>");
-Iterator i = tp.getSymptoms().iterator();
-if(!i.hasNext())//1
-{ 
-out.println("<P>There isn't registered symptoms.</P>");
-} 
-else
-{ 
-while (i.hasNext()) //1
-{ 
-Symptom s = (Symptom) i.next();
-out.println("<li> " + s.getDescription() + " </li>");
-} 
+        try { //2
+            DiseaseType tp = facade.searchDiseaseType(codigoTipoDoenca);
+            out.println(HTMLCode.open("Queries - Diseases"));
+            out.println("<body><h1>Querie result<br>Disease</h1>");
+            out.println("<P><h3>Name: " + tp.getName() + "</h3></P>");
+            out.println("<P>Description: " + tp.getDescription() + "</P>");
+            out.println("<P>How manifests: " + tp.getManifestation() + " </P>");
+            out.println("<P>Duration: " + tp.getDuration() + " </P>");
+            out.println("<P>Symptoms: </P>");
+            Iterator i = tp.getSymptoms().iterator();
+            if(!i.hasNext()) { //1
+                out.println("<P>There isn't registered symptoms.</P>");
+            } else {
+                while (i.hasNext()) { //1
+                    Symptom s = (Symptom) i.next();
+                    out.println("<li> " + s.getDescription() + " </li>");
+                }
 
-} 
+            }
 
-out.println(HTMLCode.closeQueries());
-} 
+            out.println(HTMLCode.closeQueries());
+        }
 
-//#if 1976520986 
-catch (RemoteException e) //1
-{ 
-out.println(lib.util.HTMLCode
+//#if 1976520986
+        catch (RemoteException e) { //1
+            out.println(lib.util.HTMLCode
                         .errorPage("Comunitation error, please try again later."));
-e.printStackTrace(out);
-} 
+            e.printStackTrace(out);
+        }
 
-//#endif 
-
-
-//#if -2053843550 
-catch (ObjectNotFoundException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
-
-//#endif 
+//#endif
 
 
-//#if -791064034 
-catch (RepositoryException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+//#if -2053843550
+        catch (ObjectNotFoundException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-//#endif 
-
-
-//#if 1907676678 
-catch (TransactionException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
-
-//#endif 
+//#endif
 
 
-//#if 381036158 
-catch (CommunicationException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+//#if -791064034
+        catch (RepositoryException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-//#endif 
+//#endif
 
 
-//#if 655179700 
-catch (Exception e) //1
-{ 
-out.println(lib.util.HTMLCode
+//#if 1907676678
+        catch (TransactionException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
+
+//#endif
+
+
+//#if 381036158
+        catch (CommunicationException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
+
+//#endif
+
+
+//#if 655179700
+        catch (Exception e) { //1
+            out.println(lib.util.HTMLCode
                         .errorPage("Comunitation error, please try again later."));
-e.printStackTrace(out);
-} 
+            e.printStackTrace(out);
+        }
 
-//#endif 
+//#endif
 
-finally { 
-out.close();
-} 
+        finally {
+            out.close();
+        }
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public SearchDiseaseData(IFacade f)
-    { 
-super(f);
-} 
+    public SearchDiseaseData(IFacade f)
+    {
+        super(f);
+    }
 
 
-//#if 247544332 
-public void execute() throws Exception
-    { 
-PrintWriter out = response.getWriter();
-int codigoTipoDoenca = Integer.parseInt(request
+//#if 247544332
+    public void execute() throws Exception
+    {
+        PrintWriter out = response.getWriter();
+        int codigoTipoDoenca = Integer.parseInt(request
                                                 .getInput("codTipoDoenca"));
-try //1
-{ 
-DiseaseType tp = facade.searchDiseaseType(codigoTipoDoenca);
-out.println(HTMLCode.open("Queries - Diseases"));
-out.println("<body><h1>Querie result<br>Disease</h1>");
-out.println("<P><h3>Name: " + tp.getName() + "</h3></P>");
-out.println("<P>Description: " + tp.getDescription() + "</P>");
-out.println("<P>How manifests: " + tp.getManifestation() + " </P>");
-out.println("<P>Duration: " + tp.getDuration() + " </P>");
-out.println("<P>Symptoms: </P>");
-Iterator i = tp.getSymptoms().iterator();
-if(!i.hasNext())//1
-{ 
-out.println("<P>There isn't registered symptoms.</P>");
-} 
-else
-{ 
-while (i.hasNext()) //1
-{ 
-Symptom s = (Symptom) i.next();
-out.println("<li> " + s.getDescription() + " </li>");
-} 
+        try { //1
+            DiseaseType tp = facade.searchDiseaseType(codigoTipoDoenca);
+            out.println(HTMLCode.open("Queries - Diseases"));
+            out.println("<body><h1>Querie result<br>Disease</h1>");
+            out.println("<P><h3>Name: " + tp.getName() + "</h3></P>");
+            out.println("<P>Description: " + tp.getDescription() + "</P>");
+            out.println("<P>How manifests: " + tp.getManifestation() + " </P>");
+            out.println("<P>Duration: " + tp.getDuration() + " </P>");
+            out.println("<P>Symptoms: </P>");
+            Iterator i = tp.getSymptoms().iterator();
+            if(!i.hasNext()) { //1
+                out.println("<P>There isn't registered symptoms.</P>");
+            } else {
+                while (i.hasNext()) { //1
+                    Symptom s = (Symptom) i.next();
+                    out.println("<li> " + s.getDescription() + " </li>");
+                }
 
-} 
+            }
 
-out.println(HTMLCode.closeQueries());
-} 
-catch (ObjectNotFoundException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+            out.println(HTMLCode.closeQueries());
+        } catch (ObjectNotFoundException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch (RepositoryException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (RepositoryException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch (TransactionException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (TransactionException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch (CommunicationException e) //1
-{ 
-throw new FacadeUnavailableException();
-} 
+        catch (CommunicationException e) { //1
+            throw new FacadeUnavailableException();
+        }
 
-catch (Exception e) //1
-{ 
-out.println(lib.util.HTMLCode
+        catch (Exception e) { //1
+            out.println(lib.util.HTMLCode
                         .errorPage("Comunitation error, please try again later."));
-e.printStackTrace(out);
-} 
+            e.printStackTrace(out);
+        }
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
- } 
+}
 
 
-//#endif 
+//#endif
 

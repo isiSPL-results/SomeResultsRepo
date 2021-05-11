@@ -1,0 +1,11 @@
+ ,CLASS,DIAGRAMM,USECASE,COLLABORATION,COGNITIVE,DEPLOYMENT,SEQUENCE,STATE,LOGGING,ACTIVITY
+Product_P1/,X,,,,,,,,,
+Product_P10/,X,X,X,X,X,X,X,X,X,
+Product_P2/,X,X,X,X,X,X,X,X,X,X
+Product_P3/,X,X,X,X,X,X,X,X,,X
+Product_P4/,X,X,X,X,,X,X,X,X,X
+Product_P5/,X,X,X,X,X,X,,X,X,X
+Product_P6/,X,X,,X,X,X,X,X,X,X
+Product_P7/,X,X,X,X,X,,X,X,X,X
+Product_P8/,X,X,X,,X,X,X,X,X,X
+Product_P9/,X,X,X,X,X,X,X,,X,X

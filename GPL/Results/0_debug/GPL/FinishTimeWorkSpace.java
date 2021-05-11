@@ -1,91 +1,90 @@
 
-//#if 467159974 
-// Compilation Unit of /FinishTimeWorkSpace.java 
- 
+//#if 467159974
+// Compilation Unit of /FinishTimeWorkSpace.java
 
-//#if 511562568 
+
+//#if 511562568
 package GPL;
-//#endif 
+//#endif
 
 
-//#if 7989865 
+//#if 7989865
 import java.util.LinkedList;
-//#endif 
+//#endif
 
 
-//#if 32246849 
+//#if 32246849
 import java.util.Collections;
-//#endif 
+//#endif
 
 
-//#if 918651850 
+//#if 918651850
 import java.util.Comparator;
-//#endif 
+//#endif
 
 
-//#if 838920956 
-public class FinishTimeWorkSpace extends 
-//#if 177358965 
-WorkSpace
-//#endif 
+//#if 838920956
+public class FinishTimeWorkSpace extends
+//#if 177358965
+    WorkSpace
+//#endif
 
-  { 
+{
 
-//#if 976255329 
-int FinishCounter;
-//#endif 
-
-
-//#if -1975772339 
-public FinishTimeWorkSpace()
-    { 
-
-//#if -2043647046 
-FinishCounter = 1;
-//#endif 
-
-} 
-
-//#endif 
+//#if 976255329
+    int FinishCounter;
+//#endif
 
 
-//#if 2096090212 
-public void preVisitAction( Vertex v )
-    { 
+//#if -1975772339
+    public FinishTimeWorkSpace()
+    {
 
-//#if 643727518 
-if(v.visited!=true)//1
-{ 
+//#if -2043647046
+        FinishCounter = 1;
+//#endif
 
-//#if -95379848 
-FinishCounter++;
-//#endif 
+    }
 
-} 
-
-//#endif 
-
-} 
-
-//#endif 
+//#endif
 
 
-//#if 457294395 
-public void postVisitAction( Vertex v )
-    { 
+//#if 2096090212
+    public void preVisitAction( Vertex v )
+    {
 
-//#if -2051892311 
-v.finishTime = FinishCounter++;
-//#endif 
+//#if 643727518
+        if(v.visited!=true) { //1
 
-} 
+//#if -95379848
+            FinishCounter++;
+//#endif
 
-//#endif 
+        }
 
- } 
+//#endif
 
-//#endif 
+    }
+
+//#endif
 
 
-//#endif 
+//#if 457294395
+    public void postVisitAction( Vertex v )
+    {
+
+//#if -2051892311
+        v.finishTime = FinishCounter++;
+//#endif
+
+    }
+
+//#endif
+
+}
+
+//#endif
+
+
+//#endif
 

@@ -1,17 +1,18 @@
-// Compilation Unit of /VertexIter.java 
- 
+// Compilation Unit of /VertexIter.java
+
 package GPL;
-public class VertexIter  { 
-public boolean hasNext( )
-    { 
-return false;
-} 
+public class VertexIter
+{
+    public boolean hasNext( )
+    {
+        return false;
+    }
 
-public Vertex next( )
-    { 
-return null;
-} 
+    public Vertex next( )
+    {
+        return null;
+    }
 
- } 
+}
 
 

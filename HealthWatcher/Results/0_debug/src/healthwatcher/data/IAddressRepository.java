@@ -1,71 +1,72 @@
 
-//#if -1524230215 
-// Compilation Unit of /IAddressRepository.java 
- 
+//#if -1524230215
+// Compilation Unit of /IAddressRepository.java
 
-//#if 1453548535 
+
+//#if 1453548535
 package healthwatcher.data;
-//#endif 
+//#endif
 
 
-//#if 369955355 
+//#if 369955355
 import lib.exceptions.ObjectAlreadyInsertedException;
-//#endif 
+//#endif
 
 
-//#if 2014615004 
+//#if 2014615004
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if 848739798 
+//#if 848739798
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 949880408 
+//#if 949880408
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1485246067 
+//#if 1485246067
 import healthwatcher.model.address.Address;
-//#endif 
+//#endif
 
 
-//#if 1370633483 
-public interface IAddressRepository  { 
+//#if 1370633483
+public interface IAddressRepository
+{
 
-//#if -1868197974 
-public boolean exists(int code) throws RepositoryException;
-//#endif 
-
-
-//#if 1945959337 
-public Address search(int complaint) throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if -1868197974
+    public boolean exists(int code) throws RepositoryException;
+//#endif
 
 
-//#if -756074360 
-public void update(Address address) throws ObjectNotValidException,
+//#if 1945959337
+    public Address search(int complaint) throws ObjectNotFoundException, RepositoryException;
+//#endif
+
+
+//#if -756074360
+    public void update(Address address) throws ObjectNotValidException,
                ObjectNotFoundException, ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 331946384 
-public int insert(Address address) throws ObjectNotValidException,
+//#if 331946384
+    public int insert(Address address) throws ObjectNotValidException,
                ObjectAlreadyInsertedException, ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1101391661 
-public void remove(int code) throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if 1101391661
+    public void remove(int code) throws ObjectNotFoundException, RepositoryException;
+//#endif
 
- } 
+}
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 

@@ -1,0 +1,982 @@
+starting Integration
+------------
+Integration Product : 00002 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002 
+## GODLModel.java LoC : 47;   Char : 1519
+## LifeForm.java LoC : 30;  Char : 594
+## LifeFormIterator.java LoC : 30;  Char : 941
+## ModelObservable.java LoC : 34;   Char : 1003
+## ModelObserver.java LoC : 4;  Char : 68
+## Playground.java LoC : 71;  Char : 1896
+## RuleSet.java LoC : 25;   Char : 689
+## TOTAL : LoC : 241;   Char : 6710
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeForm.java vs LifeForm.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/LifeForm.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/LifeForm.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeFormIterator.java vs LifeFormIterator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/LifeFormIterator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/LifeFormIterator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObserver.java vs ModelObserver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/ModelObserver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/ModelObserver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Playground.java vs Playground.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Playground.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Playground.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RuleSet.java vs RuleSet.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/RuleSet.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/RuleSet.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00003 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003 
+## GODLModel.java LoC : 41;   Char : 1480
+## ModelObservable.java LoC : 7;  Char : 231
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 93;  Char : 2729
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00004 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004 
+## ButtonsToolBar.java LoC : 57;  Char : 2161
+## GODLModel.java LoC : 41;   Char : 1480
+## ModelObservable.java LoC : 7;  Char : 231
+## PlaygroundIO.java LoC : 114;   Char : 4335
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 264;   Char : 9225
+*********************
+Gumtree : ButtonsToolBar.java vs ButtonsToolBar.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/ButtonsToolBar.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/ButtonsToolBar.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundIO.java vs PlaygroundIO.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/PlaygroundIO.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/PlaygroundIO.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00005 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005 
+## GODLModel.java LoC : 82;   Char : 2909
+## LifeForm.java LoC : 30;  Char : 594
+## LifeFormIterator.java LoC : 30;  Char : 941
+## ModelObservable.java LoC : 38;   Char : 1202
+## ModelObserver.java LoC : 4;  Char : 68
+## Playground.java LoC : 71;  Char : 1896
+## RuleSet.java LoC : 25;   Char : 689
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 325;   Char : 9317
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeForm.java vs LifeForm.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/LifeForm.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/LifeForm.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeFormIterator.java vs LifeFormIterator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/LifeFormIterator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/LifeFormIterator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObserver.java vs ModelObserver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/ModelObserver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/ModelObserver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Playground.java vs Playground.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Playground.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Playground.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RuleSet.java vs RuleSet.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/RuleSet.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/RuleSet.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00006 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006 
+## ButtonsToolBar.java LoC : 57;  Char : 2161
+## GODLModel.java LoC : 82;   Char : 2909
+## LifeForm.java LoC : 30;  Char : 594
+## LifeFormIterator.java LoC : 30;  Char : 941
+## ModelObservable.java LoC : 38;   Char : 1202
+## ModelObserver.java LoC : 4;  Char : 68
+## Playground.java LoC : 71;  Char : 1896
+## PlaygroundIO.java LoC : 114;   Char : 4335
+## RuleSet.java LoC : 25;   Char : 689
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 496;   Char : 15813
+*********************
+Gumtree : ButtonsToolBar.java vs ButtonsToolBar.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/ButtonsToolBar.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/ButtonsToolBar.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeForm.java vs LifeForm.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/LifeForm.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/LifeForm.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeFormIterator.java vs LifeFormIterator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/LifeFormIterator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/LifeFormIterator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObserver.java vs ModelObserver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/ModelObserver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/ModelObserver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Playground.java vs Playground.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Playground.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Playground.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundIO.java vs PlaygroundIO.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/PlaygroundIO.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/PlaygroundIO.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RuleSet.java vs RuleSet.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/RuleSet.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/RuleSet.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00007 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007 
+## GODLModel.java LoC : 107;  Char : 3645
+## LifeForm.java LoC : 30;  Char : 594
+## LifeFormIterator.java LoC : 30;  Char : 941
+## ModelObservable.java LoC : 42;   Char : 1366
+## ModelObserver.java LoC : 4;  Char : 68
+## Playground.java LoC : 83;  Char : 2281
+## RuleSet.java LoC : 25;   Char : 689
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 366;   Char : 10602
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeForm.java vs LifeForm.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/LifeForm.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/LifeForm.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeFormIterator.java vs LifeFormIterator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/LifeFormIterator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/LifeFormIterator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObserver.java vs ModelObserver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/ModelObserver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/ModelObserver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Playground.java vs Playground.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Playground.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Playground.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RuleSet.java vs RuleSet.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/RuleSet.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/RuleSet.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00008 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008 
+## GODLModel.java LoC : 41;   Char : 1480
+## ModelObservable.java LoC : 7;  Char : 231
+## PlaygroundMouseAdapter.java LoC : 21;  Char : 624
+## PopUpMenu.java LoC : 385;  Char : 20902
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 499;   Char : 24255
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundMouseAdapter.java vs PlaygroundMouseAdapter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/PlaygroundMouseAdapter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/PlaygroundMouseAdapter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopUpMenu.java vs PopUpMenu.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/PopUpMenu.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/PopUpMenu.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00009 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009 
+## ButtonsToolBar.java LoC : 57;  Char : 2161
+## GODLModel.java LoC : 41;   Char : 1480
+## ModelObservable.java LoC : 7;  Char : 231
+## PlaygroundIO.java LoC : 114;   Char : 4335
+## PlaygroundMouseAdapter.java LoC : 21;  Char : 624
+## PopUpMenu.java LoC : 385;  Char : 20902
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 670;   Char : 30751
+*********************
+Gumtree : ButtonsToolBar.java vs ButtonsToolBar.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/ButtonsToolBar.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/ButtonsToolBar.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundIO.java vs PlaygroundIO.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/PlaygroundIO.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/PlaygroundIO.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundMouseAdapter.java vs PlaygroundMouseAdapter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/PlaygroundMouseAdapter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/PlaygroundMouseAdapter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopUpMenu.java vs PopUpMenu.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/PopUpMenu.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/PopUpMenu.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00010 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010 
+## GODLModel.java LoC : 82;   Char : 2909
+## LifeForm.java LoC : 30;  Char : 594
+## LifeFormIterator.java LoC : 30;  Char : 941
+## ModelObservable.java LoC : 38;   Char : 1202
+## ModelObserver.java LoC : 4;  Char : 68
+## Playground.java LoC : 71;  Char : 1896
+## PlaygroundMouseAdapter.java LoC : 21;  Char : 624
+## PopUpMenu.java LoC : 385;  Char : 20902
+## RuleSet.java LoC : 25;   Char : 689
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 731;   Char : 30843
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeForm.java vs LifeForm.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/LifeForm.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/LifeForm.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeFormIterator.java vs LifeFormIterator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/LifeFormIterator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/LifeFormIterator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObserver.java vs ModelObserver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/ModelObserver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/ModelObserver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Playground.java vs Playground.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/Playground.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/Playground.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundMouseAdapter.java vs PlaygroundMouseAdapter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/PlaygroundMouseAdapter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/PlaygroundMouseAdapter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopUpMenu.java vs PopUpMenu.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/PopUpMenu.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/PopUpMenu.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RuleSet.java vs RuleSet.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/RuleSet.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/RuleSet.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00011 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011 
+## ButtonsToolBar.java LoC : 57;  Char : 2161
+## GODLModel.java LoC : 82;   Char : 2909
+## LifeForm.java LoC : 30;  Char : 594
+## LifeFormIterator.java LoC : 30;  Char : 941
+## ModelObservable.java LoC : 38;   Char : 1202
+## ModelObserver.java LoC : 4;  Char : 68
+## Playground.java LoC : 71;  Char : 1896
+## PlaygroundIO.java LoC : 114;   Char : 4335
+## PlaygroundMouseAdapter.java LoC : 21;  Char : 624
+## PopUpMenu.java LoC : 385;  Char : 20902
+## RuleSet.java LoC : 25;   Char : 689
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 902;   Char : 37339
+*********************
+Gumtree : ButtonsToolBar.java vs ButtonsToolBar.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/ButtonsToolBar.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/ButtonsToolBar.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeForm.java vs LifeForm.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/LifeForm.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/LifeForm.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeFormIterator.java vs LifeFormIterator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/LifeFormIterator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/LifeFormIterator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObserver.java vs ModelObserver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/ModelObserver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/ModelObserver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Playground.java vs Playground.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/Playground.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/Playground.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundIO.java vs PlaygroundIO.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/PlaygroundIO.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/PlaygroundIO.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundMouseAdapter.java vs PlaygroundMouseAdapter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/PlaygroundMouseAdapter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/PlaygroundMouseAdapter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopUpMenu.java vs PopUpMenu.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/PopUpMenu.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/PopUpMenu.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RuleSet.java vs RuleSet.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/RuleSet.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/RuleSet.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00012 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012 
+## GODLModel.java LoC : 99;   Char : 3384
+## LifeForm.java LoC : 30;  Char : 594
+## LifeFormIterator.java LoC : 30;  Char : 941
+## ModelObservable.java LoC : 38;   Char : 1202
+## ModelObserver.java LoC : 4;  Char : 68
+## Playground.java LoC : 96;  Char : 2681
+## PlaygroundMouseAdapter.java LoC : 21;  Char : 624
+## PopUpMenu.java LoC : 385;  Char : 20902
+## RuleSet.java LoC : 37;   Char : 1071
+## Suite.java LoC : 27;   Char : 907
+## ClearGeneratorStrategy.java LoC : 12;  Char : 241
+## FormGeneratorStrategy.java LoC : 27;   Char : 655
+## GeneratorStrategy.java LoC : 6;  Char : 122
+## TOTAL : LoC : 812;   Char : 33392
+*********************
+Gumtree : GODLModel.java vs GODLModel.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/GODLModel.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/GODLModel.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeForm.java vs LifeForm.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/LifeForm.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/LifeForm.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LifeFormIterator.java vs LifeFormIterator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/LifeFormIterator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/LifeFormIterator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObservable.java vs ModelObservable.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/ModelObservable.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/ModelObservable.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ModelObserver.java vs ModelObserver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/ModelObserver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/ModelObserver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Playground.java vs Playground.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/Playground.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/Playground.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PlaygroundMouseAdapter.java vs PlaygroundMouseAdapter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/PlaygroundMouseAdapter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/PlaygroundMouseAdapter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopUpMenu.java vs PopUpMenu.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/PopUpMenu.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/PopUpMenu.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RuleSet.java vs RuleSet.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/RuleSet.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/RuleSet.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Suite.java vs Suite.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/Suite.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/Suite.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ClearGeneratorStrategy.java vs ClearGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/generator/ClearGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/generator/ClearGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : FormGeneratorStrategy.java vs FormGeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/generator/FormGeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/generator/FormGeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GeneratorStrategy.java vs GeneratorStrategy.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/generator/GeneratorStrategy.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/generator/GeneratorStrategy.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+_____________
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+================== RESULT =====================
+Number of Original Products : 11
+(Integration) Number of Products obtained from Artefact Configurations : 11
+(Localisation) Number of Products obtained from Feature Configurations : 11
+Number of Files : in between [5 - 14]
+=======
+
+  ==========      INTEGRATION SCORE    =============
+   By Products
+  For 00002 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 241 ; Char modified : 0/6710)
+  For 00003 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 93 ; Char modified : 0/2729)
+  For 00004 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 264 ; Char modified : 0/9225)
+  For 00005 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 325 ; Char modified : 0/9317)
+  For 00006 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 496 ; Char modified : 0/15813)
+  For 00007 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 366 ; Char modified : 0/10602)
+  For 00008 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 499 ; Char modified : 0/24255)
+  For 00009 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 670 ; Char modified : 0/30751)
+  For 00010 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 731 ; Char modified : 0/30843)
+  For 00011 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 902 ; Char modified : 0/37339)
+  For 00012 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 812 ; Char modified : 0/33392)
+==
+TOTAL :
+TOTAL LoC Deleted : 0
+TOTAL LoC Inserted : 0
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 

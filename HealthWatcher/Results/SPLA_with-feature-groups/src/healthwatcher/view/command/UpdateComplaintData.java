@@ -1,234 +1,224 @@
 
-//#if 170706818 
-// Compilation Unit of /UpdateComplaintData.java 
- 
+//#if 170706818
+// Compilation Unit of /UpdateComplaintData.java
+
 package healthwatcher.view.command;
 
-//#if -1906598313 
+//#if -1906598313
 import healthwatcher.model.complaint.Complaint;
-//#endif 
+//#endif
 
 
-//#if 658893668 
+//#if 658893668
 import healthwatcher.model.complaint.Situation;
-//#endif 
+//#endif
 
 
-//#if -445312751 
+//#if -445312751
 import healthwatcher.model.employee.Employee;
-//#endif 
+//#endif
 
 
-//#if 1101028002 
+//#if 1101028002
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if -134650433 
+//#if -134650433
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if 485569800 
+//#if 485569800
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if 1361380012 
+//#if 1361380012
 import java.util.Calendar;
-//#endif 
+//#endif
 
 
-//#if -1847129791 
+//#if -1847129791
 import javax.servlet.http.HttpSession;
-//#endif 
+//#endif
 
 
-//#if -800400421 
+//#if -800400421
 import lib.exceptions.InvalidSessionException;
-//#endif 
+//#endif
 
 
-//#if 1156775185 
+//#if 1156775185
 import lib.util.HTMLCode;
-//#endif 
+//#endif
 
 public class UpdateComplaintData extends Command
-  { 
+{
 
-//#if -308223777 
-public void execute() throws Exception
-    { 
-PrintWriter out = response.getWriter();
-String obsQueixa = request.getInput("obsQueixa");
-Complaint q = null;
-try //1
-{ 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
+//#if -308223777
+    public void execute() throws Exception
+    {
+        PrintWriter out = response.getWriter();
+        String obsQueixa = request.getInput("obsQueixa");
+        Complaint q = null;
+        try { //1
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
 
-q = (Complaint) request
+            q = (Complaint) request
                 .get(UpdateComplaintSearch.QUEIXA);
-q.setObservacao(obsQueixa);
-Calendar agora = Calendar.getInstance();
-q.setDataParecer(new lib.util.Date(
+            q.setObservacao(obsQueixa);
+            Calendar agora = Calendar.getInstance();
+            q.setDataParecer(new lib.util.Date(
                                  agora.get(Calendar.DAY_OF_MONTH),
                                  agora.get(Calendar.MONTH), agora.get(Calendar.YEAR)));
-Employee employee = (Employee) request
+            Employee employee = (Employee) request
                                 .get(Login.EMPLOYEE);
-q.setAtendente(employee);
-q.setSituacao(Situation.QUEIXA_FECHADA);
-out.println(HTMLCode.htmlPageAdministrator("Operation executed",
+            q.setAtendente(employee);
+            q.setSituacao(Situation.QUEIXA_FECHADA);
+            out.println(HTMLCode.htmlPageAdministrator("Operation executed",
                         "Complaint updated" + "<P>" + obsQueixa + "</P>"));
-} 
-catch (Exception e) //1
-{ 
-out.println(lib.util.HTMLCode
+        } catch (Exception e) { //1
+            out.println(lib.util.HTMLCode
                         .errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+            e.printStackTrace(out);
+        }
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public UpdateComplaintData(IFacade f)
-    { 
-super(f);
-} 
+    public UpdateComplaintData(IFacade f)
+    {
+        super(f);
+    }
 
 
-//#if -173239997 
-public void execute()
-    { 
-PrintWriter out = null;
-try //1
-{ 
-out = response.getWriter();
-} 
+//#if -173239997
+    public void execute()
+    {
+        PrintWriter out = null;
+        try { //1
+            out = response.getWriter();
+        }
 
-//#if 312349783 
-catch (IOException e1) //1
-{ 
-e1.printStackTrace();
-} 
+//#if 312349783
+        catch (IOException e1) { //1
+            e1.printStackTrace();
+        }
 
-//#endif 
+//#endif
 
 
 
-//#if -510112745 
-HttpSession session = request.getSession(false);
-//#endif 
+//#if -510112745
+        HttpSession session = request.getSession(false);
+//#endif
 
 
-//#if 254267190 
-String obsQueixa = request.getParameter("obsQueixa");
-//#endif 
+//#if 254267190
+        String obsQueixa = request.getParameter("obsQueixa");
+//#endif
 
 
-//#if -1415537257 
-String obsQueixa = request.getInput("obsQueixa");
-//#endif 
+//#if -1415537257
+        String obsQueixa = request.getInput("obsQueixa");
+//#endif
 
-Complaint q = null;
+        Complaint q = null;
 
-//#if 872660309 
-response.setContentType("text/html");
-//#endif 
+//#if 872660309
+        response.setContentType("text/html");
+//#endif
 
-try //2
-{ 
+        try { //2
 
-//#if 2095355077 
-if(session == null)//1
-{ 
-throw new InvalidSessionException();
-} 
+//#if 2095355077
+            if(session == null) { //1
+                throw new InvalidSessionException();
+            }
 
-//#endif 
+//#endif
 
 
-//#if -756735859 
-q = (Complaint) session
+//#if -756735859
+            q = (Complaint) session
                 .getValue(UpdateComplaintSearch.QUEIXA);
-//#endif 
+//#endif
 
 
-//#if -918070834 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
+//#if -918070834
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
 
-//#endif 
+//#endif
 
 
-//#if -439126425 
-q = (Complaint) request
+//#if -439126425
+            q = (Complaint) request
                 .get(UpdateComplaintSearch.QUEIXA);
-//#endif 
+//#endif
 
-q.setObservacao(obsQueixa);
+            q.setObservacao(obsQueixa);
 
-//#if 1478581781 
-q.setSituacao(Situation.QUEIXA_FECHADA);
-//#endif 
+//#if 1478581781
+            q.setSituacao(Situation.QUEIXA_FECHADA);
+//#endif
 
-Calendar agora = Calendar.getInstance();
-q.setDataParecer(new lib.util.Date(
+            Calendar agora = Calendar.getInstance();
+            q.setDataParecer(new lib.util.Date(
                                  agora.get(Calendar.DAY_OF_MONTH),
                                  agora.get(Calendar.MONTH), agora.get(Calendar.YEAR)));
 
-//#if 1438616305 
-Employee employee = (Employee) session
+//#if 1438616305
+            Employee employee = (Employee) session
                                 .getValue(Login.EMPLOYEE);
-//#endif 
+//#endif
 
 
-//#if -787438337 
-Employee employee = (Employee) request
+//#if -787438337
+            Employee employee = (Employee) request
                                 .get(Login.EMPLOYEE);
-//#endif 
+//#endif
 
-q.setAtendente(employee);
+            q.setAtendente(employee);
 
-//#if -1408604996 
-q.setSituacao(Situation.QUEIXA_FECHADA);
-//#endif 
+//#if -1408604996
+            q.setSituacao(Situation.QUEIXA_FECHADA);
+//#endif
 
 
-//#if -813029548 
-facade.updateComplaint(q);
-//#endif 
+//#if -813029548
+            facade.updateComplaint(q);
+//#endif
 
-out.println(HTMLCode.htmlPageAdministrator("Operation executed",
+            out.println(HTMLCode.htmlPageAdministrator("Operation executed",
                         "Complaint updated" + "<P>" + obsQueixa + "</P>"));
-} 
+        }
 
-//#if 820764354 
-catch (Exception e) //1
-{ 
-out.println(lib.util.HTMLCode
+//#if 820764354
+        catch (Exception e) { //1
+            out.println(lib.util.HTMLCode
                         .errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+            e.printStackTrace(out);
+        }
 
-//#endif 
+//#endif
 
-finally { 
-out.close();
-} 
+        finally {
+            out.close();
+        }
 
-} 
+    }
 
-//#endif 
+//#endif
 
- } 
+}
 
 
-//#endif 
+//#endif
 

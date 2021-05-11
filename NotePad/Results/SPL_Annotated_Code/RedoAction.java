@@ -1,73 +1,68 @@
 
-//#if  Undo  
-// Compilation Unit of /RedoAction.java 
- 
+//#if  Undo
+// Compilation Unit of /RedoAction.java
 
-//#if  Undo  
+
+//#if  Undo
 import java.awt.event.*;
-//#endif 
+//#endif
 
 
-//#if  Undo  
+//#if  Undo
 import javax.swing.*;
-//#endif 
+//#endif
 
 
-//#if  Undo  
+//#if  Undo
 import javax.swing.undo.*;
-//#endif 
+//#endif
 
 class RedoAction extends AbstractAction
-  { 
-private static final long serialVersionUID = 1;
-Notepad notepad;
-protected void update()
-    { 
-if(notepad.undo.canRedo())//1
-{ 
-setEnabled(true);
-putValue("Redo", notepad.undo.getRedoPresentationName());
-} 
-else
-{ 
-setEnabled(false);
-putValue(Action.NAME, "Redo");
-} 
+{
+    private static final long serialVersionUID = 1;
+    Notepad notepad;
+    protected void update()
+    {
+        if(notepad.undo.canRedo()) { //1
+            setEnabled(true);
+            putValue("Redo", notepad.undo.getRedoPresentationName());
+        } else {
+            setEnabled(false);
+            putValue(Action.NAME, "Redo");
+        }
 
-} 
+    }
 
-public RedoAction(Notepad notepad)
-    { 
-super("Redo");
-putValue( Action.SMALL_ICON,
+    public RedoAction(Notepad notepad)
+    {
+        super("Redo");
+        putValue( Action.SMALL_ICON,
                   new ImageIcon(this.getClass().getResource("images/redo.gif")));
-setEnabled(false);
-this.notepad = notepad;
-} 
+        setEnabled(false);
+        this.notepad = notepad;
+    }
 
-public void actionPerformed(ActionEvent e)
-    { 
-try //1
-{ 
-notepad.undo.redo();
-} 
+    public void actionPerformed(ActionEvent e)
+    {
+        try { //1
+            notepad.undo.redo();
+        }
 
-//#if  Undo  
-catch (CannotRedoException ex)//1
-{ 
-System.out.println("Unable to redo: " + ex);
-ex.printStackTrace();
-} 
+//#if  Undo
+        catch (CannotRedoException ex) { //1
+            System.out.println("Unable to redo: " + ex);
+            ex.printStackTrace();
+        }
 
-//#endif 
+//#endif
 
 
-update();
-notepad.undoAction.update();
-} 
+        update();
+        notepad.undoAction.update();
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

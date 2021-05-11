@@ -1,0 +1,20 @@
+// Compilation Unit of /ExtensionPointNotation.java 
+ 
+package org.argouml.notation.providers;
+import org.argouml.model.Model;
+import org.argouml.notation.NotationProvider;
+public abstract class ExtensionPointNotation extends NotationProvider
+  { 
+public ExtensionPointNotation(Object ep)
+    { 
+if(!Model.getFacade().isAExtensionPoint(ep))//1
+{ 
+throw new IllegalArgumentException(
+                "This is not an ExtensionPoint.");
+} 
+
+} 
+
+ } 
+
+

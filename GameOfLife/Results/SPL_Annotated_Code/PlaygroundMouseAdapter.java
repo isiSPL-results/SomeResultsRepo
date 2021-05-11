@@ -1,61 +1,59 @@
 
-//#if  PopUpMenu  
-// Compilation Unit of /PlaygroundMouseAdapter.java 
- 
+//#if  PopUpMenu
+// Compilation Unit of /PlaygroundMouseAdapter.java
 
-//#if  PopUpMenu  
+
+//#if  PopUpMenu
 import java.awt.Color;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import java.awt.Dimension;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import java.awt.Graphics;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import java.awt.event.MouseAdapter;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import java.awt.event.MouseEvent;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import javax.swing.JPanel;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import javax.swing.JPopupMenu;
-//#endif 
+//#endif
 
-class PlaygroundMouseAdapter  { 
-public boolean hook(MouseEvent e, int x, int y)
-    { 
-if(e.isPopupTrigger() || e.getButton()==MouseEvent.BUTTON3)//1
-{ 
-JPopupMenu popup = new PopUpMenu(playgroundPanel.getModel(), x, y);
-popup.show(playgroundPanel,
+class PlaygroundMouseAdapter
+{
+    public boolean hook(MouseEvent e, int x, int y)
+    {
+        if(e.isPopupTrigger() || e.getButton()==MouseEvent.BUTTON3) { //1
+            JPopupMenu popup = new PopUpMenu(playgroundPanel.getModel(), x, y);
+            popup.show(playgroundPanel,
                        e.getX(), e.getY());
-return true;
-} 
-else
-{ 
-return false;
-} 
+            return true;
+        } else {
+            return false;
+        }
 
-} 
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

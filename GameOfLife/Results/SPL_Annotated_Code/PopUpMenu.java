@@ -1,61 +1,61 @@
 
-//#if  PopUpMenu  
-// Compilation Unit of /PopUpMenu.java 
- 
+//#if  PopUpMenu
+// Compilation Unit of /PopUpMenu.java
 
-//#if  PopUpMenu  
+
+//#if  PopUpMenu
 import java.awt.event.ActionEvent;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import java.awt.event.ActionListener;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import javax.swing.JMenu;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import javax.swing.JMenuItem;
-//#endif 
+//#endif
 
 
-//#if  PopUpMenu  
+//#if  PopUpMenu
 import javax.swing.JPopupMenu;
-//#endif 
+//#endif
 
 public class PopUpMenu extends JPopupMenu
-  { 
-private ModelObservable model;
-int xCoordinate;
-int yCoordinate;
-public PopUpMenu(  ModelObservable model,  int x,  int y)
-    { 
-this.xCoordinate=x;
-this.yCoordinate=y;
-this.model=model;
-this.add(new StaticObjectsMenu("statische Objekte"));
-this.add(new PulsatingObjectsMenu("pulsierende Objekte"));
-this.add(new MovingObjectsMenu("Raumschiffe/ Gleiter"));
-} 
+{
+    private ModelObservable model;
+    int xCoordinate;
+    int yCoordinate;
+    public PopUpMenu(  ModelObservable model,  int x,  int y)
+    {
+        this.xCoordinate=x;
+        this.yCoordinate=y;
+        this.model=model;
+        this.add(new StaticObjectsMenu("statische Objekte"));
+        this.add(new PulsatingObjectsMenu("pulsierende Objekte"));
+        this.add(new MovingObjectsMenu("Raumschiffe/ Gleiter"));
+    }
 
-class StaticObjectsMenu extends JMenu
-  { 
-public StaticObjectsMenu(    String name)
-        { 
-super(name);
-this.add(new static1());
-this.add(new static2());
-this.add(new static3());
-this.add(new static4());
-} 
+    class StaticObjectsMenu extends JMenu
+    {
+        public StaticObjectsMenu(    String name)
+        {
+            super(name);
+            this.add(new static1());
+            this.add(new static2());
+            this.add(new static3());
+            this.add(new static4());
+        }
 
-class static1 extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class static1 extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate > PopUpMenu.this.model.getPlayground().length - 3) {
@@ -78,17 +78,17 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public static1()
-            { 
-super("static1");
-this.addActionListener(act);
-} 
+            public static1()
+            {
+                super("static1");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
-class static2 extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class static2 extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate >= PopUpMenu.this.model.getPlayground().length - 3) {
@@ -114,17 +114,17 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public static2()
-            { 
-super("static2");
-this.addActionListener(act);
-} 
+            public static2()
+            {
+                super("static2");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
-class static3 extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class static3 extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate >= PopUpMenu.this.model.getPlayground().length - 4) {
@@ -154,17 +154,17 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public static3()
-            { 
-super("static3");
-this.addActionListener(act);
-} 
+            public static3()
+            {
+                super("static3");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
-class static4 extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class static4 extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate >= PopUpMenu.this.model.getPlayground().length - 4) {
@@ -194,29 +194,29 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public static4()
-            { 
-super("static4");
-this.addActionListener(act);
-} 
+            public static4()
+            {
+                super("static4");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
- } 
+    }
 
-class PulsatingObjectsMenu extends JMenu
-  { 
-public PulsatingObjectsMenu(    String name)
-        { 
-super(name);
-this.add(new Blinker());
-this.add(new Laser0());
-this.add(new Laser2());
-} 
+    class PulsatingObjectsMenu extends JMenu
+    {
+        public PulsatingObjectsMenu(    String name)
+        {
+            super(name);
+            this.add(new Blinker());
+            this.add(new Laser0());
+            this.add(new Laser2());
+        }
 
-class Laser0 extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class Laser0 extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate > PopUpMenu.this.model.getPlayground().length - 4) {
@@ -246,17 +246,17 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public Laser0()
-            { 
-super("0-Laser");
-this.addActionListener(act);
-} 
+            public Laser0()
+            {
+                super("0-Laser");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
-class Blinker extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class Blinker extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate > PopUpMenu.this.model.getPlayground().length - 3) {
@@ -279,17 +279,17 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public Blinker()
-            { 
-super("blinker");
-this.addActionListener(act);
-} 
+            public Blinker()
+            {
+                super("blinker");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
-class Laser2 extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class Laser2 extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate > PopUpMenu.this.model.getPlayground().length - 5) {
@@ -328,28 +328,28 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public Laser2()
-            { 
-super("2-Laser");
-this.addActionListener(act);
-} 
+            public Laser2()
+            {
+                super("2-Laser");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
- } 
+    }
 
-class MovingObjectsMenu extends JMenu
-  { 
-public MovingObjectsMenu(    String name)
-        { 
-super(name);
-this.add(new LightWeightSpaceship());
-this.add(new Glider());
-} 
+    class MovingObjectsMenu extends JMenu
+    {
+        public MovingObjectsMenu(    String name)
+        {
+            super(name);
+            this.add(new LightWeightSpaceship());
+            this.add(new Glider());
+        }
 
-class Glider extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class Glider extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate > PopUpMenu.this.model.getPlayground().length - 3) {
@@ -372,17 +372,17 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public Glider()
-            { 
-super("Gleiter");
-this.addActionListener(act);
-} 
+            public Glider()
+            {
+                super("Gleiter");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
-class LightWeightSpaceship extends JMenuItem
-  { 
-ActionListener act=new ActionListener()
+        class LightWeightSpaceship extends JMenuItem
+        {
+            ActionListener act=new ActionListener()
             {
                 public void actionPerformed(        ActionEvent e) {
                     if (xCoordinate < 0 || xCoordinate > PopUpMenu.this.model.getPlayground().length - 5) {
@@ -421,18 +421,18 @@ ActionListener act=new ActionListener()
                 }
             }
             ;
-public LightWeightSpaceship()
-            { 
-super("Segler1");
-this.addActionListener(act);
-} 
+            public LightWeightSpaceship()
+            {
+                super("Segler1");
+                this.addActionListener(act);
+            }
 
- } 
+        }
 
- } 
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

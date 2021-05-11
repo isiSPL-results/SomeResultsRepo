@@ -1,76 +1,77 @@
 
-//#if -1720697704 
-// Compilation Unit of /IDiseaseRepository.java 
- 
+//#if -1720697704
+// Compilation Unit of /IDiseaseRepository.java
 
-//#if 1951511605 
+
+//#if 1951511605
 package healthwatcher.data;
-//#endif 
+//#endif
 
 
-//#if -1927712551 
+//#if -1927712551
 import lib.exceptions.ObjectAlreadyInsertedException;
-//#endif 
+//#endif
 
 
-//#if -1680461602 
+//#if -1680461602
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if 1448630488 
+//#if 1448630488
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 2144957018 
+//#if 2144957018
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if -1879661709 
+//#if -1879661709
 import lib.util.IteratorDsk;
-//#endif 
+//#endif
 
 
-//#if 545291192 
+//#if 545291192
 import healthwatcher.model.complaint.DiseaseType;
-//#endif 
+//#endif
 
 
-//#if -508309867 
-public interface IDiseaseRepository  { 
+//#if -508309867
+public interface IDiseaseRepository
+{
 
-//#if -23619893 
-public void update(DiseaseType td) throws ObjectNotValidException, ObjectNotFoundException,
+//#if -23619893
+    public void update(DiseaseType td) throws ObjectNotValidException, ObjectNotFoundException,
                ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1069206496 
-public DiseaseType search(int code) throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if 1069206496
+    public DiseaseType search(int code) throws ObjectNotFoundException, RepositoryException;
+//#endif
 
 
-//#if -1391170036 
-public void insert(DiseaseType td) throws ObjectNotValidException,
+//#if -1391170036
+    public void insert(DiseaseType td) throws ObjectNotValidException,
                ObjectAlreadyInsertedException, ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 543643958 
-public IteratorDsk getDiseaseTypeList() throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if 543643958
+    public IteratorDsk getDiseaseTypeList() throws ObjectNotFoundException, RepositoryException;
+//#endif
 
 
-//#if 620329777 
-public boolean exists(int code) throws RepositoryException;
-//#endif 
+//#if 620329777
+    public boolean exists(int code) throws RepositoryException;
+//#endif
 
- } 
+}
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 

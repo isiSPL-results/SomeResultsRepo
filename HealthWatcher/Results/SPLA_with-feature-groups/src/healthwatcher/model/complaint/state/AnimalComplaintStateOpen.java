@@ -1,58 +1,58 @@
 
-//#if 1988033650 
-// Compilation Unit of /AnimalComplaintStateOpen.java 
- 
+//#if 1988033650
+// Compilation Unit of /AnimalComplaintStateOpen.java
+
 package healthwatcher.model.complaint.state;
 
-//#if -264140446 
+//#if -264140446
 import healthwatcher.model.address.Address;
-//#endif 
+//#endif
 
 
-//#if -445078888 
+//#if -445078888
 import lib.util.Date;
-//#endif 
+//#endif
 
 public class AnimalComplaintStateOpen extends AnimalComplaintState
-  { 
-public AnimalComplaintStateOpen(short qtdeAnimais, Date dataIncomodo,
+{
+    public AnimalComplaintStateOpen(short qtdeAnimais, Date dataIncomodo,
                                     String animal, Address endereco)
-    { 
-super(qtdeAnimais, dataIncomodo, animal, endereco);
-} 
+    {
+        super(qtdeAnimais, dataIncomodo, animal, endereco);
+    }
 
-public void setEnderecoLocalOcorrencia(Address newEnderecoLocalOcorrencia)
-    { 
-enderecoLocalOcorrencia = newEnderecoLocalOcorrencia;
-} 
+    public void setEnderecoLocalOcorrencia(Address newEnderecoLocalOcorrencia)
+    {
+        enderecoLocalOcorrencia = newEnderecoLocalOcorrencia;
+    }
 
-public AnimalComplaintStateOpen()
-    { 
-super();
-} 
+    public AnimalComplaintStateOpen()
+    {
+        super();
+    }
 
-public void setDataIncomodo(Date newDataIncomodo)
-    { 
-dataIncomodo = newDataIncomodo;
-} 
+    public void setDataIncomodo(Date newDataIncomodo)
+    {
+        dataIncomodo = newDataIncomodo;
+    }
 
-public void setAnimal(String newAnimal)
-    { 
-animal = newAnimal;
-} 
+    public void setAnimal(String newAnimal)
+    {
+        animal = newAnimal;
+    }
 
-public void setTipoAnimal(String newAnimal)
-    { 
-animal = newAnimal;
-} 
+    public void setTipoAnimal(String newAnimal)
+    {
+        animal = newAnimal;
+    }
 
-public void setQtdeAnimais(short newQtdeAnimais)
-    { 
-qtdeAnimais = newQtdeAnimais;
-} 
+    public void setQtdeAnimais(short newQtdeAnimais)
+    {
+        qtdeAnimais = newQtdeAnimais;
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

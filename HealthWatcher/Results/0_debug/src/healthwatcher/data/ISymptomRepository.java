@@ -1,81 +1,82 @@
 
-//#if 1331571812 
-// Compilation Unit of /ISymptomRepository.java 
- 
+//#if 1331571812
+// Compilation Unit of /ISymptomRepository.java
 
-//#if 282524647 
+
+//#if 282524647
 package healthwatcher.data;
-//#endif 
+//#endif
 
 
-//#if -489894025 
+//#if -489894025
 import healthwatcher.model.complaint.Symptom;
-//#endif 
+//#endif
 
 
-//#if 862035467 
+//#if 862035467
 import lib.exceptions.ObjectAlreadyInsertedException;
-//#endif 
+//#endif
 
 
-//#if -802383892 
+//#if -802383892
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if -1968259098 
+//#if -1968259098
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if -190214040 
+//#if -190214040
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if -2078649855 
+//#if -2078649855
 import lib.util.IteratorDsk;
-//#endif 
+//#endif
 
 
-//#if 1813996304 
-public interface ISymptomRepository  { 
+//#if 1813996304
+public interface ISymptomRepository
+{
 
-//#if -405411180 
-public boolean exists(int code) throws RepositoryException;
-//#endif 
+//#if -405411180
+    public boolean exists(int code) throws RepositoryException;
+//#endif
 
 
-//#if -1461696581 
-public void insert(Symptom s) throws ObjectNotValidException, ObjectAlreadyInsertedException,
+//#if -1461696581
+    public void insert(Symptom s) throws ObjectNotValidException, ObjectAlreadyInsertedException,
                ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1112433283 
-public void remove(int code) throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if 1112433283
+    public void remove(int code) throws ObjectNotFoundException, RepositoryException;
+//#endif
 
 
-//#if -1336068458 
-public Symptom search(int code) throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if -1336068458
+    public Symptom search(int code) throws ObjectNotFoundException, RepositoryException;
+//#endif
 
 
-//#if 2107637212 
-public void update(Symptom s) throws ObjectNotValidException, ObjectNotFoundException,
+//#if 2107637212
+    public void update(Symptom s) throws ObjectNotValidException, ObjectNotFoundException,
                ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 35905280 
-public IteratorDsk getSymptomList() throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if 35905280
+    public IteratorDsk getSymptomList() throws ObjectNotFoundException, RepositoryException;
+//#endif
 
- } 
+}
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 

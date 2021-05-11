@@ -1,43 +1,43 @@
-// Compilation Unit of /FloorComposite.java 
- 
+// Compilation Unit of /FloorComposite.java
+
 package de.ovgu.featureide.examples.elevator.ui;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Dimension;
 
-//#if  CallButtons  
+//#if  CallButtons
 import javax.swing.Box;
-//#endif 
+//#endif
 
 
-//#if  CallButtons  
+//#if  CallButtons
 import javax.swing.JToggleButton;
-//#endif 
+//#endif
 
 
-//#if  CallButtons  
+//#if  CallButtons
 import de.ovgu.featureide.examples.elevator.core.controller.Request;
-//#endif 
+//#endif
 
 
-//#if  CallButtons  
+//#if  CallButtons
 import java.awt.event.ActionEvent;
-//#endif 
+//#endif
 
 
-//#if  CallButtons  
+//#if  CallButtons
 import java.awt.event.ActionListener;
-//#endif 
+//#endif
 
 
-//#if (  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) ||  ( FloorPermission  &&  Service  &&  Sabbath ) ||  ( FIFO  &&  UndirectedCall  &&  CallButtons ) ||  ( DirectedCall  &&  ShortestPath  &&  CallButtons ) ) 
+//#if (  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) ||  ( FloorPermission  &&  Service  &&  Sabbath ) ||  ( FIFO  &&  UndirectedCall  &&  CallButtons ) ||  ( DirectedCall  &&  ShortestPath  &&  CallButtons ) )
 import de.ovgu.featureide.examples.elevator.sim.SimulationUnit;
-//#endif 
+//#endif
 
 
-//#if  DirectedCall  
+//#if  DirectedCall
 import de.ovgu.featureide.examples.elevator.core.model.ElevatorState;
-//#endif 
+//#endif
 
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -48,481 +48,489 @@ import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.border.EmptyBorder;
 public class FloorComposite extends JPanel
- implements 
-//#if  CallButtons  
-ActionListener
-//#endif 
+    implements
+//#if  CallButtons
+    ActionListener
+//#endif
 
-  { 
-private static final long serialVersionUID = 4452235677942989047L;
-private final static ImageIcon img_open  = new ImageIcon(FloorComposite.class.getResource("/floor_open.png"));
-private final static ImageIcon img_close = new ImageIcon(FloorComposite.class.getResource("/floor_close.png"));
-private final JLabel lblFloorImage;
-private boolean showsOpen = false;
-private JLabel lblLevel;
+{
+    private static final long serialVersionUID = 4452235677942989047L;
+    private final static ImageIcon img_open  = new ImageIcon(FloorComposite.class.getResource("/floor_open.png"));
+    private final static ImageIcon img_close = new ImageIcon(FloorComposite.class.getResource("/floor_close.png"));
+    private final JLabel lblFloorImage;
+    private boolean showsOpen = false;
+    private JLabel lblLevel;
 
-//#if  CallButtons  
-private int level;
-//#endif 
-
-
-//#if  CallButtons  
-private SimulationUnit simulation;
-//#endif 
+//#if  CallButtons
+    private int level;
+//#endif
 
 
-//#if  DirectedCall  
-private JToggleButton btnFloorUp;
-//#endif 
+//#if  CallButtons
+    private SimulationUnit simulation;
+//#endif
 
 
-//#if  DirectedCall  
-private JToggleButton btnFloorDown;
-//#endif 
+//#if  DirectedCall
+    private JToggleButton btnFloorUp;
+//#endif
 
 
-//#if  FloorPermission  
-private boolean isEnabled = true;
-//#endif 
-
-private Color cElevatorIsPresent = UIManager.getDefaults().getColor("Button.select");
-
-//#if  UndirectedCall  
-private JToggleButton btnFloorRequest;
-//#endif 
+//#if  DirectedCall
+    private JToggleButton btnFloorDown;
+//#endif
 
 
-//#if  Sabbath && ! DirectedCall  && ! FIFO  && ! FloorPermission  && ! ShortestPath  && ! UndirectedCall  && ! CallButtons  
-public FloorComposite(boolean showsOpen, int level
-													//#if CallButtons | FloorPermission
+//#if  FloorPermission
+    private boolean isEnabled = true;
+//#endif
+
+    private Color cElevatorIsPresent = UIManager.getDefaults().getColor("Button.select");
+
+//#if  UndirectedCall
+    private JToggleButton btnFloorRequest;
+//#endif
+
+
+//#if  Sabbath && ! DirectedCall  && ! FIFO  && ! FloorPermission  && ! ShortestPath  && ! UndirectedCall  && ! CallButtons
+    public FloorComposite(boolean showsOpen, int level
+                          //#if CallButtons | FloorPermission
 //@													, SimulationUnit simulation
-													//#endif
-													//#if DirectedCall
+                          //#endif
+                          //#if DirectedCall
 //@ 													, boolean isMaxLevel
-													//#endif
-													) { 
-setAlignmentY(Component.BOTTOM_ALIGNMENT);
-setMinimumSize(new Dimension(10, 100));
-setMaximumSize(new Dimension(400, 100));
-setBorder(new EmptyBorder(0, 0, 0, 0));
-this.showsOpen = showsOpen;
-setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
-lblLevel = new JLabel(Integer.toString(level));
-lblLevel.setPreferredSize(new Dimension(30, 15));
-lblLevel.setMinimumSize(new Dimension(30, 15));
-lblLevel.setMaximumSize(new Dimension(30, 15));
-lblLevel.setHorizontalTextPosition(SwingConstants.LEFT);
-lblLevel.setHorizontalAlignment(SwingConstants.LEFT);
-add(lblLevel);
-lblLevel.setForeground(Color.BLACK);
-lblLevel.setBorder(new EmptyBorder(0, 0, 0, 0));
-lblFloorImage = new JLabel();
-add(lblFloorImage);
-lblFloorImage.setIcon(showsOpen ? img_open : img_close);
-} 
+                          //#endif
+                         )
+    {
+        setAlignmentY(Component.BOTTOM_ALIGNMENT);
+        setMinimumSize(new Dimension(10, 100));
+        setMaximumSize(new Dimension(400, 100));
+        setBorder(new EmptyBorder(0, 0, 0, 0));
+        this.showsOpen = showsOpen;
+        setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+        lblLevel = new JLabel(Integer.toString(level));
+        lblLevel.setPreferredSize(new Dimension(30, 15));
+        lblLevel.setMinimumSize(new Dimension(30, 15));
+        lblLevel.setMaximumSize(new Dimension(30, 15));
+        lblLevel.setHorizontalTextPosition(SwingConstants.LEFT);
+        lblLevel.setHorizontalAlignment(SwingConstants.LEFT);
+        add(lblLevel);
+        lblLevel.setForeground(Color.BLACK);
+        lblLevel.setBorder(new EmptyBorder(0, 0, 0, 0));
+        lblFloorImage = new JLabel();
+        add(lblFloorImage);
+        lblFloorImage.setIcon(showsOpen ? img_open : img_close);
+    }
 
-//#endif 
-
-
-//#if  CallButtons  
-public void resetFloorRequest() { 
-
-//#if  DirectedCall  
-resetUp();
-//#endif 
+//#endif
 
 
-//#if  DirectedCall  
-resetDown();
-//#endif 
+//#if  CallButtons
+    public void resetFloorRequest()
+    {
+
+//#if  DirectedCall
+        resetUp();
+//#endif
 
 
-//#if  UndirectedCall  
-if(!btnFloorRequest.isEnabled())//1
-{ 
-btnFloorRequest.setSelected(false);
-btnFloorRequest.setEnabled(true);
-} 
-
-//#endif 
-
-} 
-
-//#endif 
-
-private void toggleElevatorPresent(boolean isOpen) { 
-Color color = isOpen ? cElevatorIsPresent : null;
-this.setBackground(color);
-} 
+//#if  DirectedCall
+        resetDown();
+//#endif
 
 
-//#if  DirectedCall  
-public void resetUp() { 
-if(btnFloorUp != null && !btnFloorUp.isEnabled())//1
-{ 
-btnFloorUp.setSelected(false);
-btnFloorUp.setEnabled(true);
-} 
+//#if  UndirectedCall
+        if(!btnFloorRequest.isEnabled()) { //1
+            btnFloorRequest.setSelected(false);
+            btnFloorRequest.setEnabled(true);
+        }
 
-} 
+//#endif
 
-//#endif 
+    }
 
-public void showElevatorNotPresent() { 
-SwingUtilities.invokeLater(new Runnable() {
-			public void run() {
-				toggleElevatorPresent(false);
-			}
-		});
-} 
+//#endif
 
-public void showElevatorIsPresent() { 
-SwingUtilities.invokeLater(new Runnable() {
-			public void run() {
-				toggleElevatorPresent(true);
-			}
-		});
-} 
-
-private void changeImage() { 
-
-//#if  FloorPermission  
-SwingUtilities.invokeLater(new Runnable() {
-			public void run() {
-				//#if FloorPermission
- 				if (isEnabled)
-				//#endif
-				if (showsOpen) {
-					lblFloorImage.setIcon(img_close);
-					showsOpen = false;
-					toggleElevatorPresent(false);
-				} else {
-					lblFloorImage.setIcon(img_open);
-					showsOpen = true;
-					toggleElevatorPresent(true);
-				}
-			}
-		});
-//#endif 
+    private void toggleElevatorPresent(boolean isOpen)
+    {
+        Color color = isOpen ? cElevatorIsPresent : null;
+        this.setBackground(color);
+    }
 
 
-//#if (  Sabbath ||  ( DirectedCall  &&  ShortestPath  &&  CallButtons ) ||  ( FIFO  &&  UndirectedCall  &&  CallButtons ) ) && ! FloorPermission  
-SwingUtilities.invokeLater(new Runnable() {
-			public void run() {
-				//#if FloorPermission
+//#if  DirectedCall
+    public void resetUp()
+    {
+        if(btnFloorUp != null && !btnFloorUp.isEnabled()) { //1
+            btnFloorUp.setSelected(false);
+            btnFloorUp.setEnabled(true);
+        }
+
+    }
+
+//#endif
+
+    public void showElevatorNotPresent()
+    {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                toggleElevatorPresent(false);
+            }
+        });
+    }
+
+    public void showElevatorIsPresent()
+    {
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                toggleElevatorPresent(true);
+            }
+        });
+    }
+
+    private void changeImage()
+    {
+
+//#if  FloorPermission
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                //#if FloorPermission
+                if (isEnabled)
+                    //#endif
+                    if (showsOpen) {
+                        lblFloorImage.setIcon(img_close);
+                        showsOpen = false;
+                        toggleElevatorPresent(false);
+                    } else {
+                        lblFloorImage.setIcon(img_open);
+                        showsOpen = true;
+                        toggleElevatorPresent(true);
+                    }
+            }
+        });
+//#endif
+
+
+//#if (  Sabbath ||  ( DirectedCall  &&  ShortestPath  &&  CallButtons ) ||  ( FIFO  &&  UndirectedCall  &&  CallButtons ) ) && ! FloorPermission
+        SwingUtilities.invokeLater(new Runnable() {
+            public void run() {
+                //#if FloorPermission
 //@ 				if (isEnabled)
-				//#endif
-				if (showsOpen) {
-					lblFloorImage.setIcon(img_close);
-					showsOpen = false;
-					toggleElevatorPresent(false);
-				} else {
-					lblFloorImage.setIcon(img_open);
-					showsOpen = true;
-					toggleElevatorPresent(true);
-				}
-			}
-		});
-//#endif 
+                //#endif
+                if (showsOpen) {
+                    lblFloorImage.setIcon(img_close);
+                    showsOpen = false;
+                    toggleElevatorPresent(false);
+                } else {
+                    lblFloorImage.setIcon(img_open);
+                    showsOpen = true;
+                    toggleElevatorPresent(true);
+                }
+            }
+        });
+//#endif
 
-} 
+    }
 
-public void showImageOpen() { 
-if(!this.showsOpen)//1
-this.changeImage();
+    public void showImageOpen()
+    {
+        if(!this.showsOpen) { //1
+            this.changeImage();
+        }
 
-} 
-
-
-//#if  CallButtons  
-public boolean isFloorRequested() { 
-
-//#if  DirectedCall  
-if(btnFloorUp != null && !btnFloorUp.isEnabled() && btnFloorUp.isSelected())//1
-{ 
-return true;
-} 
-
-//#endif 
+    }
 
 
-//#if  DirectedCall  
-if(btnFloorDown != null && !btnFloorDown.isEnabled() && btnFloorDown.isSelected())//1
-{ 
-return true;
-} 
+//#if  CallButtons
+    public boolean isFloorRequested()
+    {
 
-//#endif 
+//#if  DirectedCall
+        if(btnFloorUp != null && !btnFloorUp.isEnabled() && btnFloorUp.isSelected()) { //1
+            return true;
+        }
 
-
-//#if  UndirectedCall  
-if(!btnFloorRequest.isEnabled() && btnFloorRequest.isSelected())//1
-{ 
-return true;
-} 
-
-//#endif 
-
-return false;
-} 
-
-//#endif 
+//#endif
 
 
-//#if  CallButtons  
-@Override
-	public void actionPerformed(ActionEvent e) { 
-if(simulation.getCurrentFloor() != level)//1
-{ 
+//#if  DirectedCall
+        if(btnFloorDown != null && !btnFloorDown.isEnabled() && btnFloorDown.isSelected()) { //1
+            return true;
+        }
 
-//#if  DirectedCall  
-String actionCmd = e.getActionCommand();
-//#endif 
+//#endif
 
 
-//#if  DirectedCall  
-if("UP".equals(actionCmd))//1
-{ 
-simulation.floorRequest(new Request(level, ElevatorState.MOVING_UP));
-btnFloorUp.setEnabled(false);
-btnFloorUp.setSelected(true);
-} 
-else
-{ 
-simulation.floorRequest(new Request(level, ElevatorState.MOVING_DOWN));
-btnFloorDown.setEnabled(false);
-btnFloorDown.setSelected(true);
-} 
+//#if  UndirectedCall
+        if(!btnFloorRequest.isEnabled() && btnFloorRequest.isSelected()) { //1
+            return true;
+        }
 
-//#endif 
+//#endif
+
+        return false;
+    }
+
+//#endif
 
 
-//#if  UndirectedCall  
-simulation.floorRequest(new Request(level));
-//#endif 
+//#if  CallButtons
+    @Override
+    public void actionPerformed(ActionEvent e)
+    {
+        if(simulation.getCurrentFloor() != level) { //1
+
+//#if  DirectedCall
+            String actionCmd = e.getActionCommand();
+//#endif
 
 
-//#if  UndirectedCall  
-btnFloorRequest.setEnabled(false);
-//#endif 
+//#if  DirectedCall
+            if("UP".equals(actionCmd)) { //1
+                simulation.floorRequest(new Request(level, ElevatorState.MOVING_UP));
+                btnFloorUp.setEnabled(false);
+                btnFloorUp.setSelected(true);
+            } else {
+                simulation.floorRequest(new Request(level, ElevatorState.MOVING_DOWN));
+                btnFloorDown.setEnabled(false);
+                btnFloorDown.setSelected(true);
+            }
+
+//#endif
 
 
-//#if  UndirectedCall  
-btnFloorRequest.setSelected(true);
-//#endif 
-
-} 
-else
-{ 
-
-//#if  DirectedCall  
-if(btnFloorDown != null)//1
-
-//#if  DirectedCall  
-btnFloorDown.setSelected(false);
-//#endif 
+//#if  UndirectedCall
+            simulation.floorRequest(new Request(level));
+//#endif
 
 
-//#endif 
+//#if  UndirectedCall
+            btnFloorRequest.setEnabled(false);
+//#endif
 
 
-//#if  DirectedCall  
-if(btnFloorUp != null)//1
+//#if  UndirectedCall
+            btnFloorRequest.setSelected(true);
+//#endif
 
-//#if  DirectedCall  
-btnFloorUp.setSelected(false);
-//#endif 
+        } else {
 
+//#if  DirectedCall
+            if(btnFloorDown != null)//1
 
-//#endif 
-
-
-//#if  UndirectedCall  
-if(btnFloorRequest != null)//1
-
-//#if  UndirectedCall  
-btnFloorRequest.setSelected(false);
-//#endif 
+//#if  DirectedCall
+            {
+                btnFloorDown.setSelected(false);
+            }
+//#endif
 
 
-//#endif 
-
-} 
-
-} 
-
-//#endif 
+//#endif
 
 
-//#if  DirectedCall  
-public void resetDown() { 
-if(btnFloorDown != null && !btnFloorDown.isEnabled())//1
-{ 
-btnFloorDown.setSelected(false);
-btnFloorDown.setEnabled(true);
-} 
+//#if  DirectedCall
+            if(btnFloorUp != null)//1
 
-} 
-
-//#endif 
+//#if  DirectedCall
+            {
+                btnFloorUp.setSelected(false);
+            }
+//#endif
 
 
-//#if (  ( FloorPermission  &&  Service  &&  Sabbath ) ||  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) ||  ( FIFO  &&  UndirectedCall  &&  CallButtons ) ) && ! DirectedCall  
-public FloorComposite(boolean showsOpen, int level
-													//#if CallButtons | FloorPermission
-													, SimulationUnit simulation
-													//#endif
-													//#if DirectedCall
+//#endif
+
+
+//#if  UndirectedCall
+            if(btnFloorRequest != null)//1
+
+//#if  UndirectedCall
+            {
+                btnFloorRequest.setSelected(false);
+            }
+//#endif
+
+
+//#endif
+
+        }
+
+    }
+
+//#endif
+
+
+//#if  DirectedCall
+    public void resetDown()
+    {
+        if(btnFloorDown != null && !btnFloorDown.isEnabled()) { //1
+            btnFloorDown.setSelected(false);
+            btnFloorDown.setEnabled(true);
+        }
+
+    }
+
+//#endif
+
+
+//#if (  ( FloorPermission  &&  Service  &&  Sabbath ) ||  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) ||  ( FIFO  &&  UndirectedCall  &&  CallButtons ) ) && ! DirectedCall
+    public FloorComposite(boolean showsOpen, int level
+                          //#if CallButtons | FloorPermission
+                          , SimulationUnit simulation
+                          //#endif
+                          //#if DirectedCall
 //@ 													, boolean isMaxLevel
-													//#endif
-													) { 
-setAlignmentY(Component.BOTTOM_ALIGNMENT);
-setMinimumSize(new Dimension(10, 100));
-setMaximumSize(new Dimension(400, 100));
-setBorder(new EmptyBorder(0, 0, 0, 0));
-this.showsOpen = showsOpen;
-setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
-lblLevel = new JLabel(Integer.toString(level));
-lblLevel.setPreferredSize(new Dimension(30, 15));
-lblLevel.setMinimumSize(new Dimension(30, 15));
-lblLevel.setMaximumSize(new Dimension(30, 15));
-lblLevel.setHorizontalTextPosition(SwingConstants.LEFT);
-lblLevel.setHorizontalAlignment(SwingConstants.LEFT);
-add(lblLevel);
-lblLevel.setForeground(Color.BLACK);
-lblLevel.setBorder(new EmptyBorder(0, 0, 0, 0));
-lblFloorImage = new JLabel();
-add(lblFloorImage);
-lblFloorImage.setIcon(showsOpen ? img_open : img_close);
+                          //#endif
+                         )
+    {
+        setAlignmentY(Component.BOTTOM_ALIGNMENT);
+        setMinimumSize(new Dimension(10, 100));
+        setMaximumSize(new Dimension(400, 100));
+        setBorder(new EmptyBorder(0, 0, 0, 0));
+        this.showsOpen = showsOpen;
+        setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+        lblLevel = new JLabel(Integer.toString(level));
+        lblLevel.setPreferredSize(new Dimension(30, 15));
+        lblLevel.setMinimumSize(new Dimension(30, 15));
+        lblLevel.setMaximumSize(new Dimension(30, 15));
+        lblLevel.setHorizontalTextPosition(SwingConstants.LEFT);
+        lblLevel.setHorizontalAlignment(SwingConstants.LEFT);
+        add(lblLevel);
+        lblLevel.setForeground(Color.BLACK);
+        lblLevel.setBorder(new EmptyBorder(0, 0, 0, 0));
+        lblFloorImage = new JLabel();
+        add(lblFloorImage);
+        lblFloorImage.setIcon(showsOpen ? img_open : img_close);
 
-//#if (  ( FloorPermission  &&  Service  &&  Sabbath ) ||  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) ) && ! DirectedCall  && ! FIFO  
-this.isEnabled = simulation.isDisabledFloor(level);
-//#endif 
-
-
-//#if  UndirectedCall  
-this.level = level;
-//#endif 
+//#if (  ( FloorPermission  &&  Service  &&  Sabbath ) ||  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) ) && ! DirectedCall  && ! FIFO
+        this.isEnabled = simulation.isDisabledFloor(level);
+//#endif
 
 
-//#if  UndirectedCall  
-this.simulation = simulation;
-//#endif 
+//#if  UndirectedCall
+        this.level = level;
+//#endif
 
 
-//#if  UndirectedCall  
-add(Box.createRigidArea(new Dimension(5, 0)));
-//#endif 
+//#if  UndirectedCall
+        this.simulation = simulation;
+//#endif
 
 
-//#if  UndirectedCall  
-btnFloorRequest = new JToggleButton();
-//#endif 
+//#if  UndirectedCall
+        add(Box.createRigidArea(new Dimension(5, 0)));
+//#endif
 
 
-//#if  UndirectedCall  
-btnFloorRequest.setIcon(new ImageIcon(FloorComposite.class.getResource("/circle_small.png")));
-//#endif 
+//#if  UndirectedCall
+        btnFloorRequest = new JToggleButton();
+//#endif
 
 
-//#if  UndirectedCall  
-btnFloorRequest.setActionCommand(String.valueOf(level));
-//#endif 
+//#if  UndirectedCall
+        btnFloorRequest.setIcon(new ImageIcon(FloorComposite.class.getResource("/circle_small.png")));
+//#endif
 
 
-//#if  UndirectedCall  
-btnFloorRequest.addActionListener(this);
-//#endif 
+//#if  UndirectedCall
+        btnFloorRequest.setActionCommand(String.valueOf(level));
+//#endif
 
 
-//#if  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) && ! DirectedCall  && ! FIFO  && ! Sabbath  
-btnFloorRequest.setEnabled(isEnabled);
-//#endif 
+//#if  UndirectedCall
+        btnFloorRequest.addActionListener(this);
+//#endif
 
 
-//#if  UndirectedCall  
-add(btnFloorRequest);
-//#endif 
-
-} 
-
-//#endif 
+//#if  ( ShortestPath  &&  CallButtons  &&  UndirectedCall  &&  FloorPermission  &&  Service ) && ! DirectedCall  && ! FIFO  && ! Sabbath
+        btnFloorRequest.setEnabled(isEnabled);
+//#endif
 
 
-//#if  DirectedCall  
-public FloorComposite(boolean showsOpen, int level
-													//#if CallButtons | FloorPermission
-													, SimulationUnit simulation
-													//#endif
-													//#if DirectedCall
- 													, boolean isMaxLevel
-													//#endif
-													) { 
-setAlignmentY(Component.BOTTOM_ALIGNMENT);
-setMinimumSize(new Dimension(10, 100));
-setMaximumSize(new Dimension(400, 100));
-setBorder(new EmptyBorder(0, 0, 0, 0));
-this.showsOpen = showsOpen;
-setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
-lblLevel = new JLabel(Integer.toString(level));
-lblLevel.setPreferredSize(new Dimension(30, 15));
-lblLevel.setMinimumSize(new Dimension(30, 15));
-lblLevel.setMaximumSize(new Dimension(30, 15));
-lblLevel.setHorizontalTextPosition(SwingConstants.LEFT);
-lblLevel.setHorizontalAlignment(SwingConstants.LEFT);
-add(lblLevel);
-lblLevel.setForeground(Color.BLACK);
-lblLevel.setBorder(new EmptyBorder(0, 0, 0, 0));
-lblFloorImage = new JLabel();
-add(lblFloorImage);
-lblFloorImage.setIcon(showsOpen ? img_open : img_close);
+//#if  UndirectedCall
+        add(btnFloorRequest);
+//#endif
 
-//#if  ( DirectedCall  &&  ShortestPath  &&  CallButtons  &&  FloorPermission  &&  Service ) && ! FIFO  && ! Sabbath  && ! UndirectedCall  
-this.isEnabled = simulation.isDisabledFloor(level);
-//#endif 
+    }
 
-this.level = level;
-this.simulation = simulation;
-if(!isMaxLevel)//1
-{ 
-add(Box.createRigidArea(new Dimension(5, 0)));
-btnFloorUp = new JToggleButton();
-btnFloorUp.setIcon(new ImageIcon(FloorComposite.class.getResource("/arrow_up_small.png")));
-btnFloorUp.setActionCommand("UP");
-btnFloorUp.addActionListener(this);
+//#endif
 
-//#if  ( DirectedCall  &&  ShortestPath  &&  CallButtons  &&  FloorPermission  &&  Service ) && ! FIFO  && ! Sabbath  && ! UndirectedCall  
-btnFloorUp.setEnabled(isEnabled);
-//#endif 
 
-add(btnFloorUp);
-} 
+//#if  DirectedCall
+    public FloorComposite(boolean showsOpen, int level
+                          //#if CallButtons | FloorPermission
+                          , SimulationUnit simulation
+                          //#endif
+                          //#if DirectedCall
+                          , boolean isMaxLevel
+                          //#endif
+                         )
+    {
+        setAlignmentY(Component.BOTTOM_ALIGNMENT);
+        setMinimumSize(new Dimension(10, 100));
+        setMaximumSize(new Dimension(400, 100));
+        setBorder(new EmptyBorder(0, 0, 0, 0));
+        this.showsOpen = showsOpen;
+        setLayout(new BoxLayout(this, BoxLayout.X_AXIS));
+        lblLevel = new JLabel(Integer.toString(level));
+        lblLevel.setPreferredSize(new Dimension(30, 15));
+        lblLevel.setMinimumSize(new Dimension(30, 15));
+        lblLevel.setMaximumSize(new Dimension(30, 15));
+        lblLevel.setHorizontalTextPosition(SwingConstants.LEFT);
+        lblLevel.setHorizontalAlignment(SwingConstants.LEFT);
+        add(lblLevel);
+        lblLevel.setForeground(Color.BLACK);
+        lblLevel.setBorder(new EmptyBorder(0, 0, 0, 0));
+        lblFloorImage = new JLabel();
+        add(lblFloorImage);
+        lblFloorImage.setIcon(showsOpen ? img_open : img_close);
 
-if(level != 0)//1
-{ 
-add(Box.createRigidArea(new Dimension(5, 0)));
-btnFloorDown = new JToggleButton();
-btnFloorDown.setIcon(new ImageIcon(FloorComposite.class.getResource("/arrow_down_small.png")));
-btnFloorDown.setActionCommand("DOWN");
-btnFloorDown.addActionListener(this);
+//#if  ( DirectedCall  &&  ShortestPath  &&  CallButtons  &&  FloorPermission  &&  Service ) && ! FIFO  && ! Sabbath  && ! UndirectedCall
+        this.isEnabled = simulation.isDisabledFloor(level);
+//#endif
 
-//#if  ( DirectedCall  &&  ShortestPath  &&  CallButtons  &&  FloorPermission  &&  Service ) && ! FIFO  && ! Sabbath  && ! UndirectedCall  
-btnFloorDown.setEnabled(isEnabled);
-//#endif 
+        this.level = level;
+        this.simulation = simulation;
+        if(!isMaxLevel) { //1
+            add(Box.createRigidArea(new Dimension(5, 0)));
+            btnFloorUp = new JToggleButton();
+            btnFloorUp.setIcon(new ImageIcon(FloorComposite.class.getResource("/arrow_up_small.png")));
+            btnFloorUp.setActionCommand("UP");
+            btnFloorUp.addActionListener(this);
 
-add(btnFloorDown);
-} 
+//#if  ( DirectedCall  &&  ShortestPath  &&  CallButtons  &&  FloorPermission  &&  Service ) && ! FIFO  && ! Sabbath  && ! UndirectedCall
+            btnFloorUp.setEnabled(isEnabled);
+//#endif
 
-} 
+            add(btnFloorUp);
+        }
 
-//#endif 
+        if(level != 0) { //1
+            add(Box.createRigidArea(new Dimension(5, 0)));
+            btnFloorDown = new JToggleButton();
+            btnFloorDown.setIcon(new ImageIcon(FloorComposite.class.getResource("/arrow_down_small.png")));
+            btnFloorDown.setActionCommand("DOWN");
+            btnFloorDown.addActionListener(this);
 
-public void showImageClose() { 
-if(this.showsOpen)//1
-this.changeImage();
+//#if  ( DirectedCall  &&  ShortestPath  &&  CallButtons  &&  FloorPermission  &&  Service ) && ! FIFO  && ! Sabbath  && ! UndirectedCall
+            btnFloorDown.setEnabled(isEnabled);
+//#endif
 
-} 
+            add(btnFloorDown);
+        }
 
- } 
+    }
+
+//#endif
+
+    public void showImageClose()
+    {
+        if(this.showsOpen) { //1
+            this.changeImage();
+        }
+
+    }
+
+}
 
 

@@ -1,51 +1,52 @@
 
-//#if 616965462 
-// Compilation Unit of /AbstractRepositoryFactory.java 
- 
+//#if 616965462
+// Compilation Unit of /AbstractRepositoryFactory.java
+
 package healthwatcher.data.factories;
 
-//#if -384137679 
+//#if -384137679
 import healthwatcher.data.IComplaintRepository;
-//#endif 
+//#endif
 
 
-//#if 1109427072 
+//#if 1109427072
 import healthwatcher.data.IDiseaseRepository;
-//#endif 
+//#endif
 
 
-//#if 1231011736 
+//#if 1231011736
 import healthwatcher.data.IEmployeeRepository;
-//#endif 
+//#endif
 
 
-//#if -1898474554 
+//#if -1898474554
 import healthwatcher.data.IHealthUnitRepository;
-//#endif 
+//#endif
 
 
-//#if -937923247 
+//#if -937923247
 import healthwatcher.data.ISpecialityRepository;
-//#endif 
+//#endif
 
 
-//#if -1421604685 
+//#if -1421604685
 import healthwatcher.data.ISymptomRepository;
-//#endif 
+//#endif
 
-public abstract class AbstractRepositoryFactory  { 
-public abstract IDiseaseRepository createDiseaseRepository();
-public abstract ISpecialityRepository createMedicalSpecialityRepository();
-public abstract IComplaintRepository createComplaintRepository();
-public abstract IHealthUnitRepository createHealthUnitRepository();
-public abstract IEmployeeRepository createEmployeeRepository();
+public abstract class AbstractRepositoryFactory
+{
+    public abstract IDiseaseRepository createDiseaseRepository();
+    public abstract ISpecialityRepository createMedicalSpecialityRepository();
+    public abstract IComplaintRepository createComplaintRepository();
+    public abstract IHealthUnitRepository createHealthUnitRepository();
+    public abstract IEmployeeRepository createEmployeeRepository();
 
-//#if 1855699223 
-public abstract ISymptomRepository createSymptomRepository();
-//#endif 
+//#if 1855699223
+    public abstract ISymptomRepository createSymptomRepository();
+//#endif
 
- } 
+}
 
 
-//#endif 
+//#endif
 

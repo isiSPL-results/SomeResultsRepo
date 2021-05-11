@@ -1,211 +1,199 @@
 
-//#if 1494628522 
-// Compilation Unit of /UpdateEmployeeSearch.java 
- 
+//#if 1494628522
+// Compilation Unit of /UpdateEmployeeSearch.java
+
 package healthwatcher.view.command;
 
-//#if 2052140758 
+//#if 2052140758
 import healthwatcher.Constants;
-//#endif 
+//#endif
 
 
-//#if 814312252 
+//#if 814312252
 import healthwatcher.model.employee.Employee;
-//#endif 
+//#endif
 
 
-//#if 1801366871 
+//#if 1801366871
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if 635204975 
+//#if 635204975
 import java.io.FileNotFoundException;
-//#endif 
+//#endif
 
 
-//#if -1640921942 
+//#if -1640921942
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if -1020701709 
+//#if -1020701709
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if 975370614 
+//#if 975370614
 import javax.servlet.http.HttpSession;
-//#endif 
+//#endif
 
 
-//#if -406730992 
+//#if -406730992
 import lib.exceptions.InvalidSessionException;
-//#endif 
+//#endif
 
 
-//#if 1173084860 
+//#if 1173084860
 import lib.util.HTMLCode;
-//#endif 
+//#endif
 
 
-//#if -1841245145 
+//#if -1841245145
 import lib.util.Library;
-//#endif 
+//#endif
 
 public class UpdateEmployeeSearch extends Command
-  { 
+{
 
-//#if -46479562 
-public void execute() throws Exception
-    { 
-PrintWriter out = response.getWriter();
-try //1
-{ 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
+//#if -46479562
+    public void execute() throws Exception
+    {
+        PrintWriter out = response.getWriter();
+        try { //1
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
 
-Employee employee = (Employee) request
+            Employee employee = (Employee) request
                                 .get(Login.EMPLOYEE);
-String[] keywords = { "##LOGIN##", "##NAME##",
+            String[] keywords = { "##LOGIN##", "##NAME##",
                                   "##SERVLET_SERVER_PATH##", "##CLOSE##"
                                 };
-String[] newWords = { employee.getLogin(), employee.getName(),
+            String[] newWords = { employee.getLogin(), employee.getName(),
                                   Constants.SERVLET_SERVER_PATH,
                                   HTMLCode.closeAdministrator()
                                 };
-out.println(Library.getFileListReplace(keywords, newWords,
+            out.println(Library.getFileListReplace(keywords, newWords,
                                                    Constants.FORM_PATH + "UpdateEmployee.html"));
-} 
-catch (InvalidSessionException e) //1
-{ 
-out
+        } catch (InvalidSessionException e) { //1
+            out
             .println(HTMLCode
                      .errorPageAdministrator("<p>Ivalid Session! <br>You must <a href=\""
                                              + Constants.SYSTEM_LOGIN
                                              + "\">login</a> again!"));
-} 
+        }
 
-catch (FileNotFoundException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-} 
-
-
-} 
-
-//#endif 
+        catch (FileNotFoundException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+        }
 
 
-//#if 1129555916 
-public void execute()
-    { 
-PrintWriter out = null;
+    }
 
-//#if 777971307 
-HttpSession session = request.getSession(false);
-//#endif 
+//#endif
 
 
-//#if -295441495 
-response.setContentType("text/html");
-//#endif 
+//#if 1129555916
+    public void execute()
+    {
+        PrintWriter out = null;
 
-try //1
-{ 
-out = response.getWriter();
-} 
-
-//#if 1892554793 
-catch (IOException e1) //1
-{ 
-e1.printStackTrace();
-} 
-
-//#endif 
+//#if 777971307
+        HttpSession session = request.getSession(false);
+//#endif
 
 
-try //2
-{ 
+//#if -295441495
+        response.setContentType("text/html");
+//#endif
 
-//#if -1231403198 
-if(session == null)//1
-{ 
-throw new InvalidSessionException();
-} 
+        try { //1
+            out = response.getWriter();
+        }
 
-//#endif 
+//#if 1892554793
+        catch (IOException e1) { //1
+            e1.printStackTrace();
+        }
+
+//#endif
 
 
-//#if -24101778 
-Employee employee = (Employee) session
+        try { //2
+
+//#if -1231403198
+            if(session == null) { //1
+                throw new InvalidSessionException();
+            }
+
+//#endif
+
+
+//#if -24101778
+            Employee employee = (Employee) session
                                 .getValue(Login.EMPLOYEE);
-//#endif 
+//#endif
 
 
-//#if -592325621 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
+//#if -592325621
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
 
-//#endif 
+//#endif
 
 
-//#if -1957938846 
-Employee employee = (Employee) request
+//#if -1957938846
+            Employee employee = (Employee) request
                                 .get(Login.EMPLOYEE);
-//#endif 
+//#endif
 
-String[] keywords = { "##LOGIN##", "##NAME##",
+            String[] keywords = { "##LOGIN##", "##NAME##",
                                   "##SERVLET_SERVER_PATH##", "##CLOSE##"
                                 };
-String[] newWords = { employee.getLogin(), employee.getName(),
+            String[] newWords = { employee.getLogin(), employee.getName(),
                                   Constants.SERVLET_SERVER_PATH,
                                   HTMLCode.closeAdministrator()
                                 };
-out.println(Library.getFileListReplace(keywords, newWords,
+            out.println(Library.getFileListReplace(keywords, newWords,
                                                    Constants.FORM_PATH + "UpdateEmployee.html"));
-} 
+        }
 
-//#if 1987430505 
-catch (InvalidSessionException e) //1
-{ 
-out
+//#if 1987430505
+        catch (InvalidSessionException e) { //1
+            out
             .println(HTMLCode
                      .errorPageAdministrator("<p>Ivalid Session! <br>You must <a href=\""
                                              + Constants.SYSTEM_LOGIN
                                              + "\">login</a> again!"));
-} 
+        }
 
-//#endif 
-
-
-//#if 1162139605 
-catch (FileNotFoundException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-} 
-
-//#endif 
-
-finally { 
-out.close();
-} 
-
-} 
-
-//#endif 
-
-public UpdateEmployeeSearch(IFacade f)
-    { 
-super(f);
-} 
-
- } 
+//#endif
 
 
-//#endif 
+//#if 1162139605
+        catch (FileNotFoundException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+        }
+
+//#endif
+
+        finally {
+            out.close();
+        }
+
+    }
+
+//#endif
+
+    public UpdateEmployeeSearch(IFacade f)
+    {
+        super(f);
+    }
+
+}
+
+
+//#endif
 

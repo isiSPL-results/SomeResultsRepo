@@ -1,42 +1,43 @@
 
-//#if  ModelBase  
-// Compilation Unit of /LifeForm.java 
- 
-class LifeForm  { 
-private final int type;
-private final int[] neighbourhood;
-private final int x;
-private final int y;
-public int getX()
-    { 
-return x;
-} 
+//#if  ModelBase
+// Compilation Unit of /LifeForm.java
 
-public int getType()
-    { 
-return type;
-} 
+class LifeForm
+{
+    private final int type;
+    private final int[] neighbourhood;
+    private final int x;
+    private final int y;
+    public int getX()
+    {
+        return x;
+    }
 
-public LifeForm(int x, int y, int type, int[] neighbourhood)
-    { 
-this.x = x;
-this.y = y;
-this.type = type;
-this.neighbourhood = neighbourhood;
-} 
+    public int getType()
+    {
+        return type;
+    }
 
-public int getY()
-    { 
-return y;
-} 
+    public LifeForm(int x, int y, int type, int[] neighbourhood)
+    {
+        this.x = x;
+        this.y = y;
+        this.type = type;
+        this.neighbourhood = neighbourhood;
+    }
 
-public int[] getNeighbourhood()
-    { 
-return neighbourhood;
-} 
+    public int getY()
+    {
+        return y;
+    }
 
- } 
+    public int[] getNeighbourhood()
+    {
+        return neighbourhood;
+    }
+
+}
 
 
-//#endif 
+//#endif
 

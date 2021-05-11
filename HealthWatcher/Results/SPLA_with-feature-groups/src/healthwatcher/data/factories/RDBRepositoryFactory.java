@@ -1,117 +1,117 @@
 
-//#if 835694403 
-// Compilation Unit of /RDBRepositoryFactory.java 
- 
+//#if 835694403
+// Compilation Unit of /RDBRepositoryFactory.java
+
 package healthwatcher.data.factories;
 
-//#if 1290255230 
+//#if 1290255230
 import healthwatcher.data.IComplaintRepository;
-//#endif 
+//#endif
 
 
-//#if -1503352819 
+//#if -1503352819
 import healthwatcher.data.IDiseaseRepository;
-//#endif 
+//#endif
 
 
-//#if 1839213739 
+//#if 1839213739
 import healthwatcher.data.IEmployeeRepository;
-//#endif 
+//#endif
 
 
-//#if -1531901927 
+//#if -1531901927
 import healthwatcher.data.IHealthUnitRepository;
-//#endif 
+//#endif
 
 
-//#if -571350620 
+//#if -571350620
 import healthwatcher.data.ISpecialityRepository;
-//#endif 
+//#endif
 
 
-//#if 1242705905 
+//#if 1242705905
 import healthwatcher.data.rdb.ComplaintRepositoryRDB;
-//#endif 
+//#endif
 
 
-//#if 1529715356 
+//#if 1529715356
 import healthwatcher.data.rdb.DiseaseTypeRepositoryRDB;
-//#endif 
+//#endif
 
 
-//#if -1132438990 
+//#if -1132438990
 import healthwatcher.data.rdb.EmployeeRepositoryRDB;
-//#endif 
+//#endif
 
 
-//#if 2025246276 
+//#if 2025246276
 import healthwatcher.data.rdb.HealthUnitRepositoryRDB;
-//#endif 
+//#endif
 
 
-//#if 442139865 
+//#if 442139865
 import healthwatcher.data.rdb.SpecialityRepositoryRDB;
-//#endif 
+//#endif
 
 
-//#if -841127371 
+//#if -841127371
 import lib.persistence.IPersistenceMechanism;
-//#endif 
+//#endif
 
 
-//#if 260582720 
+//#if 260582720
 import healthwatcher.data.ISymptomRepository;
-//#endif 
+//#endif
 
 
-//#if 695092527 
+//#if 695092527
 import healthwatcher.data.rdb.SymptomRepositoryRDB;
-//#endif 
+//#endif
 
 public class RDBRepositoryFactory extends AbstractRepositoryFactory
-  { 
-protected IPersistenceMechanism pm = null;
-public IEmployeeRepository createEmployeeRepository()
-    { 
-return new EmployeeRepositoryRDB(pm);
-} 
+{
+    protected IPersistenceMechanism pm = null;
+    public IEmployeeRepository createEmployeeRepository()
+    {
+        return new EmployeeRepositoryRDB(pm);
+    }
 
-public ISpecialityRepository createMedicalSpecialityRepository()
-    { 
-return new SpecialityRepositoryRDB(pm);
-} 
+    public ISpecialityRepository createMedicalSpecialityRepository()
+    {
+        return new SpecialityRepositoryRDB(pm);
+    }
 
-public IHealthUnitRepository createHealthUnitRepository()
-    { 
-return new HealthUnitRepositoryRDB(pm);
-} 
+    public IHealthUnitRepository createHealthUnitRepository()
+    {
+        return new HealthUnitRepositoryRDB(pm);
+    }
 
-public IDiseaseRepository createDiseaseRepository()
-    { 
-return new DiseaseTypeRepositoryRDB(pm);
-} 
+    public IDiseaseRepository createDiseaseRepository()
+    {
+        return new DiseaseTypeRepositoryRDB(pm);
+    }
 
-public IComplaintRepository createComplaintRepository()
-    { 
-return new ComplaintRepositoryRDB(pm);
-} 
-
-
-//#if 1650814747 
-public ISymptomRepository createSymptomRepository()
-    { 
-return new SymptomRepositoryRDB(pm);
-} 
-
-//#endif 
-
-public RDBRepositoryFactory(IPersistenceMechanism pm)
-    { 
-this.pm = pm;
-} 
-
- } 
+    public IComplaintRepository createComplaintRepository()
+    {
+        return new ComplaintRepositoryRDB(pm);
+    }
 
 
-//#endif 
+//#if 1650814747
+    public ISymptomRepository createSymptomRepository()
+    {
+        return new SymptomRepositoryRDB(pm);
+    }
+
+//#endif
+
+    public RDBRepositoryFactory(IPersistenceMechanism pm)
+    {
+        this.pm = pm;
+    }
+
+}
+
+
+//#endif
 

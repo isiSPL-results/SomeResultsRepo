@@ -1,44 +1,44 @@
 digraph G {
-  compound = true;
-  rankdir = "BT"; 
-  nodesep= 0.5;
-  ranksep =  10; 
+    compound = true;
+    rankdir = "BT";
+    nodesep= 0.5;
+    ranksep =  10;
 
- // CO-OCCURENCE GROUPS 
- subgraph "cluster_0" {
-		color=black;
-		node [style=filled,color=white]; 
-"Composed"; "UndoRedoGenerator"; "UndoRedo"; 
- label = "COOCURENCE_GRP_0";
-	}
- subgraph "cluster_1" {
-		color=black;
-		node [style=filled,color=white]; 
-"Options"; "Generator"; "DefaultGenerator"; "FormDefaultGenerator"; "ConcretGenerator"; "FormGenerator"; "AbstractGenerator"; 
- label = "COOCURENCE_GRP_1";
-	}
- subgraph "cluster_2" {
-		color=black;
-		node [style=filled,color=white]; 
-"GameOfLife"; "View"; "Model"; 
- label = "COOCURENCE_GRP_2";
-	}
+// CO-OCCURENCE GROUPS
+    subgraph "cluster_0" {
+        color=black;
+        node [style=filled,color=white];
+        "Composed"; "UndoRedoGenerator"; "UndoRedo";
+        label = "COOCURENCE_GRP_0";
+    }
+    subgraph "cluster_1" {
+        color=black;
+        node [style=filled,color=white];
+        "Options"; "Generator"; "DefaultGenerator"; "FormDefaultGenerator"; "ConcretGenerator"; "FormGenerator"; "AbstractGenerator";
+        label = "COOCURENCE_GRP_1";
+    }
+    subgraph "cluster_2" {
+        color=black;
+        node [style=filled,color=white];
+        "GameOfLife"; "View"; "Model";
+        label = "COOCURENCE_GRP_2";
+    }
 
- // IMPLICATION 
+// IMPLICATION
 //"A" -> "B" [lhead = cluster_0;color="blue"]
-"IO" -> "Options"[ lhead = cluster_1;color="blue"]
-"PopUpMenu" -> "Options"[ lhead = cluster_1;color="blue"]
-"ModelBase" -> "GameOfLife"[ lhead = cluster_2;color="blue"]
-"Options" -> "GameOfLife"[ ltail = cluster_1; lhead = cluster_2;color="blue"]
+    "IO" -> "Options"[ lhead = cluster_1; color="blue"]
+    "PopUpMenu" -> "Options"[ lhead = cluster_1; color="blue"]
+    "ModelBase" -> "GameOfLife"[ lhead = cluster_2; color="blue"]
+    "Options" -> "GameOfLife"[ ltail = cluster_1; lhead = cluster_2; color="blue"]
 
- // MUTEX 
-//"A" ->! "C" [arrowhead=invdot;color="red";] 
-"Composed" -> "IO" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"Composed" -> "PopUpMenu" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"Composed" -> "Test" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"IO" -> "Composed" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"IO" -> "Test" [ arrowhead=normalicurvecurve;color="red";]
-"PopUpMenu" -> "Composed" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"Test" -> "Composed" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"Test" -> "IO" [ arrowhead=normalicurvecurve;color="red";]
+// MUTEX
+//"A" ->! "C" [arrowhead=invdot;color="red";]
+    "Composed" -> "IO" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "Composed" -> "PopUpMenu" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "Composed" -> "Test" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "IO" -> "Composed" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "IO" -> "Test" [ arrowhead=normalicurvecurve; color="red";]
+    "PopUpMenu" -> "Composed" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "Test" -> "Composed" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "Test" -> "IO" [ arrowhead=normalicurvecurve; color="red";]
 }

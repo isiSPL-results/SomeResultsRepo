@@ -1,13 +1,13 @@
-// Compilation Unit of /ObjectNotValidException.java 
- 
+// Compilation Unit of /ObjectNotValidException.java
+
 package lib.exceptions;
 public class ObjectNotValidException extends Exception
-  { 
-public ObjectNotValidException(String erro)
-    { 
-super("ExcecaoDados: " + erro);
-} 
+{
+    public ObjectNotValidException(String erro)
+    {
+        super("ExcecaoDados: " + erro);
+    }
 
- } 
+}
 
 

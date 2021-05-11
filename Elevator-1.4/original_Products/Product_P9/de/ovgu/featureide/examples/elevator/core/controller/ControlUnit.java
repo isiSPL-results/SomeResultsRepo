@@ -2,17 +2,17 @@
  * Copyright (C) 2005-2019  FeatureIDE team, University of Magdeburg, Germany
  *
  * This file is part of FeatureIDE.
- * 
+ *
  * FeatureIDE is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  * (at your option) any later version.
- * 
+ *
  * FeatureIDE is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU Lesser General Public License
  * along with FeatureIDE.  If not, see <http://www.gnu.org/licenses/>.
  *
@@ -31,114 +31,117 @@ import java.util.List;
 import de.ovgu.featureide.examples.elevator.core.model.Elevator;
 import de.ovgu.featureide.examples.elevator.core.model.ElevatorState;
 
-public class ControlUnit implements Runnable 
-											//#if CallButtons
+public class ControlUnit implements Runnable
+//#if CallButtons
 //@											, ITriggerListener
-											//#endif
-											{
-	
-	public static int TIME_DELAY = 700;
-	public boolean run = true;
+//#endif
+{
 
-	private Elevator elevator;
-	
-	//#if CallButtons
+    public static int TIME_DELAY = 700;
+    public boolean run = true;
+
+    private Elevator elevator;
+
+    //#if CallButtons
 //@	private static final Object calc = new Object();
-	//#if FIFO
+    //#if FIFO
 //@	private RequestComparator comparator = new RequestComparator();
-	//#elif DirectedCall
+    //#elif DirectedCall
 //@ 	private RequestComparator comparator = new Request.UpComparator(this);
 //@ 	private RequestComparator downComparator = new Request.DownComparator(this);
-	//#else
+    //#else
 //@ 	private RequestComparator comparator = new RequestComparator(this);
-	//#endif
+    //#endif
 //@	private PriorityBlockingQueue<Request> q = new PriorityBlockingQueue<>(1, comparator);
-	//#endif
-	
-	public ControlUnit(Elevator elevator) {
-		this.elevator = elevator;
-	}
+    //#endif
 
-	public void run() {
-		while (run) {
-			final ElevatorState state;
-			//#if CallButtons
+    public ControlUnit(Elevator elevator)
+    {
+        this.elevator = elevator;
+    }
+
+    public void run()
+    {
+        while (run) {
+            final ElevatorState state;
+            //#if CallButtons
 //@			synchronized (calc) {
-			//#endif
-				// Get next state of the elevator			
-				state = calculateNextState();
-				elevator.setCurrentState(state);
-				switch (state) {
-				case MOVING_UP:
-					elevator.setDirection(ElevatorState.MOVING_UP);
-					elevator.setCurrentFloor(elevator.getCurrentFloor() + 1);
-					break;
-				case MOVING_DOWN:
-					elevator.setDirection(ElevatorState.MOVING_DOWN);
-					elevator.setCurrentFloor(elevator.getCurrentFloor() - 1);
-					break;
-				case FLOORING:
-					this.triggerOnTick();
-					break;
-				}
-				//#if DirectedCall
+            //#endif
+            // Get next state of the elevator
+            state = calculateNextState();
+            elevator.setCurrentState(state);
+            switch (state) {
+            case MOVING_UP:
+                elevator.setDirection(ElevatorState.MOVING_UP);
+                elevator.setCurrentFloor(elevator.getCurrentFloor() + 1);
+                break;
+            case MOVING_DOWN:
+                elevator.setDirection(ElevatorState.MOVING_DOWN);
+                elevator.setCurrentFloor(elevator.getCurrentFloor() - 1);
+                break;
+            case FLOORING:
+                this.triggerOnTick();
+                break;
+            }
+            //#if DirectedCall
 //@ 				sortQueue();
-				//#endif
-			//#if CallButtons
+            //#endif
+            //#if CallButtons
 //@			}
-			//#endif
-			
-			// Moving or Waiting
-			try {
-				Thread.sleep(TIME_DELAY);
-			} catch (InterruptedException e) {
-			}
-			
-			switch (state) {
-			case MOVING_UP:
-				this.triggerOnTick();
-				break;
-			case MOVING_DOWN:
-				this.triggerOnTick();
-				break;
-			default:
-				break;
-			}
-		}
-	}
+            //#endif
 
-	private ElevatorState calculateNextState() {
-		final int currentFloor = elevator.getCurrentFloor();
-		//#if Service
- 		if (isInService()) {
- 			if (currentFloor != elevator.getMinFloor()) {
- 				return ElevatorState.MOVING_DOWN;
- 			} else {
- 				return ElevatorState.FLOORING;
- 			}
- 		}
-		//#endif
-		//#if Sabbath
- 		switch (elevator.getCurrentState()) {
- 		case FLOORING:
- 			switch (elevator.getDirection()) {
- 			case MOVING_DOWN:
- 				return (currentFloor <= elevator.getMinFloor()) ? ElevatorState.MOVING_UP : ElevatorState.MOVING_DOWN;
- 			case MOVING_UP:
- 				return (currentFloor >= elevator.getMaxFloor()) ? ElevatorState.MOVING_DOWN : ElevatorState.MOVING_UP;
- 			default:
- 				return ElevatorState.MOVING_UP;
- 			}
- 		default:
- 			return ElevatorState.FLOORING;
- 		}
-		//#endif
-		//#if CallButtons
+            // Moving or Waiting
+            try {
+                Thread.sleep(TIME_DELAY);
+            } catch (InterruptedException e) {
+            }
+
+            switch (state) {
+            case MOVING_UP:
+                this.triggerOnTick();
+                break;
+            case MOVING_DOWN:
+                this.triggerOnTick();
+                break;
+            default:
+                break;
+            }
+        }
+    }
+
+    private ElevatorState calculateNextState()
+    {
+        final int currentFloor = elevator.getCurrentFloor();
+        //#if Service
+        if (isInService()) {
+            if (currentFloor != elevator.getMinFloor()) {
+                return ElevatorState.MOVING_DOWN;
+            } else {
+                return ElevatorState.FLOORING;
+            }
+        }
+        //#endif
+        //#if Sabbath
+        switch (elevator.getCurrentState()) {
+        case FLOORING:
+            switch (elevator.getDirection()) {
+            case MOVING_DOWN:
+                return (currentFloor <= elevator.getMinFloor()) ? ElevatorState.MOVING_UP : ElevatorState.MOVING_DOWN;
+            case MOVING_UP:
+                return (currentFloor >= elevator.getMaxFloor()) ? ElevatorState.MOVING_DOWN : ElevatorState.MOVING_UP;
+            default:
+                return ElevatorState.MOVING_UP;
+            }
+        default:
+            return ElevatorState.FLOORING;
+        }
+        //#endif
+        //#if CallButtons
 //@		return getElevatorState(currentFloor);
-		//#endif
-	}
-	
-	//#if CallButtons
+        //#endif
+    }
+
+    //#if CallButtons
 //@	private ElevatorState getElevatorState(int currentFloor) {
 //@		if (!q.isEmpty()) {
 //@			Request poll = q.peek();
@@ -157,9 +160,9 @@ public class ControlUnit implements Runnable
 //@		}
 //@		return ElevatorState.FLOORING;
 //@	}
-	//#endif
+    //#endif
 
-	//#if DirectedCall
+    //#if DirectedCall
 //@ 	private void sortQueue() {
 //@ 		final ElevatorState direction = elevator.getCurrentState();
 //@ 		final PriorityBlockingQueue<Request> pQueue;
@@ -176,21 +179,23 @@ public class ControlUnit implements Runnable
 //@ 		q.drainTo(pQueue);
 //@ 		q = pQueue;
 //@ 	}
-	//#endif
+    //#endif
 
-	private List<ITickListener> tickListener = new ArrayList<>();
+    private List<ITickListener> tickListener = new ArrayList<>();
 
-	public void addTickListener(ITickListener ticker) {
-		this.tickListener.add(ticker);
-	}
+    public void addTickListener(ITickListener ticker)
+    {
+        this.tickListener.add(ticker);
+    }
 
-	private void triggerOnTick() {
-		for (ITickListener listener : this.tickListener) {
-			listener.onTick(elevator);
-		}
-	}
+    private void triggerOnTick()
+    {
+        for (ITickListener listener : this.tickListener) {
+            listener.onTick(elevator);
+        }
+    }
 
-	//#if CallButtons
+    //#if CallButtons
 //@	private void triggerOnRequest(Request request) {
 //@		for (ITickListener listener : this.tickListener) {
 //@			listener.onRequestFinished(elevator, request);
@@ -203,34 +208,36 @@ public class ControlUnit implements Runnable
 //@			q.offer(req);
 //@		}
 //@	}
-//@	
+//@
 //@	public int getCurrentFloor() {
 //@		return elevator.getCurrentFloor();
 //@	}
-	//#endif
+    //#endif
 
-	//#if Service
- 	public void setService(boolean modus) {
- 		elevator.setService(modus);
- 	}
- 		
- 	public boolean isInService() {
- 		return elevator.isInService();
- 	}
-	//#endif
+    //#if Service
+    public void setService(boolean modus)
+    {
+        elevator.setService(modus);
+    }
 
-	//#if FloorPermission
+    public boolean isInService()
+    {
+        return elevator.isInService();
+    }
+    //#endif
+
+    //#if FloorPermission
 //@ 	public void setDisabledFloors(List<Integer> disabledFloors) {
 //@ 		elevator.setDisabledFloors(disabledFloors);
 //@ 	}
-//@ 	
+//@
 //@ 	public List<Integer> getDisabledFloors() {
 //@ 		return elevator.getDisabledFloors();
 //@ 	}
-//@ 	
+//@
 //@ 	public boolean isDisabledFloor(int level) {
 //@ 		return !elevator.getDisabledFloors().contains(level);
 //@ 	}
-	//#endif
+    //#endif
 
 }

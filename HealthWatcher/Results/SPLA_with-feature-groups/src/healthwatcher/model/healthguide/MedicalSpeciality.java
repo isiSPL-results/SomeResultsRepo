@@ -1,186 +1,179 @@
-// Compilation Unit of /MedicalSpeciality.java 
- 
+// Compilation Unit of /MedicalSpeciality.java
+
 package healthwatcher.model.healthguide;
 
-//#if 1550904580 
+//#if 1550904580
 import java.rmi.RemoteException;
-//#endif 
+//#endif
 
 
-//#if -1224242946 
+//#if -1224242946
 import java.util.ArrayList;
-//#endif 
+//#endif
 
 
-//#if -1857415725 
+//#if -1857415725
 import java.util.Iterator;
-//#endif 
+//#endif
 
 
-//#if -682129757 
+//#if -682129757
 import java.util.List;
-//#endif 
+//#endif
 
 
-//#if -2039586271 
+//#if -2039586271
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if 1089505819 
+//#if 1089505819
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 2104147229 
+//#if 2104147229
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 741054403 
+//#if 741054403
 import lib.exceptions.TransactionException;
-//#endif 
+//#endif
 
 
-//#if -152858379 
+//#if -152858379
 import lib.patterns.observer.Observer;
-//#endif 
+//#endif
 
 
-//#if 1178824127 
+//#if 1178824127
 import lib.patterns.observer.Subject;
-//#endif 
+//#endif
 
 public class MedicalSpeciality implements java.io.Serializable
-, 
-//#if -1017485891 
-Subject
-//#endif 
+    ,
+//#if -1017485891
+    Subject
+//#endif
 
-  { 
-private int codigo;
-private String descricao;
+{
+    private int codigo;
+    private String descricao;
 
-//#if 510092319 
-private List subscribers = new ArrayList();
-//#endif 
+//#if 510092319
+    private List subscribers = new ArrayList();
+//#endif
 
-public void setCodigo(int cod)
-    { 
-this.codigo = cod;
-} 
-
-
-//#if 1812994921 
-public void notifyObservers()
-    { 
-for (Iterator it = subscribers.iterator(); it.hasNext();) //1
-{ 
-Observer observer = (Observer) it.next();
-try //1
-{ 
-observer.notify(this);
-} 
-
-//#if -2012977430 
-catch (RemoteException e) //1
-{ 
-e.printStackTrace();
-} 
-
-//#endif 
+    public void setCodigo(int cod)
+    {
+        this.codigo = cod;
+    }
 
 
-//#if -2074560916 
-catch (ObjectNotValidException e) //1
-{ 
-e.printStackTrace();
-} 
+//#if 1812994921
+    public void notifyObservers()
+    {
+        for (Iterator it = subscribers.iterator(); it.hasNext();) { //1
+            Observer observer = (Observer) it.next();
+            try { //1
+                observer.notify(this);
+            }
 
-//#endif 
+//#if -2012977430
+            catch (RemoteException e) { //1
+                e.printStackTrace();
+            }
 
-
-//#if -1484842126 
-catch (ObjectNotFoundException e) //1
-{ 
-e.printStackTrace();
-} 
-
-//#endif 
-
-
-//#if -1319837130 
-catch (TransactionException e) //1
-{ 
-e.printStackTrace();
-} 
-
-//#endif 
+//#endif
 
 
-//#if -202440722 
-catch (RepositoryException e) //1
-{ 
-e.printStackTrace();
-} 
+//#if -2074560916
+            catch (ObjectNotValidException e) { //1
+                e.printStackTrace();
+            }
 
-//#endif 
-
-
-} 
-
-} 
-
-//#endif 
+//#endif
 
 
-//#if -491663141 
-public void removeObserver(Observer observer)
-    { 
-subscribers.remove(observer);
-} 
+//#if -1484842126
+            catch (ObjectNotFoundException e) { //1
+                e.printStackTrace();
+            }
 
-//#endif 
-
-public String getDescricao()
-    { 
-return this.descricao;
-} 
-
-public MedicalSpeciality(String descricao)
-    { 
-this.descricao = descricao;
-} 
-
-public String toString()
-    { 
-return descricao;
-} 
-
-public int getCodigo()
-    { 
-return this.codigo;
-} 
-
-public void setDescricao(String descricao)
-    { 
-this.descricao = descricao;
-
-//#if 1055320214 
-notifyObservers();
-//#endif 
-
-} 
+//#endif
 
 
-//#if -1209058336 
-public void addObserver(Observer observer)
-    { 
-subscribers.add(observer);
-} 
+//#if -1319837130
+            catch (TransactionException e) { //1
+                e.printStackTrace();
+            }
 
-//#endif 
+//#endif
 
- } 
+
+//#if -202440722
+            catch (RepositoryException e) { //1
+                e.printStackTrace();
+            }
+
+//#endif
+
+
+        }
+
+    }
+
+//#endif
+
+
+//#if -491663141
+    public void removeObserver(Observer observer)
+    {
+        subscribers.remove(observer);
+    }
+
+//#endif
+
+    public String getDescricao()
+    {
+        return this.descricao;
+    }
+
+    public MedicalSpeciality(String descricao)
+    {
+        this.descricao = descricao;
+    }
+
+    public String toString()
+    {
+        return descricao;
+    }
+
+    public int getCodigo()
+    {
+        return this.codigo;
+    }
+
+    public void setDescricao(String descricao)
+    {
+        this.descricao = descricao;
+
+//#if 1055320214
+        notifyObservers();
+//#endif
+
+    }
+
+
+//#if -1209058336
+    public void addObserver(Observer observer)
+    {
+        subscribers.add(observer);
+    }
+
+//#endif
+
+}
 
 

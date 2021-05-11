@@ -1,17 +1,18 @@
 
-//#if  BFS  
-// Compilation Unit of /GlobalVarsWrapper.java 
- 
+//#if  BFS
+// Compilation Unit of /GlobalVarsWrapper.java
+
 package GPL;
 
-//#if  BFS  
+//#if  BFS
 import java.util.LinkedList;
-//#endif 
+//#endif
 
-public class GlobalVarsWrapper  { 
-public static LinkedList Queue =  new LinkedList();
- } 
+public class GlobalVarsWrapper
+{
+    public static LinkedList Queue =  new LinkedList();
+}
 
 
-//#endif 
+//#endif
 

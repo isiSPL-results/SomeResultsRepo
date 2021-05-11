@@ -1,48 +1,48 @@
 
-//#if 1744190245 
-// Compilation Unit of /SpecialComplaintStateOpen.java 
- 
+//#if 1744190245
+// Compilation Unit of /SpecialComplaintStateOpen.java
+
 package healthwatcher.model.complaint.state;
 
-//#if -1082727862 
+//#if -1082727862
 import healthwatcher.model.address.Address;
-//#endif 
+//#endif
 
 public class SpecialComplaintStateOpen extends SpecialComplaintState
-  { 
-public void setIdade(short newIdade)
-    { 
-idade = newIdade;
-} 
+{
+    public void setIdade(short newIdade)
+    {
+        idade = newIdade;
+    }
 
-public void setOcupacao(java.lang.String newOcupacao)
-    { 
-ocupacao = newOcupacao;
-} 
+    public void setOcupacao(java.lang.String newOcupacao)
+    {
+        ocupacao = newOcupacao;
+    }
 
-public SpecialComplaintStateOpen()
-    { 
-super();
-} 
+    public SpecialComplaintStateOpen()
+    {
+        super();
+    }
 
-public SpecialComplaintStateOpen(short idade, String instrucao,
+    public SpecialComplaintStateOpen(short idade, String instrucao,
                                      String ocupacao, Address enderecoOcorrencia)
-    { 
-super(idade, instrucao, ocupacao, enderecoOcorrencia);
-} 
+    {
+        super(idade, instrucao, ocupacao, enderecoOcorrencia);
+    }
 
-public void setInstrucao(java.lang.String newInstrucao)
-    { 
-instrucao = newInstrucao;
-} 
+    public void setInstrucao(java.lang.String newInstrucao)
+    {
+        instrucao = newInstrucao;
+    }
 
-public void setEnderecoOcorrencia(Address newEnderecoOcorrencia)
-    { 
-enderecoOcorrencia = newEnderecoOcorrencia;
-} 
+    public void setEnderecoOcorrencia(Address newEnderecoOcorrencia)
+    {
+        enderecoOcorrencia = newEnderecoOcorrencia;
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

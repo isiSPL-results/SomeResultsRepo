@@ -28,7 +28,7 @@ public  class  Print  implements Printable
     {
         PrinterJob printJob = PrinterJob.getPrinterJob();
         printJob.setPrintable(this);
-        if(printJob.printDialog()){
+        if(printJob.printDialog()) {
             try {
                 printJob.print();
             } catch(PrinterException pe) {

@@ -1,0 +1,26 @@
+// Compilation Unit of /UMLCollaborationConstrainingElementListModel.java 
+ 
+package org.argouml.uml.ui.behavior.collaborations;
+import org.argouml.model.Model;
+import org.argouml.uml.ui.UMLModelElementListModel2;
+public class UMLCollaborationConstrainingElementListModel extends UMLModelElementListModel2
+  { 
+public UMLCollaborationConstrainingElementListModel()
+    { 
+super("constrainingElement");
+} 
+
+protected boolean isValidElement(Object elem)
+    { 
+return (Model.getFacade().getConstrainingElements(getTarget())
+                .contains(elem));
+} 
+
+protected void buildModelList()
+    { 
+setAllElements(Model.getFacade().getConstrainingElements(getTarget()));
+} 
+
+ } 
+
+

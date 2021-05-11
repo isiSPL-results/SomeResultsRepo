@@ -1,7 +1,7 @@
 
-//#if 1743544417 
-// Compilation Unit of /ServletInsertAnimalComplaint.java 
- 
+//#if 1743544417
+// Compilation Unit of /ServletInsertAnimalComplaint.java
+
 package healthwatcher.view.servlets;
 import healthwatcher.model.address.Address;
 import healthwatcher.model.complaint.AnimalComplaint;
@@ -22,108 +22,99 @@ import lib.exceptions.TransactionException;
 import lib.util.Date;
 import lib.util.HTMLCode;
 public class ServletInsertAnimalComplaint extends HWServlet
-  { 
-public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
-    { 
-PrintWriter out;
-Complaint queixa;
-response.setContentType("text/html");
-out = response.getWriter();
-try //1
-{ 
-String descricaoQueixa = request.getParameter("descricaoQueixa");
-String observacaoQueixa = request.getParameter("observacaoQueixa");
-String nomeSolicitante = request.getParameter("nomeSolicitante");
-String ruaSolicitante = request.getParameter("ruaSolicitante");
-String compSolicitante = request.getParameter("compSolicitante");
-String bairroSolicitante = request.getParameter("bairroSolicitante");
-String cidadeSolicitante = request.getParameter("cidadeSolicitante");
-String ufSolicitante = request.getParameter("ufSolicitante");
-String cepSolicitante = request.getParameter("cepSolicitante ");
-String telefoneSolicitante = request.getParameter("telefoneSolicitante");
-Address endSolicitante = new Address(ruaSolicitante,
+{
+    public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        PrintWriter out;
+        Complaint queixa;
+        response.setContentType("text/html");
+        out = response.getWriter();
+        try { //1
+            String descricaoQueixa = request.getParameter("descricaoQueixa");
+            String observacaoQueixa = request.getParameter("observacaoQueixa");
+            String nomeSolicitante = request.getParameter("nomeSolicitante");
+            String ruaSolicitante = request.getParameter("ruaSolicitante");
+            String compSolicitante = request.getParameter("compSolicitante");
+            String bairroSolicitante = request.getParameter("bairroSolicitante");
+            String cidadeSolicitante = request.getParameter("cidadeSolicitante");
+            String ufSolicitante = request.getParameter("ufSolicitante");
+            String cepSolicitante = request.getParameter("cepSolicitante ");
+            String telefoneSolicitante = request.getParameter("telefoneSolicitante");
+            Address endSolicitante = new Address(ruaSolicitante,
                                                  compSolicitante,
                                                  cepSolicitante,
                                                  ufSolicitante,
                                                  telefoneSolicitante,
                                                  cidadeSolicitante,
                                                  bairroSolicitante);
-String emailSolicitante = request.getParameter("emailSolicitante");
-String nomeAnimal = request.getParameter("nomeAnimal");
-short qtdeAnimal = Short.parseShort(request.getParameter("qtdeAnimal"));
-int diaIncomodo = Integer.parseInt(request.getParameter("diaIncomodo"));
-int mesIncomodo = Integer.parseInt(request.getParameter("mesIncomodo"));
-int anoIncomodo = Integer.parseInt(request.getParameter("anoIncomodo"));
-String ruaOcorrencia = request.getParameter("ruaOcorrencia");
-String compOcorrencia = request.getParameter("compOcorrencia");
-String bairroOcorrencia = request.getParameter("bairroOcorrencia");
-String cidadeOcorrencia = request.getParameter("cidadeOcorrencia");
-String ufOcorrencia = request.getParameter("ufOcorrencia");
-String cepOcorrencia = request.getParameter("cepOcorrencia ");
-String telefoneOcorrencia = request.getParameter("telefoneOcorrencia");
-Address endOcorrencia = new Address(ruaOcorrencia,
+            String emailSolicitante = request.getParameter("emailSolicitante");
+            String nomeAnimal = request.getParameter("nomeAnimal");
+            short qtdeAnimal = Short.parseShort(request.getParameter("qtdeAnimal"));
+            int diaIncomodo = Integer.parseInt(request.getParameter("diaIncomodo"));
+            int mesIncomodo = Integer.parseInt(request.getParameter("mesIncomodo"));
+            int anoIncomodo = Integer.parseInt(request.getParameter("anoIncomodo"));
+            String ruaOcorrencia = request.getParameter("ruaOcorrencia");
+            String compOcorrencia = request.getParameter("compOcorrencia");
+            String bairroOcorrencia = request.getParameter("bairroOcorrencia");
+            String cidadeOcorrencia = request.getParameter("cidadeOcorrencia");
+            String ufOcorrencia = request.getParameter("ufOcorrencia");
+            String cepOcorrencia = request.getParameter("cepOcorrencia ");
+            String telefoneOcorrencia = request.getParameter("telefoneOcorrencia");
+            Address endOcorrencia = new Address(ruaOcorrencia,
                                                 compOcorrencia,
                                                 cepOcorrencia,
                                                 ufOcorrencia,
                                                 telefoneOcorrencia,
                                                 cidadeOcorrencia,
                                                 bairroOcorrencia);
-Calendar agora              = Calendar.getInstance();
-queixa = new AnimalComplaint(nomeSolicitante, descricaoQueixa, observacaoQueixa,
+            Calendar agora              = Calendar.getInstance();
+            queixa = new AnimalComplaint(nomeSolicitante, descricaoQueixa, observacaoQueixa,
                                          emailSolicitante, null, 1, null,
                                          new Date(agora.get(Calendar.DAY_OF_MONTH), agora.get(Calendar.MONTH),
                                                   agora.get(Calendar.YEAR)), endSolicitante, qtdeAnimal,
                                          new Date(diaIncomodo, mesIncomodo,anoIncomodo), nomeAnimal,endOcorrencia);
-int codigo = facade.insertComplaint(queixa);
-out.println(HTMLCode.htmlPage("Complaint inserted",
+            int codigo = facade.insertComplaint(queixa);
+            out.println(HTMLCode.htmlPage("Complaint inserted",
                                           "<p> <h2> Animal Complaint inserted</h2> </p>" +
                                           "<p> <h2> Save the complaint number: " + codigo + "</h2> </p>"));
-} 
-catch(RemoteException e) //1
-{ 
-out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
-} 
+        } catch(RemoteException e) { //1
+            out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
+        }
 
-catch (RepositoryException e) //1
-{ 
-out.println(HTMLCode.errorPage("Problemas com o banco de dados"));
-} 
+        catch (RepositoryException e) { //1
+            out.println(HTMLCode.errorPage("Problemas com o banco de dados"));
+        }
 
-catch (TransactionException e) //1
-{ 
-out.println(HTMLCode.errorPage("Erro no mecanismo de persist?ncia"));
-} 
+        catch (TransactionException e) { //1
+            out.println(HTMLCode.errorPage("Erro no mecanismo de persist?ncia"));
+        }
 
-catch (ObjectAlreadyInsertedException e) //1
-{ 
-out.println(HTMLCode.errorPage("Complaint already inserted"));
-} 
+        catch (ObjectAlreadyInsertedException e) { //1
+            out.println(HTMLCode.errorPage("Complaint already inserted"));
+        }
 
-catch (ObjectNotValidException e) //1
-{ 
-out.println(HTMLCode.errorPage("Unespected error. Try to contact the support team."));
-} 
+        catch (ObjectNotValidException e) { //1
+            out.println(HTMLCode.errorPage("Unespected error. Try to contact the support team."));
+        }
 
-catch (CommunicationException e) //1
-{ 
-out.println(HTMLCode.errorPage("Erro ao inserir esta queixa"));
-e.printStackTrace(out);
-} 
+        catch (CommunicationException e) { //1
+            out.println(HTMLCode.errorPage("Erro ao inserir esta queixa"));
+            e.printStackTrace(out);
+        }
 
-catch(InvalidDateException e) //1
-{ 
-out.println(HTMLCode.errorPage("Invalid date."));
-} 
+        catch(InvalidDateException e) { //1
+            out.println(HTMLCode.errorPage("Invalid date."));
+        }
 
-finally { 
-out.println(HTMLCode.close());
-out.close();
-} 
+        finally {
+            out.println(HTMLCode.close());
+            out.close();
+        }
 
-} 
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

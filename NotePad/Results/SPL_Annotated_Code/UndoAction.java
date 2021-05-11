@@ -1,73 +1,68 @@
 
-//#if  Undo  
-// Compilation Unit of /UndoAction.java 
- 
+//#if  Undo
+// Compilation Unit of /UndoAction.java
 
-//#if  Undo  
+
+//#if  Undo
 import java.awt.event.*;
-//#endif 
+//#endif
 
 
-//#if  Undo  
+//#if  Undo
 import javax.swing.*;
-//#endif 
+//#endif
 
 
-//#if  Undo  
+//#if  Undo
 import javax.swing.undo.*;
-//#endif 
+//#endif
 
 class UndoAction extends AbstractAction
-  { 
-private static final long serialVersionUID = 1;
-Notepad notepad;
-public UndoAction(Notepad notepad)
-    { 
-super( "Undo" );
-putValue( Action.SMALL_ICON,
+{
+    private static final long serialVersionUID = 1;
+    Notepad notepad;
+    public UndoAction(Notepad notepad)
+    {
+        super( "Undo" );
+        putValue( Action.SMALL_ICON,
                   new ImageIcon( this.getClass().getResource( "images/undo.gif" ) ) );
-setEnabled( false );
-this.notepad = notepad;
-} 
+        setEnabled( false );
+        this.notepad = notepad;
+    }
 
-protected void update()
-    { 
-if(notepad.undo.canUndo())//1
-{ 
-setEnabled( true );
-putValue( "Undo", notepad.undo.getUndoPresentationName() );
-} 
-else
-{ 
-setEnabled( false );
-putValue( Action.NAME, "Undo" );
-} 
+    protected void update()
+    {
+        if(notepad.undo.canUndo()) { //1
+            setEnabled( true );
+            putValue( "Undo", notepad.undo.getUndoPresentationName() );
+        } else {
+            setEnabled( false );
+            putValue( Action.NAME, "Undo" );
+        }
 
-} 
+    }
 
-public void actionPerformed( ActionEvent e )
-    { 
-try //1
-{ 
-notepad.undo.undo();
-} 
+    public void actionPerformed( ActionEvent e )
+    {
+        try { //1
+            notepad.undo.undo();
+        }
 
-//#if  Undo  
-catch ( CannotUndoException ex )//1
-{ 
-System.out.println( "Unable to undo: " + ex );
-ex.printStackTrace();
-} 
+//#if  Undo
+        catch ( CannotUndoException ex ) { //1
+            System.out.println( "Unable to undo: " + ex );
+            ex.printStackTrace();
+        }
 
-//#endif 
+//#endif
 
 
-update();
-notepad.redoAction.update();
-} 
+        update();
+        notepad.redoAction.update();
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

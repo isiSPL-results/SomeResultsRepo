@@ -1,234 +1,211 @@
 
-//#if -455109041 
-// Compilation Unit of /InsertDiseaseType.java 
- 
+//#if -455109041
+// Compilation Unit of /InsertDiseaseType.java
+
 package healthwatcher.view.command;
 
-//#if 800530810 
+//#if 800530810
 import healthwatcher.model.complaint.DiseaseType;
-//#endif 
+//#endif
 
 
-//#if -1438015820 
+//#if -1438015820
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if 1580773869 
+//#if 1580773869
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if -2093973194 
+//#if -2093973194
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if 651641056 
+//#if 651641056
 import lib.exceptions.CommunicationException;
-//#endif 
+//#endif
 
 
-//#if 28082691 
+//#if 28082691
 import lib.exceptions.InsertEntryException;
-//#endif 
+//#endif
 
 
-//#if 375690477 
+//#if 375690477
 import lib.exceptions.InvalidSessionException;
-//#endif 
+//#endif
 
 
-//#if 824403355 
+//#if 824403355
 import lib.exceptions.ObjectAlreadyInsertedException;
-//#endif 
+//#endif
 
 
-//#if -59811242 
+//#if -59811242
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 1010361048 
+//#if 1010361048
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1193421160 
+//#if 1193421160
 import lib.exceptions.TransactionException;
-//#endif 
+//#endif
 
 
-//#if 1095990463 
+//#if 1095990463
 import lib.util.HTMLCode;
-//#endif 
+//#endif
 
 
-//#if -1378951840 
+//#if -1378951840
 import lib.exceptions.FacadeUnavailableException;
-//#endif 
+//#endif
 
 public class InsertDiseaseType extends Command
-  { 
+{
 
-//#if -1757075788 
-public void execute()
-    { 
-PrintWriter out=null;
-DiseaseType diseaseType = null;
-try //1
-{ 
-try //1
-{ 
-out = response.getWriter();
-} 
-catch (IOException e1) //1
-{ 
-e1.printStackTrace();
-} 
+//#if -1757075788
+    public void execute()
+    {
+        PrintWriter out=null;
+        DiseaseType diseaseType = null;
+        try { //1
+            try { //1
+                out = response.getWriter();
+            } catch (IOException e1) { //1
+                e1.printStackTrace();
+            }
 
 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
 
-String code = request.getInput("code");
-String name = request.getInput("name");
-String description = request.getInput("description");
-String manifestacao = request.getInput("manifestacao");
-String duration = request.getInput("duration");
-diseaseType = new DiseaseType(name, description, manifestacao, duration, null);
-diseaseType.setCode(Integer.parseInt(code));
-facade.insert(diseaseType);
-out.println(HTMLCode.htmlPageAdministrator("Operation executed", "DiseaseType inserted"));
-} 
-catch (ObjectAlreadyInsertedException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+            String code = request.getInput("code");
+            String name = request.getInput("name");
+            String description = request.getInput("description");
+            String manifestacao = request.getInput("manifestacao");
+            String duration = request.getInput("duration");
+            diseaseType = new DiseaseType(name, description, manifestacao, duration, null);
+            diseaseType.setCode(Integer.parseInt(code));
+            facade.insert(diseaseType);
+            out.println(HTMLCode.htmlPageAdministrator("Operation executed", "DiseaseType inserted"));
+        } catch (ObjectAlreadyInsertedException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch (ObjectNotValidException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch (ObjectNotValidException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch(InsertEntryException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch(InsertEntryException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch (InvalidSessionException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch (InvalidSessionException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch(TransactionException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch(TransactionException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch(CommunicationException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch(CommunicationException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch(RepositoryException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch(RepositoryException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-finally { 
-out.close();
-} 
+        finally {
+            out.close();
+        }
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public InsertDiseaseType(IFacade f)
-    { 
-super(f);
-} 
+    public InsertDiseaseType(IFacade f)
+    {
+        super(f);
+    }
 
 
-//#if 1619958606 
-public void execute() throws Exception
-    { 
-PrintWriter out = response.getWriter();
-DiseaseType diseaseType = null;
-try //1
-{ 
-if(! request.isAuthorized())//1
-{ 
-throw new InvalidSessionException();
-} 
+//#if 1619958606
+    public void execute() throws Exception
+    {
+        PrintWriter out = response.getWriter();
+        DiseaseType diseaseType = null;
+        try { //1
+            if(! request.isAuthorized()) { //1
+                throw new InvalidSessionException();
+            }
 
-String code = request.getInput("code");
-String name = request.getInput("name");
-String description = request.getInput("description");
-String manifestacao = request.getInput("manifestacao");
-String duration = request.getInput("duration");
-diseaseType = new DiseaseType(name, description, manifestacao, duration, null);
-diseaseType.setCode(Integer.parseInt(code));
-facade.insert(diseaseType);
-out.println(HTMLCode.htmlPageAdministrator("Operation executed", "DiseaseType inserted"));
-} 
-catch (ObjectAlreadyInsertedException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+            String code = request.getInput("code");
+            String name = request.getInput("name");
+            String description = request.getInput("description");
+            String manifestacao = request.getInput("manifestacao");
+            String duration = request.getInput("duration");
+            diseaseType = new DiseaseType(name, description, manifestacao, duration, null);
+            diseaseType.setCode(Integer.parseInt(code));
+            facade.insert(diseaseType);
+            out.println(HTMLCode.htmlPageAdministrator("Operation executed", "DiseaseType inserted"));
+        } catch (ObjectAlreadyInsertedException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch (ObjectNotValidException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch (ObjectNotValidException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch(InsertEntryException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch(InsertEntryException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch (InvalidSessionException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch (InvalidSessionException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch(TransactionException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch(TransactionException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
-catch(CommunicationException e) //1
-{ 
-throw new FacadeUnavailableException();
-} 
+        catch(CommunicationException e) { //1
+            throw new FacadeUnavailableException();
+        }
 
-catch(RepositoryException e) //1
-{ 
-out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
-e.printStackTrace(out);
-} 
+        catch(RepositoryException e) { //1
+            out.println(HTMLCode.errorPageAdministrator(e.getMessage()));
+            e.printStackTrace(out);
+        }
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
- } 
+}
 
 
-//#endif 
+//#endif
 

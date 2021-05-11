@@ -1,8 +1,9 @@
-// Compilation Unit of /NeighborIfc.java 
- 
+// Compilation Unit of /NeighborIfc.java
+
 package GPL;
 import java.util.LinkedList;
-public interface NeighborIfc  { 
- } 
+public interface NeighborIfc
+{
+}
 
 

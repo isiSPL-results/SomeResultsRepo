@@ -1,0 +1,500 @@
+starting Integration
+------------
+Integration Product : 00001 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001 
+## Canvas.java LoC : 66;  Char : 1996
+## Line.java LoC : 18;  Char : 440
+## Main.java LoC : 56;  Char : 1653
+## Rectangle.java LoC : 0;  Char : 113
+## TOTAL : LoC : 140;   Char : 4202
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00002 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002 
+## Canvas.java LoC : 77;  Char : 2256
+## Line.java LoC : 21;  Char : 511
+## Main.java LoC : 80;  Char : 2436
+## Rectangle.java LoC : 0;  Char : 113
+## TOTAL : LoC : 178;   Char : 5316
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00003 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003 
+## Canvas.java LoC : 70;  Char : 2064
+## Line.java LoC : 18;  Char : 440
+## Main.java LoC : 65;  Char : 1921
+## Rectangle.java LoC : 0;  Char : 113
+## TOTAL : LoC : 153;   Char : 4538
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00004 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004 
+## Canvas.java LoC : 47;  Char : 1427
+## Line.java LoC : 0;   Char : 42
+## Main.java LoC : 56;  Char : 1620
+## Rectangle.java LoC : 0;  Char : 113
+## TOTAL : LoC : 103;   Char : 3202
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00005 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005 
+## Canvas.java LoC : 81;  Char : 2324
+## Line.java LoC : 21;  Char : 511
+## Main.java LoC : 89;  Char : 2704
+## Rectangle.java LoC : 0;  Char : 113
+## TOTAL : LoC : 191;   Char : 5652
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00006 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006 
+## Canvas.java LoC : 92;  Char : 2683
+## Line.java LoC : 18;  Char : 440
+## Main.java LoC : 74;  Char : 2227
+## Rectangle.java LoC : 56;   Char : 1249
+## TOTAL : LoC : 240;   Char : 6599
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00007 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007 
+## Canvas.java LoC : 65;  Char : 1978
+## Line.java LoC : 0;   Char : 42
+## Main.java LoC : 56;  Char : 1658
+## Rectangle.java LoC : 56;   Char : 1249
+## TOTAL : LoC : 177;   Char : 4927
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00008 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008 
+## Canvas.java LoC : 76;  Char : 2238
+## Line.java LoC : 0;   Char : 42
+## Main.java LoC : 80;  Char : 2441
+## Rectangle.java LoC : 61;   Char : 1352
+## TOTAL : LoC : 217;   Char : 6073
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00009 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009 
+## Canvas.java LoC : 87;  Char : 2592
+## Line.java LoC : 18;  Char : 440
+## Main.java LoC : 65;  Char : 1959
+## Rectangle.java LoC : 56;   Char : 1249
+## TOTAL : LoC : 226;   Char : 6240
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00009/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00009/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00010 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010 
+## Canvas.java LoC : 99;  Char : 2858
+## Line.java LoC : 21;  Char : 511
+## Main.java LoC : 89;  Char : 2742
+## Rectangle.java LoC : 61;   Char : 1352
+## TOTAL : LoC : 270;   Char : 7463
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00010/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00010/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00011 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011 
+## Canvas.java LoC : 104;   Char : 2949
+## Line.java LoC : 21;  Char : 511
+## Main.java LoC : 98;  Char : 3010
+## Rectangle.java LoC : 61;   Char : 1352
+## TOTAL : LoC : 284;   Char : 7822
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Line.java vs Line.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/Line.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/Line.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00011/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00011/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00012 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012 
+## Canvas.java LoC : 69;  Char : 2046
+## Line.java LoC : 0;   Char : 42
+## Main.java LoC : 65;  Char : 1926
+## Rectangle.java LoC : 56;   Char : 1249
+## TOTAL : LoC : 190;   Char : 5263
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00012/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00012/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00013 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00013 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00013 
+## Canvas.java LoC : 80;  Char : 2306
+## Line.java LoC : 0;   Char : 42
+## Main.java LoC : 89;  Char : 2709
+## Rectangle.java LoC : 61;   Char : 1352
+## TOTAL : LoC : 230;   Char : 6409
+*********************
+Gumtree : Canvas.java vs Canvas.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00013/Canvas.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00013/Canvas.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Main.java vs Main.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00013/Main.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00013/Main.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Rectangle.java vs Rectangle.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00013/Rectangle.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00013/Rectangle.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+_____________
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+================== RESULT =====================
+Number of Original Products : 13
+(Integration) Number of Products obtained from Artefact Configurations : 13
+(Localisation) Number of Products obtained from Feature Configurations : 13
+Number of Files : in between [2 - 4]
+=======
+
+  ==========      INTEGRATION SCORE    =============
+   By Products
+  For 00001 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 140 ; Char modified : 0/4202)
+  For 00002 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 178 ; Char modified : 0/5316)
+  For 00003 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 153 ; Char modified : 0/4538)
+  For 00004 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 103 ; Char modified : 0/3202)
+  For 00005 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 191 ; Char modified : 0/5652)
+  For 00006 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 240 ; Char modified : 0/6599)
+  For 00007 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 177 ; Char modified : 0/4927)
+  For 00008 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 217 ; Char modified : 0/6073)
+  For 00009 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 226 ; Char modified : 0/6240)
+  For 00010 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 270 ; Char modified : 0/7463)
+  For 00011 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 284 ; Char modified : 0/7822)
+  For 00012 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 190 ; Char modified : 0/5263)
+  For 00013 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 230 ; Char modified : 0/6409)
+==
+TOTAL :
+TOTAL LoC Deleted : 0
+TOTAL LoC Inserted : 0
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 

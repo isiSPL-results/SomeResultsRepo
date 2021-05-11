@@ -1,106 +1,106 @@
 
-//#if -429036845 
-// Compilation Unit of /ArrayRepositoryFactory.java 
- 
+//#if -429036845
+// Compilation Unit of /ArrayRepositoryFactory.java
+
 package healthwatcher.data.factories;
 
-//#if 70547090 
+//#if 70547090
 import healthwatcher.data.IComplaintRepository;
-//#endif 
+//#endif
 
 
-//#if -1509091295 
+//#if -1509091295
 import healthwatcher.data.IDiseaseRepository;
-//#endif 
+//#endif
 
 
-//#if 1661320983 
+//#if 1661320983
 import healthwatcher.data.IEmployeeRepository;
-//#endif 
+//#endif
 
 
-//#if -688148603 
+//#if -688148603
 import healthwatcher.data.IHealthUnitRepository;
-//#endif 
+//#endif
 
 
-//#if 272402704 
+//#if 272402704
 import healthwatcher.data.ISpecialityRepository;
-//#endif 
+//#endif
 
 
-//#if -900076063 
+//#if -900076063
 import healthwatcher.data.mem.ComplaintRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 1125789580 
+//#if 1125789580
 import healthwatcher.data.mem.DiseaseTypeRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 1905508432 
+//#if 1905508432
 import healthwatcher.data.mem.EmployeeRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 72804898 
+//#if 72804898
 import healthwatcher.data.mem.HealthUnitRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if -874033289 
+//#if -874033289
 import healthwatcher.data.mem.SpecialityRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 254844244 
+//#if 254844244
 import healthwatcher.data.ISymptomRepository;
-//#endif 
+//#endif
 
 
-//#if 1534485983 
+//#if 1534485983
 import healthwatcher.data.mem.SymptomRepositoryArray;
-//#endif 
+//#endif
 
 public class ArrayRepositoryFactory extends AbstractRepositoryFactory
-  { 
-public IHealthUnitRepository createHealthUnitRepository()
-    { 
-return new HealthUnitRepositoryArray();
-} 
+{
+    public IHealthUnitRepository createHealthUnitRepository()
+    {
+        return new HealthUnitRepositoryArray();
+    }
 
-public IComplaintRepository createComplaintRepository()
-    { 
-return new ComplaintRepositoryArray();
-} 
-
-
-//#if 1811632617 
-public ISymptomRepository createSymptomRepository()
-    { 
-return new SymptomRepositoryArray();
-} 
-
-//#endif 
-
-public IDiseaseRepository createDiseaseRepository()
-    { 
-return new DiseaseTypeRepositoryArray();
-} 
-
-public IEmployeeRepository createEmployeeRepository()
-    { 
-return new EmployeeRepositoryArray();
-} 
-
-public ISpecialityRepository createMedicalSpecialityRepository()
-    { 
-return new SpecialityRepositoryArray();
-} 
-
- } 
+    public IComplaintRepository createComplaintRepository()
+    {
+        return new ComplaintRepositoryArray();
+    }
 
 
-//#endif 
+//#if 1811632617
+    public ISymptomRepository createSymptomRepository()
+    {
+        return new SymptomRepositoryArray();
+    }
+
+//#endif
+
+    public IDiseaseRepository createDiseaseRepository()
+    {
+        return new DiseaseTypeRepositoryArray();
+    }
+
+    public IEmployeeRepository createEmployeeRepository()
+    {
+        return new EmployeeRepositoryArray();
+    }
+
+    public ISpecialityRepository createMedicalSpecialityRepository()
+    {
+        return new SpecialityRepositoryArray();
+    }
+
+}
+
+
+//#endif
 

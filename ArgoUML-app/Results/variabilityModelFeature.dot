@@ -1,0 +1,23 @@
+digraph G {
+  compound = true;
+  rankdir = "BT"; 
+  nodesep= 0.5;
+  ranksep =  10; 
+
+ // CO-OCCURENCE GROUPS 
+
+ // IMPLICATION 
+//"A" -> "B" [lhead = cluster_0;color="blue"]
+"USECASE" -> "DIAGRAMM"[color="blue"]
+"COLLABORATION" -> "DIAGRAMM"[color="blue"]
+"COGNITIVE" -> "DIAGRAMM"[color="blue"]
+"DEPLOYMENT" -> "DIAGRAMM"[color="blue"]
+"SEQUENCE" -> "DIAGRAMM"[color="blue"]
+"STATE" -> "DIAGRAMM"[color="blue"]
+"LOGGING" -> "DIAGRAMM"[color="blue"]
+"DIAGRAMM" -> "CLASS"[color="blue"]
+"ACTIVITY" -> "DIAGRAMM"[color="blue"]
+
+ // MUTEX 
+//"A" ->! "C" [arrowhead=invdot;color="red";] 
+}

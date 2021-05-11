@@ -1,3 +1,0 @@
-
-
-PEOPLE := Says Hello to the People

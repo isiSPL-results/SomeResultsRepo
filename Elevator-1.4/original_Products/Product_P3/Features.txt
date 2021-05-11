@@ -1,60 +1,66 @@
-//#if Behavior 
-Behavior := x
+//#if Behavior
+Behavior :
+    = x
 //#endif
-//#if Modes 
-Modes := x
+//#if Modes
+      Modes :
+      = x
 //#endif
-//#if Sabbath 
+//#if Sabbath
 //@Sabbath := x
 //#endif
-//#if FIFO 
-FIFO := x
+//#if FIFO
+        FIFO :
+        = x
 //#endif
-//#if ShortestPath 
+//#if ShortestPath
 //@ShortestPath := x
 //#endif
-//#if Service 
-Service := x
+//#if Service
+          Service :
+          = x
 //#endif
-//#if Priorities 
+//#if Priorities
 //@Priorities := x
 //#endif
-//#if RushHour 
+//#if RushHour
 //@RushHour := x
 //#endif
-//#if FloorPriority 
+//#if FloorPriority
 //@FloorPriority := x
 //#endif
-//#if PersonPriority 
+//#if PersonPriority
 //@PersonPriority := x
 //#endif
-//#if VoiceOutput 
+//#if VoiceOutput
 //@VoiceOutput := x
 //#endif
-//#if CallButtons 
-CallButtons := x
+//#if CallButtons
+            CallButtons :
+            = x
 //#endif
-//#if DirectedCall 
+//#if DirectedCall
 //@DirectedCall := x
 //#endif
-//#if UndirectedCall 
-UndirectedCall := x
+//#if UndirectedCall
+              UndirectedCall :
+              = x
 //#endif
-//#if Security 
+//#if Security
 //@Security := x
 //#endif
-//#if Permission 
+//#if Permission
 //@Permission := x
 //#endif
-//#if FloorPermission 
+//#if FloorPermission
 //@FloorPermission := x
 //#endif
-//#if PermissionControl 
+//#if PermissionControl
 //@PermissionControl := x
 //#endif
-//#if Safety 
+//#if Safety
 //@Safety := x
 //#endif
-//#if Overloaded 
+//#if Overloaded
 //@Overloaded := x
 //#endif

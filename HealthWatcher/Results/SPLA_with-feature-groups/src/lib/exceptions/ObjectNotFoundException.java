@@ -1,13 +1,13 @@
-// Compilation Unit of /ObjectNotFoundException.java 
- 
+// Compilation Unit of /ObjectNotFoundException.java
+
 package lib.exceptions;
 public class ObjectNotFoundException extends Exception
-  { 
-public ObjectNotFoundException(String erro)
-    { 
-super("ExcecaoDados: " + erro);
-} 
+{
+    public ObjectNotFoundException(String erro)
+    {
+        super("ExcecaoDados: " + erro);
+    }
 
- } 
+}
 
 

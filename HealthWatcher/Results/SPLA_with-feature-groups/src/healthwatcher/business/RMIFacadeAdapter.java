@@ -1,505 +1,494 @@
 
-//#if 1215500240 
-// Compilation Unit of /RMIFacadeAdapter.java 
- 
+//#if 1215500240
+// Compilation Unit of /RMIFacadeAdapter.java
+
 package healthwatcher.business;
 
-//#if 390090281 
+//#if 390090281
 import healthwatcher.model.complaint.Complaint;
-//#endif 
+//#endif
 
 
-//#if 1724337950 
+//#if 1724337950
 import healthwatcher.model.complaint.DiseaseType;
-//#endif 
+//#endif
 
 
-//#if 151489891 
+//#if 151489891
 import healthwatcher.model.employee.Employee;
-//#endif 
+//#endif
 
 
-//#if -427445353 
+//#if -427445353
 import healthwatcher.model.healthguide.HealthUnit;
-//#endif 
+//#endif
 
 
-//#if 478174608 
+//#if 478174608
 import healthwatcher.view.IFacade;
-//#endif 
+//#endif
 
 
-//#if -1593658735 
+//#if -1593658735
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if 2075200649 
+//#if 2075200649
 import java.rmi.server.UnicastRemoteObject;
-//#endif 
+//#endif
 
 
-//#if -867704700 
+//#if -867704700
 import lib.exceptions.CommunicationException;
-//#endif 
+//#endif
 
 
-//#if 491305639 
+//#if 491305639
 import lib.exceptions.InsertEntryException;
-//#endif 
+//#endif
 
 
-//#if -480501441 
+//#if -480501441
 import lib.exceptions.ObjectAlreadyInsertedException;
-//#endif 
+//#endif
 
 
-//#if 1250985784 
+//#if 1250985784
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if 85110578 
+//#if 85110578
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 921291876 
+//#if 921291876
 import lib.exceptions.PersistenceMechanismException;
-//#endif 
+//#endif
 
 
-//#if 1302398388 
+//#if 1302398388
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1656644108 
+//#if 1656644108
 import lib.exceptions.TransactionException;
-//#endif 
+//#endif
 
 
-//#if -834903401 
+//#if -834903401
 import lib.exceptions.UpdateEntryException;
-//#endif 
+//#endif
 
 
-//#if -22037427 
+//#if -22037427
 import lib.util.IteratorDsk;
-//#endif 
+//#endif
 
 
-//#if 130533035 
+//#if 130533035
 import healthwatcher.model.complaint.Symptom;
-//#endif 
+//#endif
 
 
-//#if -556335783 
+//#if -556335783
 import healthwatcher.model.healthguide.MedicalSpeciality;
-//#endif 
+//#endif
 
 public class RMIFacadeAdapter extends UnicastRemoteObject
- implements IFacadeRMITargetAdapter
-  { 
-private static RMIFacadeAdapter singleton;
-private IFacade fCid;
-public Employee searchEmployee(String login) throws ObjectNotFoundException, TransactionException,
-        CommunicationException, RepositoryException, ObjectNotValidException, UpdateEntryException
-    { 
-return fCid.searchEmployee(login);
-} 
+    implements IFacadeRMITargetAdapter
+{
+    private static RMIFacadeAdapter singleton;
+    private IFacade fCid;
+    public Employee searchEmployee(String login) throws ObjectNotFoundException, TransactionException,
+               CommunicationException, RepositoryException, ObjectNotValidException, UpdateEntryException
+    {
+        return fCid.searchEmployee(login);
+    }
 
 
-//#if -1364689771 
-public MedicalSpeciality searchSpecialitiesByCode(int numSpeciality)
+//#if -1364689771
+    public MedicalSpeciality searchSpecialitiesByCode(int numSpeciality)
     throws ObjectNotFoundException, RepositoryException, CommunicationException,
         TransactionException
-    { 
-return fCid.searchSpecialitiesByCode(numSpeciality);
-} 
+    {
+        return fCid.searchSpecialitiesByCode(numSpeciality);
+    }
 
-//#endif 
+//#endif
 
 
-//#if -171424066 
-public void insert(MedicalSpeciality speciality) throws ObjectAlreadyInsertedException,
+//#if -171424066
+    public void insert(MedicalSpeciality speciality) throws ObjectAlreadyInsertedException,
         ObjectNotValidException, InsertEntryException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-fCid.insert(speciality);
-} 
+    {
+        fCid.insert(speciality);
+    }
 
-//#endif 
+//#endif
 
-public void updateEmployee(Employee employee) throws TransactionException, RepositoryException,
+    public void updateEmployee(Employee employee) throws TransactionException, RepositoryException,
         ObjectNotFoundException, ObjectNotValidException, UpdateEntryException, CommunicationException
-    { 
-fCid.updateEmployee(employee);
-} 
+    {
+        fCid.updateEmployee(employee);
+    }
 
-public IteratorDsk getHealthUnitList() throws RepositoryException, ObjectNotFoundException,
+    public IteratorDsk getHealthUnitList() throws RepositoryException, ObjectNotFoundException,
         TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
-lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getHealthUnitList();
-lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
+    {
+        lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
+        lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getHealthUnitList();
+        lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
             iterator, 3);
-sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
-return sa;
-} 
+        sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
+        return sa;
+    }
 
 
-//#if -1492207895 
-public void insert(HealthUnit us) throws InsertEntryException, ObjectAlreadyInsertedException,
+//#if -1492207895
+    public void insert(HealthUnit us) throws InsertEntryException, ObjectAlreadyInsertedException,
         ObjectNotValidException, TransactionException, CommunicationException, RepositoryException
-    { 
-fCid.insert(us);
-} 
+    {
+        fCid.insert(us);
+    }
 
-//#endif 
+//#endif
 
 
-//#if 330983044 
-public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
+//#if 330983044
+    public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
         CommunicationException
-    { 
-return fCid.getComplaintList();
-} 
+    {
+        return fCid.getComplaintList();
+    }
 
-//#endif 
+//#endif
 
 
-//#if 527682235 
-private RMIFacadeAdapter() throws PersistenceMechanismException, IOException
-    { 
-this.fCid = new HealthWatcherFacade();
-try //1
-{ 
-System.out.println("Creating RMI server...");
-System.out.println("Object exported");
-System.out.println(healthwatcher.Constants.SYSTEM_NAME);
-java.rmi.Naming.rebind("//" + healthwatcher.Constants.SERVER_NAME + "/"
+//#if 527682235
+    private RMIFacadeAdapter() throws PersistenceMechanismException, IOException
+    {
+        this.fCid = new HealthWatcherFacade();
+        try { //1
+            System.out.println("Creating RMI server...");
+            System.out.println("Object exported");
+            System.out.println(healthwatcher.Constants.SYSTEM_NAME);
+            java.rmi.Naming.rebind("//" + healthwatcher.Constants.SERVER_NAME + "/"
                                    + healthwatcher.Constants.SYSTEM_NAME, this);
-System.out.println("Server created and ready.");
-} 
+            System.out.println("Server created and ready.");
+        }
 
-//#if 1748913038 
-catch (java.rmi.RemoteException rmiEx) //1
-{ 
-rmiFacadeExceptionHandling(rmiEx);
-} 
+//#if 1748913038
+        catch (java.rmi.RemoteException rmiEx) { //1
+            rmiFacadeExceptionHandling(rmiEx);
+        }
 
-//#endif 
-
-
-//#if 1925134093 
-catch (java.net.MalformedURLException rmiEx) //1
-{ 
-rmiFacadeExceptionHandling(rmiEx);
-} 
-
-//#endif 
+//#endif
 
 
-} 
+//#if 1925134093
+        catch (java.net.MalformedURLException rmiEx) { //1
+            rmiFacadeExceptionHandling(rmiEx);
+        }
 
-//#endif 
-
-private void rmiFacadeExceptionHandling(Throwable exception)
-    { 
-System.out.println("**************************************************");
-System.out.println("* Error during server initialization!            *");
-System.out.println("* The exception message is:                      *");
-System.out.println("      " + exception.getMessage());
-System.out.println("* You may have to restart the server or registry.*");
-System.out.println("**************************************************");
-exception.printStackTrace();
-} 
+//#endif
 
 
-//#if 64960827 
-public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
+    }
+
+//#endif
+
+    private void rmiFacadeExceptionHandling(Throwable exception)
+    {
+        System.out.println("**************************************************");
+        System.out.println("* Error during server initialization!            *");
+        System.out.println("* The exception message is:                      *");
+        System.out.println("      " + exception.getMessage());
+        System.out.println("* You may have to restart the server or registry.*");
+        System.out.println("**************************************************");
+        exception.printStackTrace();
+    }
+
+
+//#if 64960827
+    public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
         RepositoryException, CommunicationException
-    { 
-return fCid.searchHealthUnit(healthUnitCode);
-} 
+    {
+        return fCid.searchHealthUnit(healthUnitCode);
+    }
 
-//#endif 
+//#endif
 
 
-//#if 279307535 
-public void updateMedicalSpeciality(MedicalSpeciality speciality) throws RepositoryException,
+//#if 279307535
+    public void updateMedicalSpeciality(MedicalSpeciality speciality) throws RepositoryException,
         TransactionException, ObjectNotFoundException, CommunicationException,
         ObjectNotValidException
-    { 
-fCid.updateMedicalSpeciality(speciality);
-} 
+    {
+        fCid.updateMedicalSpeciality(speciality);
+    }
 
-//#endif 
+//#endif
 
 
-//#if -208005048 
-public Symptom searchSymptom(int numSymptom) throws ObjectNotFoundException,
+//#if -208005048
+    public Symptom searchSymptom(int numSymptom) throws ObjectNotFoundException,
         RepositoryException, CommunicationException, TransactionException
-    { 
-return fCid.searchSymptom(numSymptom);
-} 
+    {
+        return fCid.searchSymptom(numSymptom);
+    }
 
-//#endif 
+//#endif
 
-public IteratorDsk searchSpecialitiesByHealthUnit(int code) throws ObjectNotFoundException,
+    public IteratorDsk searchSpecialitiesByHealthUnit(int code) throws ObjectNotFoundException,
         RepositoryException, TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
-lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid
+    {
+        lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
+        lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid
                                           .searchSpecialitiesByHealthUnit(code);
-lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
+        lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
             iterator, 3);
-sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
-return sa;
-} 
+        sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
+        return sa;
+    }
 
 
-//#if -482285873 
-public IteratorDsk getSymptomList() throws RepositoryException, ObjectNotFoundException,
+//#if -482285873
+    public IteratorDsk getSymptomList() throws RepositoryException, ObjectNotFoundException,
         CommunicationException, TransactionException
-    { 
-return fCid.getSymptomList();
-} 
+    {
+        return fCid.getSymptomList();
+    }
 
-//#endif 
+//#endif
 
 
-//#if -1701593397 
-public void insert(DiseaseType diseaseType) throws InsertEntryException,
+//#if -1701593397
+    public void insert(DiseaseType diseaseType) throws InsertEntryException,
         ObjectAlreadyInsertedException, ObjectNotValidException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-fCid.insert(diseaseType);
-} 
+    {
+        fCid.insert(diseaseType);
+    }
 
-//#endif 
+//#endif
 
 
-//#if -332094339 
-public synchronized static RMIFacadeAdapter getInstance()
+//#if -332094339
+    public synchronized static RMIFacadeAdapter getInstance()
     throws PersistenceMechanismException, IOException, java.rmi.RemoteException
-    { 
-if(singleton == null)//1
-{ 
-singleton = new RMIFacadeAdapter();
-} 
+    {
+        if(singleton == null) { //1
+            singleton = new RMIFacadeAdapter();
+        }
 
-return singleton;
-} 
+        return singleton;
+    }
 
-//#endif 
+//#endif
 
-public IteratorDsk getSpecialityList() throws RepositoryException, ObjectNotFoundException,
+    public IteratorDsk getSpecialityList() throws RepositoryException, ObjectNotFoundException,
         TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
-lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getSpecialityList();
-lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
+    {
+        lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
+        lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getSpecialityList();
+        lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
             iterator, 3);
-sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
-return sa;
-} 
+        sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
+        return sa;
+    }
 
 
-//#if -1188379427 
-public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
+//#if -1188379427
+    public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-return fCid.getComplaintList();
-} 
+    {
+        return fCid.getComplaintList();
+    }
 
-//#endif 
+//#endif
 
 
-//#if 976961281 
-public void insert(Employee employee) throws ObjectAlreadyInsertedException,
+//#if 976961281
+    public void insert(Employee employee) throws ObjectAlreadyInsertedException,
         ObjectNotValidException, InsertEntryException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-fCid.insert(employee);
-} 
+    {
+        fCid.insert(employee);
+    }
 
-//#endif 
+//#endif
 
-public void updateComplaint(Complaint q) throws TransactionException, RepositoryException,
+    public void updateComplaint(Complaint q) throws TransactionException, RepositoryException,
         ObjectNotFoundException, ObjectNotValidException, CommunicationException
-    { 
-this.fCid.updateComplaint(q);
-} 
+    {
+        this.fCid.updateComplaint(q);
+    }
 
-public void updateHealthUnit(HealthUnit hu) throws RepositoryException,
-               ObjectNotFoundException, TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-fCid.updateHealthUnit(hu);
-} 
+    public void updateHealthUnit(HealthUnit hu) throws RepositoryException,
+        ObjectNotFoundException, TransactionException, java.rmi.RemoteException, CommunicationException
+    {
+        fCid.updateHealthUnit(hu);
+    }
 
-public int insertComplaint(Complaint complaint) throws RepositoryException,
+    public int insertComplaint(Complaint complaint) throws RepositoryException,
         ObjectAlreadyInsertedException, ObjectNotValidException, TransactionException,
         java.rmi.RemoteException, CommunicationException
-    { 
-return fCid.insertComplaint(complaint);
-} 
+    {
+        return fCid.insertComplaint(complaint);
+    }
 
 
-//#if -946238378 
-public static void main(String[] args)
-    { 
-try //1
-{ 
-new RMIFacadeAdapter();
-} 
+//#if -946238378
+    public static void main(String[] args)
+    {
+        try { //1
+            new RMIFacadeAdapter();
+        }
 
-//#if 359485473 
-catch (Exception e) //1
-{ 
-e.printStackTrace();
-} 
+//#if 359485473
+        catch (Exception e) { //1
+            e.printStackTrace();
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if 1846021699 
-public void updateSymptom(Symptom symptom) throws RepositoryException, TransactionException,
+//#if 1846021699
+    public void updateSymptom(Symptom symptom) throws RepositoryException, TransactionException,
         ObjectNotFoundException, CommunicationException, ObjectNotValidException
-    { 
-fCid.updateSymptom(symptom);
-} 
+    {
+        fCid.updateSymptom(symptom);
+    }
 
-//#endif 
+//#endif
 
 
-//#if 1703757570 
-public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
+//#if 1703757570
+    public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
         RepositoryException, CommunicationException, TransactionException
-    { 
-return fCid.searchHealthUnit(healthUnitCode);
-} 
+    {
+        return fCid.searchHealthUnit(healthUnitCode);
+    }
 
-//#endif 
+//#endif
 
 
-//#if -1610449381 
-public void insert(Symptom symptom) throws ObjectAlreadyInsertedException,
+//#if -1610449381
+    public void insert(Symptom symptom) throws ObjectAlreadyInsertedException,
         InsertEntryException, ObjectNotValidException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-fCid.insert(symptom);
-} 
+    {
+        fCid.insert(symptom);
+    }
 
-//#endif 
+//#endif
 
-public IteratorDsk getDiseaseTypeList() throws RepositoryException, ObjectNotFoundException,
+    public IteratorDsk getDiseaseTypeList() throws RepositoryException, ObjectNotFoundException,
         TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
-lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getDiseaseTypeList();
-lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
+    {
+        lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
+        lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getDiseaseTypeList();
+        lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
             iterator, 3);
-sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
-return sa;
-} 
+        sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
+        return sa;
+    }
 
 
-//#if 583686824 
-public void insert(Employee employee) throws ObjectAlreadyInsertedException,
+//#if 583686824
+    public void insert(Employee employee) throws ObjectAlreadyInsertedException,
         ObjectNotValidException, InsertEntryException, TransactionException, CommunicationException
-    { 
-fCid.insert(employee);
-} 
+    {
+        fCid.insert(employee);
+    }
 
-//#endif 
+//#endif
 
 
-//#if 337683499 
-private RMIFacadeAdapter() throws RepositoryException, IOException
-    { 
-this.fCid = new HealthWatcherFacade();
-try //1
-{ 
-System.out.println("Creating RMI server...");
-System.out.println("Object exported");
-System.out.println(healthwatcher.Constants.SYSTEM_NAME);
-java.rmi.Naming.rebind("//" + healthwatcher.Constants.SERVER_NAME + "/"
+//#if 337683499
+    private RMIFacadeAdapter() throws RepositoryException, IOException
+    {
+        this.fCid = new HealthWatcherFacade();
+        try { //1
+            System.out.println("Creating RMI server...");
+            System.out.println("Object exported");
+            System.out.println(healthwatcher.Constants.SYSTEM_NAME);
+            java.rmi.Naming.rebind("//" + healthwatcher.Constants.SERVER_NAME + "/"
                                    + healthwatcher.Constants.SYSTEM_NAME, this);
-System.out.println("Server created and ready.");
-} 
-catch (java.rmi.RemoteException rmiEx) //1
-{ 
-rmiFacadeExceptionHandling(rmiEx);
-} 
+            System.out.println("Server created and ready.");
+        } catch (java.rmi.RemoteException rmiEx) { //1
+            rmiFacadeExceptionHandling(rmiEx);
+        }
 
-catch (java.net.MalformedURLException rmiEx) //1
-{ 
-rmiFacadeExceptionHandling(rmiEx);
-} 
+        catch (java.net.MalformedURLException rmiEx) { //1
+            rmiFacadeExceptionHandling(rmiEx);
+        }
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public IteratorDsk getPartialHealthUnitList() throws RepositoryException,
+    public IteratorDsk getPartialHealthUnitList() throws RepositoryException,
         ObjectNotFoundException, TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
-lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getPartialHealthUnitList();
-lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
+    {
+        lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
+        lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.getPartialHealthUnitList();
+        lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
             iterator, 3);
-sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
-return sa;
-} 
+        sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
+        return sa;
+    }
 
-public IteratorDsk searchHealthUnitsBySpeciality(int code) throws ObjectNotFoundException,
+    public IteratorDsk searchHealthUnitsBySpeciality(int code) throws ObjectNotFoundException,
         RepositoryException, TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
-lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.searchHealthUnitsBySpeciality(code);
-lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
+    {
+        lib.distribution.rmi.IteratorRMISourceAdapter sa = null;
+        lib.util.LocalIterator iterator = (lib.util.LocalIterator) fCid.searchHealthUnitsBySpeciality(code);
+        lib.distribution.rmi.IteratorRMITargetAdapter iteratorTA = new lib.distribution.rmi.IteratorRMITargetAdapter(
             iterator, 3);
-sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
-return sa;
-} 
+        sa = new lib.distribution.rmi.IteratorRMISourceAdapter(iteratorTA, iterator, 3);
+        return sa;
+    }
 
 
-//#if -576974899 
-public synchronized static RMIFacadeAdapter getInstance()
+//#if -576974899
+    public synchronized static RMIFacadeAdapter getInstance()
     throws RepositoryException, IOException, java.rmi.RemoteException
-    { 
-if(singleton == null)//1
-{ 
-singleton = new RMIFacadeAdapter();
-} 
+    {
+        if(singleton == null) { //1
+            singleton = new RMIFacadeAdapter();
+        }
 
-return singleton;
-} 
+        return singleton;
+    }
 
-//#endif 
+//#endif
 
-public Complaint searchComplaint(int code) throws RepositoryException, ObjectNotFoundException,
+    public Complaint searchComplaint(int code) throws RepositoryException, ObjectNotFoundException,
         TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-return this.fCid.searchComplaint(code);
-} 
+    {
+        return this.fCid.searchComplaint(code);
+    }
 
-public DiseaseType searchDiseaseType(int code) throws RepositoryException,
+    public DiseaseType searchDiseaseType(int code) throws RepositoryException,
         ObjectNotFoundException, TransactionException, java.rmi.RemoteException, CommunicationException
-    { 
-return fCid.searchDiseaseType(code);
-} 
+    {
+        return fCid.searchDiseaseType(code);
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

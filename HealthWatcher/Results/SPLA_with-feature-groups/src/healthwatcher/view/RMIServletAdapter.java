@@ -1,836 +1,765 @@
 
-//#if 1931561646 
-// Compilation Unit of /RMIServletAdapter.java 
- 
+//#if 1931561646
+// Compilation Unit of /RMIServletAdapter.java
+
 package healthwatcher.view;
 
-//#if -945309835 
+//#if -945309835
 import healthwatcher.business.IFacadeRMITargetAdapter;
-//#endif 
+//#endif
 
 
-//#if 2110423129 
+//#if 2110423129
 import healthwatcher.model.complaint.Complaint;
-//#endif 
+//#endif
 
 
-//#if 1401795918 
+//#if 1401795918
 import healthwatcher.model.complaint.DiseaseType;
-//#endif 
+//#endif
 
 
-//#if -539456621 
+//#if -539456621
 import healthwatcher.model.employee.Employee;
-//#endif 
+//#endif
 
 
-//#if -1836313753 
+//#if -1836313753
 import healthwatcher.model.healthguide.HealthUnit;
-//#endif 
+//#endif
 
 
-//#if -1874450515 
+//#if -1874450515
 import java.io.Serializable;
-//#endif 
+//#endif
 
 
-//#if -752813798 
+//#if -752813798
 import java.rmi.Naming;
-//#endif 
+//#endif
 
 
-//#if 1410558507 
+//#if 1410558507
 import java.rmi.RemoteException;
-//#endif 
+//#endif
 
 
-//#if -1558651212 
+//#if -1558651212
 import lib.exceptions.CommunicationException;
-//#endif 
+//#endif
 
 
-//#if 530810071 
+//#if 530810071
 import lib.exceptions.InsertEntryException;
-//#endif 
+//#endif
 
 
-//#if -1658589329 
+//#if -1658589329
 import lib.exceptions.ObjectAlreadyInsertedException;
-//#endif 
+//#endif
 
 
-//#if 1306480392 
+//#if 1306480392
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if 140605186 
+//#if 140605186
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 749483396 
+//#if 749483396
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 1696148540 
+//#if 1696148540
 import lib.exceptions.TransactionException;
-//#endif 
+//#endif
 
 
-//#if -795398969 
+//#if -795398969
 import lib.exceptions.UpdateEntryException;
-//#endif 
+//#endif
 
 
-//#if 1412698360 
+//#if 1412698360
 import lib.patterns.observer.Subject;
-//#endif 
+//#endif
 
 
-//#if -213919715 
+//#if -213919715
 import lib.util.IteratorDsk;
-//#endif 
+//#endif
 
 
-//#if -560413477 
+//#if -560413477
 import healthwatcher.model.complaint.Symptom;
-//#endif 
+//#endif
 
 
-//#if -1230228599 
+//#if -1230228599
 import healthwatcher.model.healthguide.MedicalSpeciality;
-//#endif 
+//#endif
 
 public class RMIServletAdapter implements IFacade
-, Serializable
-  { 
-protected IFacadeRMITargetAdapter facade = null;
-protected void rmiInitExceptionHandling(Throwable exception)
-    { 
-String error =  "<p>****************************************************<br>" +
+    , Serializable
+{
+    protected IFacadeRMITargetAdapter facade = null;
+    protected void rmiInitExceptionHandling(Throwable exception)
+    {
+        String error =  "<p>****************************************************<br>" +
                         "Error during servlet initialization!<br>" +
                         "The exception message is:<br><dd>" + exception.getMessage() +
                         "<p>You may have to restart the servlet container.<br>" +
                         "*******************************************************";
-System.out.println(error);
-} 
+        System.out.println(error);
+    }
 
-public void updateComplaint(Complaint q) throws TransactionException, RepositoryException,
+    public void updateComplaint(Complaint q) throws TransactionException, RepositoryException,
                ObjectNotFoundException, ObjectNotValidException, CommunicationException
-    { 
-try //1
-{ 
-facade.updateComplaint(q);
-} 
+    {
+        try { //1
+            facade.updateComplaint(q);
+        }
 
-//#if -1566315585 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1566315585
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public Complaint searchComplaint(int code) throws RepositoryException, ObjectNotFoundException,
+    public Complaint searchComplaint(int code) throws RepositoryException, ObjectNotFoundException,
         CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.searchComplaint(code);
-} 
+    {
+        try { //1
+            return facade.searchComplaint(code);
+        }
 
-//#if 1671019710 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1671019710
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public void updateHealthUnit(HealthUnit unit) throws RepositoryException, TransactionException,
+    public void updateHealthUnit(HealthUnit unit) throws RepositoryException, TransactionException,
         ObjectNotFoundException, CommunicationException
-    { 
-try //1
-{ 
-facade.updateHealthUnit(unit);
-} 
+    {
+        try { //1
+            facade.updateHealthUnit(unit);
+        }
 
-//#if 115277163 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 115277163
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public IteratorDsk searchHealthUnitsBySpeciality(int code) throws ObjectNotFoundException,
+    public IteratorDsk searchHealthUnitsBySpeciality(int code) throws ObjectNotFoundException,
         RepositoryException, TransactionException, CommunicationException
-    { 
-try //1
-{ 
-return facade.searchHealthUnitsBySpeciality(code);
-} 
+    {
+        try { //1
+            return facade.searchHealthUnitsBySpeciality(code);
+        }
 
-//#if 1433300242 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1433300242
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public void notify(Subject subject) throws TransactionException, ObjectNotFoundException,
+    public void notify(Subject subject) throws TransactionException, ObjectNotFoundException,
         RepositoryException, RemoteException, ObjectNotValidException
-    { 
-try //1
-{ 
-if(subject instanceof Complaint)//1
-{ 
-Complaint complaint = (Complaint) subject;
-updateComplaint(complaint);
-} 
-else
+    {
+        try { //1
+            if(subject instanceof Complaint) { //1
+                Complaint complaint = (Complaint) subject;
+                updateComplaint(complaint);
+            } else
 
-//#if 883795552 
-if(subject instanceof Employee)//1
-{ 
-Employee employee = (Employee) subject;
-updateEmployee(employee);
-} 
-else
+//#if 883795552
+                if(subject instanceof Employee) { //1
+                    Employee employee = (Employee) subject;
+                    updateEmployee(employee);
+                } else
 
-//#if -996888953 
-if(subject instanceof HealthUnit)//1
-{ 
-HealthUnit healthUnit = (HealthUnit) subject;
-updateHealthUnit(healthUnit);
-} 
-else
+//#if -996888953
+                    if(subject instanceof HealthUnit) { //1
+                        HealthUnit healthUnit = (HealthUnit) subject;
+                        updateHealthUnit(healthUnit);
+                    } else
 
-//#if 1048684761 
-if(subject instanceof MedicalSpeciality)//1
-{ 
-updateMedicalSpeciality((MedicalSpeciality) subject);
-} 
-else
+//#if 1048684761
+                        if(subject instanceof MedicalSpeciality) { //1
+                            updateMedicalSpeciality((MedicalSpeciality) subject);
+                        } else
 
-//#if -840740959 
-if(subject instanceof Symptom)//1
-{ 
-updateSymptom((Symptom) subject);
-} 
+//#if -840740959
+                            if(subject instanceof Symptom) { //1
+                                updateSymptom((Symptom) subject);
+                            }
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 
 
-} 
+        }
 
-//#if -417988979 
-catch (Exception e) //1
-{ 
-e.printStackTrace();
-} 
+//#if -417988979
+        catch (Exception e) { //1
+            e.printStackTrace();
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public Employee searchEmployee(String login) throws TransactionException, RepositoryException,
+    public Employee searchEmployee(String login) throws TransactionException, RepositoryException,
         ObjectNotFoundException, ObjectNotValidException, UpdateEntryException,
         CommunicationException
-    { 
-try //1
-{ 
-return facade.searchEmployee(login);
-} 
+    {
+        try { //1
+            return facade.searchEmployee(login);
+        }
 
-//#if 1068406858 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1068406858
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
 
-//#if 2060701463 
-public void insert(Employee e) throws ObjectAlreadyInsertedException, ObjectNotValidException,
+//#if 2060701463
+    public void insert(Employee e) throws ObjectAlreadyInsertedException, ObjectNotValidException,
         InsertEntryException, TransactionException, CommunicationException
-    { 
-try //1
-{ 
-facade.insert(e);
-} 
+    {
+        try { //1
+            facade.insert(e);
+        }
 
-//#if 2115783258 
-catch (RemoteException ex) //1
-{ 
-throw new CommunicationException(ex.getMessage());
-} 
+//#if 2115783258
+        catch (RemoteException ex) { //1
+            throw new CommunicationException(ex.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public void connect(String server) throws CommunicationException
-    { 
-try //1
-{ 
-System.out.println("About to lookup...");
-facade= (IFacadeRMITargetAdapter) Naming.lookup(server);
-System.out.println("Remote DisqueSaude found");
-} 
+    public void connect(String server) throws CommunicationException
+    {
+        try { //1
+            System.out.println("About to lookup...");
+            facade= (IFacadeRMITargetAdapter) Naming.lookup(server);
+            System.out.println("Remote DisqueSaude found");
+        }
 
-//#if 702281205 
-catch (java.rmi.RemoteException rmiEx) //1
-{ 
-rmiInitExceptionHandling(rmiEx);
-throw new CommunicationException(rmiEx.getMessage());
-} 
+//#if 702281205
+        catch (java.rmi.RemoteException rmiEx) { //1
+            rmiInitExceptionHandling(rmiEx);
+            throw new CommunicationException(rmiEx.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-//#if -84232294 
-catch (java.rmi.NotBoundException rmiEx) //1
-{ 
-rmiInitExceptionHandling(rmiEx);
-throw new CommunicationException(rmiEx.getMessage());
-} 
+//#if -84232294
+        catch (java.rmi.NotBoundException rmiEx) { //1
+            rmiInitExceptionHandling(rmiEx);
+            throw new CommunicationException(rmiEx.getMessage());
+        }
 
-//#endif 
-
-
-//#if -157861836 
-catch (java.net.MalformedURLException rmiEx) //1
-{ 
-rmiInitExceptionHandling(rmiEx);
-throw new CommunicationException(rmiEx.getMessage());
-} 
-
-//#endif 
+//#endif
 
 
-} 
+//#if -157861836
+        catch (java.net.MalformedURLException rmiEx) { //1
+            rmiInitExceptionHandling(rmiEx);
+            throw new CommunicationException(rmiEx.getMessage());
+        }
+
+//#endif
 
 
-//#if 1313144549 
-public IteratorDsk getSymptomList() throws RepositoryException, ObjectNotFoundException,
+    }
+
+
+//#if 1313144549
+    public IteratorDsk getSymptomList() throws RepositoryException, ObjectNotFoundException,
         CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.getSymptomList();
-} 
+    {
+        try { //1
+            return facade.getSymptomList();
+        }
 
-//#if 86589165 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 86589165
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if 1812072677 
-public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
+//#if 1812072677
+    public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
         RepositoryException, CommunicationException
-    { 
-try //1
-{ 
-return facade.searchHealthUnit(healthUnitCode);
-} 
+    {
+        try { //1
+            return facade.searchHealthUnit(healthUnitCode);
+        }
 
-//#if -1228850796 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1228850796
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if 332840107 
-public MedicalSpeciality searchSpecialitiesByCode(int numSpeciality)
+//#if 332840107
+    public MedicalSpeciality searchSpecialitiesByCode(int numSpeciality)
     throws ObjectNotFoundException, RepositoryException, CommunicationException,
         TransactionException
-    { 
-try //1
-{ 
-return facade.searchSpecialitiesByCode(numSpeciality);
-} 
+    {
+        try { //1
+            return facade.searchSpecialitiesByCode(numSpeciality);
+        }
 
-//#if 1588033537 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1588033537
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if 1122482782 
-public Symptom searchSymptom(int numSymptom) throws ObjectNotFoundException,
+//#if 1122482782
+    public Symptom searchSymptom(int numSymptom) throws ObjectNotFoundException,
         RepositoryException, CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.searchSymptom(numSymptom);
-} 
+    {
+        try { //1
+            return facade.searchSymptom(numSymptom);
+        }
 
-//#if -1289038722 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1289038722
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public RMIServletAdapter(String server) throws CommunicationException
-    { 
-connect(server);
-} 
+    public RMIServletAdapter(String server) throws CommunicationException
+    {
+        connect(server);
+    }
 
-public int insertComplaint(Complaint complaint) throws RepositoryException,
+    public int insertComplaint(Complaint complaint) throws RepositoryException,
         ObjectAlreadyInsertedException, CommunicationException, TransactionException,
         ObjectNotValidException
-    { 
-try //1
-{ 
-return facade.insertComplaint(complaint);
-} 
+    {
+        try { //1
+            return facade.insertComplaint(complaint);
+        }
 
-//#if 1608599596 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1608599596
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
 
-//#if -494883116 
-public void insert(MedicalSpeciality speciality) throws ObjectAlreadyInsertedException,
+//#if -494883116
+    public void insert(MedicalSpeciality speciality) throws ObjectAlreadyInsertedException,
         ObjectNotValidException, InsertEntryException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-try //1
-{ 
-facade.insert(speciality);
-} 
+    {
+        try { //1
+            facade.insert(speciality);
+        }
 
-//#if -343035721 
-catch (RemoteException ex) //1
-{ 
-throw new CommunicationException(ex.getMessage());
-} 
+//#if -343035721
+        catch (RemoteException ex) { //1
+            throw new CommunicationException(ex.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if 1381871289 
-public void updateMedicalSpeciality(MedicalSpeciality speciality) throws RepositoryException,
+//#if 1381871289
+    public void updateMedicalSpeciality(MedicalSpeciality speciality) throws RepositoryException,
         TransactionException, ObjectNotFoundException, CommunicationException,
         ObjectNotValidException
-    { 
-try //1
-{ 
-facade.updateMedicalSpeciality(speciality);
-} 
+    {
+        try { //1
+            facade.updateMedicalSpeciality(speciality);
+        }
 
-//#if -1813951240 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1813951240
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if -40588731 
-public void insert(Symptom symptom) throws ObjectAlreadyInsertedException,
+//#if -40588731
+    public void insert(Symptom symptom) throws ObjectAlreadyInsertedException,
         InsertEntryException, ObjectNotValidException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-try //1
-{ 
-facade.insert(symptom);
-} 
+    {
+        try { //1
+            facade.insert(symptom);
+        }
 
-//#if 2027940438 
-catch (RemoteException ex) //1
-{ 
-throw new CommunicationException(ex.getMessage());
-} 
+//#if 2027940438
+        catch (RemoteException ex) { //1
+            throw new CommunicationException(ex.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public IteratorDsk searchSpecialitiesByHealthUnit(int code) throws ObjectNotFoundException,
+    public IteratorDsk searchSpecialitiesByHealthUnit(int code) throws ObjectNotFoundException,
         RepositoryException, CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.searchSpecialitiesByHealthUnit(code);
-} 
+    {
+        try { //1
+            return facade.searchSpecialitiesByHealthUnit(code);
+        }
 
-//#if 965161019 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 965161019
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
 
-//#if 1938370419 
-public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
+//#if 1938370419
+    public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-try //1
-{ 
-return facade.getComplaintList();
-} 
+    {
+        try { //1
+            return facade.getComplaintList();
+        }
 
-//#if 455327301 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 455327301
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if 1490246617 
-public void updateSymptom(Symptom symptom) throws RepositoryException, TransactionException,
+//#if 1490246617
+    public void updateSymptom(Symptom symptom) throws RepositoryException, TransactionException,
         ObjectNotFoundException, CommunicationException, ObjectNotValidException
-    { 
-try //1
-{ 
-facade.updateSymptom(symptom);
-} 
+    {
+        try { //1
+            facade.updateSymptom(symptom);
+        }
 
-//#if 1644165729 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1644165729
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if -111860240 
-public void insert(Employee e) throws ObjectAlreadyInsertedException, ObjectNotValidException,
+//#if -111860240
+    public void insert(Employee e) throws ObjectAlreadyInsertedException, ObjectNotValidException,
         InsertEntryException, TransactionException, CommunicationException, RepositoryException
-    { 
-try //1
-{ 
-facade.insert(e);
-} 
+    {
+        try { //1
+            facade.insert(e);
+        }
 
-//#if 1617283436 
-catch (RemoteException ex) //1
-{ 
-throw new CommunicationException(ex.getMessage());
-} 
+//#if 1617283436
+        catch (RemoteException ex) { //1
+            throw new CommunicationException(ex.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public IteratorDsk getSpecialityList() throws RepositoryException, ObjectNotFoundException,
+    public IteratorDsk getSpecialityList() throws RepositoryException, ObjectNotFoundException,
         CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.getSpecialityList();
-} 
+    {
+        try { //1
+            return facade.getSpecialityList();
+        }
 
-//#if -1225446562 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1225446562
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
 
-//#if -525212269 
-public void insert(HealthUnit us) throws InsertEntryException, ObjectAlreadyInsertedException,
+//#if -525212269
+    public void insert(HealthUnit us) throws InsertEntryException, ObjectAlreadyInsertedException,
         ObjectNotValidException, TransactionException, CommunicationException, RepositoryException
-    { 
-try //1
-{ 
-facade.insert(us);
-} 
+    {
+        try { //1
+            facade.insert(us);
+        }
 
-//#if 1038408198 
-catch (RemoteException ex) //1
-{ 
-throw new CommunicationException(ex.getMessage());
-} 
+//#if 1038408198
+        catch (RemoteException ex) { //1
+            throw new CommunicationException(ex.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
 
-//#if 1029686680 
-public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
+//#if 1029686680
+    public HealthUnit searchHealthUnit(int healthUnitCode) throws ObjectNotFoundException,
         RepositoryException, CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.searchHealthUnit(healthUnitCode);
-} 
+    {
+        try { //1
+            return facade.searchHealthUnit(healthUnitCode);
+        }
 
-//#if -122865989 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -122865989
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public DiseaseType searchDiseaseType(int code) throws RepositoryException,
+    public DiseaseType searchDiseaseType(int code) throws RepositoryException,
         ObjectNotFoundException, CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.searchDiseaseType(code);
-} 
+    {
+        try { //1
+            return facade.searchDiseaseType(code);
+        }
 
-//#if -1181161135 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1181161135
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public IteratorDsk getDiseaseTypeList() throws RepositoryException, ObjectNotFoundException,
+    public IteratorDsk getDiseaseTypeList() throws RepositoryException, ObjectNotFoundException,
         CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.getDiseaseTypeList();
-} 
+    {
+        try { //1
+            return facade.getDiseaseTypeList();
+        }
 
-//#if -1087383785 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1087383785
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
 
-//#if 1551114485 
-public void insert(DiseaseType diseaseType) throws InsertEntryException,
+//#if 1551114485
+    public void insert(DiseaseType diseaseType) throws InsertEntryException,
         ObjectAlreadyInsertedException, ObjectNotValidException, TransactionException,
         CommunicationException, RepositoryException
-    { 
-try //1
-{ 
-facade.insert(diseaseType);
-} 
+    {
+        try { //1
+            facade.insert(diseaseType);
+        }
 
-//#if 2105269791 
-catch (RemoteException ex) //1
-{ 
-throw new CommunicationException(ex.getMessage());
-} 
+//#if 2105269791
+        catch (RemoteException ex) { //1
+            throw new CommunicationException(ex.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public IteratorDsk getPartialHealthUnitList() throws RepositoryException,
+    public IteratorDsk getPartialHealthUnitList() throws RepositoryException,
         ObjectNotFoundException, CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.getPartialHealthUnitList();
-} 
+    {
+        try { //1
+            return facade.getPartialHealthUnitList();
+        }
 
-//#if -1257525994 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if -1257525994
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-public IteratorDsk getHealthUnitList() throws RepositoryException, ObjectNotFoundException,
+    public IteratorDsk getHealthUnitList() throws RepositoryException, ObjectNotFoundException,
         CommunicationException, TransactionException
-    { 
-try //1
-{ 
-return facade.getHealthUnitList();
-} 
+    {
+        try { //1
+            return facade.getHealthUnitList();
+        }
 
-//#if 1577733918 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1577733918
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
 
-//#if 648771610 
-public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
+//#if 648771610
+    public IteratorDsk getComplaintList() throws ObjectNotFoundException, TransactionException,
         CommunicationException
-    { 
-try //1
-{ 
-return facade.getComplaintList();
-} 
+    {
+        try { //1
+            return facade.getComplaintList();
+        }
 
-//#if 1600551464 
-catch (RemoteException e) //1
-{ 
-throw new CommunicationException(e.getMessage());
-} 
+//#if 1600551464
+        catch (RemoteException e) { //1
+            throw new CommunicationException(e.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
-//#endif 
+//#endif
 
-public void updateEmployee(Employee e) throws TransactionException, RepositoryException,
+    public void updateEmployee(Employee e) throws TransactionException, RepositoryException,
         ObjectNotFoundException, ObjectNotValidException, UpdateEntryException,
         CommunicationException
-    { 
-try //1
-{ 
-facade.updateEmployee(e);
-} 
+    {
+        try { //1
+            facade.updateEmployee(e);
+        }
 
-//#if 1176081174 
-catch (RemoteException ex) //1
-{ 
-throw new CommunicationException(ex.getMessage());
-} 
+//#if 1176081174
+        catch (RemoteException ex) { //1
+            throw new CommunicationException(ex.getMessage());
+        }
 
-//#endif 
+//#endif
 
 
-} 
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

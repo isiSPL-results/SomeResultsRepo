@@ -1,12 +1,12 @@
-   ,GameOfLife,View,Model,ModelBase,Options,Generator,DefaultGenerator,FormDefaultGenerator,ConcretGenerator,FormGenerator,AbstractGenerator,IO,Composed,UndoRedoGenerator,UndoRedo,PopUpMenu,Test
+,GameOfLife,View,Model,ModelBase,Options,Generator,DefaultGenerator,FormDefaultGenerator,ConcretGenerator,FormGenerator,AbstractGenerator,IO,Composed,UndoRedoGenerator,UndoRedo,PopUpMenu,Test
 00002/,X,X,X,X,,,,,,,,,,,,,
-00003/,X,X,X,,X,X,X,X,X,X,X,,,,,,
-00004/,X,X,X,,X,X,X,X,X,X,X,X,,,,,
-00005/,X,X,X,X,X,X,X,X,X,X,X,,,,,,
-00006/,X,X,X,X,X,X,X,X,X,X,X,X,,,,,
-00007/,X,X,X,X,X,X,X,X,X,X,X,,X,X,X,,
-00008/,X,X,X,,X,X,X,X,X,X,X,,,,,X,
-00009/,X,X,X,,X,X,X,X,X,X,X,X,,,,X,
-00010/,X,X,X,X,X,X,X,X,X,X,X,,,,,X,
-00011/,X,X,X,X,X,X,X,X,X,X,X,X,,,,X,
-00012/,X,X,X,X,X,X,X,X,X,X,X,,,,,X,X
+      00003/,X,X,X,,X,X,X,X,X,X,X,,,,,,
+      00004/,X,X,X,,X,X,X,X,X,X,X,X,,,,,
+      00005/,X,X,X,X,X,X,X,X,X,X,X,,,,,,
+      00006/,X,X,X,X,X,X,X,X,X,X,X,X,,,,,
+      00007/,X,X,X,X,X,X,X,X,X,X,X,,X,X,X,,
+      00008/,X,X,X,,X,X,X,X,X,X,X,,,,,X,
+      00009/,X,X,X,,X,X,X,X,X,X,X,X,,,,X,
+      00010/,X,X,X,X,X,X,X,X,X,X,X,,,,,X,
+      00011/,X,X,X,X,X,X,X,X,X,X,X,X,,,,X,
+      00012/,X,X,X,X,X,X,X,X,X,X,X,,,,,X,X

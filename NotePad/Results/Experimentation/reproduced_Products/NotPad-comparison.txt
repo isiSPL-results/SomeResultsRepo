@@ -1,0 +1,616 @@
+starting Integration
+------------
+Integration Product : 00001 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 213;  Char : 9337
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 178;  Char : 8051
+## Print.java LoC : 50;   Char : 1614
+## TOTAL : LoC : 653;   Char : 26412
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00001/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00001/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00002 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 225;  Char : 9552
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 222;  Char : 10121
+## Print.java LoC : 50;   Char : 1614
+## TOTAL : LoC : 709;   Char : 28697
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00002/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00002/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00003 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 233;  Char : 10498
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 203;  Char : 9192
+## Print.java LoC : 50;   Char : 1614
+## TOTAL : LoC : 698;   Char : 28714
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00003/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00003/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00004 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 245;  Char : 10714
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 246;  Char : 11261
+## Print.java LoC : 50;   Char : 1614
+## TOTAL : LoC : 753;   Char : 30999
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00004/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00004/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00005 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 233;  Char : 10498
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 221;  Char : 9916
+## Print.java LoC : 50;   Char : 1614
+## RedoAction.java LoC : 37;  Char : 1015
+## UndoAction.java LoC : 37;  Char : 1037
+## TOTAL : LoC : 790;   Char : 31490
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RedoAction.java vs RedoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/RedoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/RedoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoAction.java vs UndoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00005/UndoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00005/UndoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00006 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 213;  Char : 9337
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 198;  Char : 8800
+## Print.java LoC : 50;   Char : 1614
+## RedoAction.java LoC : 37;  Char : 1015
+## UndoAction.java LoC : 37;  Char : 1037
+## TOTAL : LoC : 747;   Char : 29213
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RedoAction.java vs RedoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/RedoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/RedoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoAction.java vs UndoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00006/UndoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00006/UndoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00007 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 225;  Char : 9552
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 241;  Char : 10869
+## Print.java LoC : 50;   Char : 1614
+## RedoAction.java LoC : 37;  Char : 1015
+## UndoAction.java LoC : 37;  Char : 1037
+## TOTAL : LoC : 802;   Char : 31497
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RedoAction.java vs RedoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/RedoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/RedoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoAction.java vs UndoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00007/UndoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00007/UndoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : 00008 
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008 
+## About.java LoC : 14;   Char : 500
+## Actions.java LoC : 245;  Char : 10714
+## Center.java LoC : 24;  Char : 552
+## ExampleFileFilter.java LoC : 109;  Char : 3759
+## Fonts.java LoC : 65;   Char : 2599
+## Notepad.java LoC : 264;  Char : 11985
+## Print.java LoC : 50;   Char : 1614
+## RedoAction.java LoC : 37;  Char : 1015
+## UndoAction.java LoC : 37;  Char : 1037
+## TOTAL : LoC : 845;   Char : 33775
+*********************
+Gumtree : About.java vs About.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/About.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/About.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Actions.java vs Actions.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Actions.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Actions.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Center.java vs Center.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Center.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Center.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ExampleFileFilter.java vs ExampleFileFilter.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/ExampleFileFilter.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/ExampleFileFilter.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Fonts.java vs Fonts.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Fonts.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Fonts.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Notepad.java vs Notepad.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Notepad.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Notepad.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Print.java vs Print.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/Print.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/Print.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : RedoAction.java vs RedoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/RedoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/RedoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoAction.java vs UndoAction.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/00008/UndoAction.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/00008/UndoAction.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+_____________
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+================== RESULT =====================
+Number of Original Products : 8
+(Integration) Number of Products obtained from Artefact Configurations : 8
+(Localisation) Number of Products obtained from Feature Configurations : 8
+Number of Files : in between [7 - 9]
+=======
+
+  ==========      INTEGRATION SCORE    =============
+   By Products
+  For 00001 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 653 ; Char modified : 0/26412)
+  For 00002 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 709 ; Char modified : 0/28697)
+  For 00003 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 698 ; Char modified : 0/28714)
+  For 00004 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 753 ; Char modified : 0/30999)
+  For 00005 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 790 ; Char modified : 0/31490)
+  For 00006 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 747 ; Char modified : 0/29213)
+  For 00007 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 802 ; Char modified : 0/31497)
+  For 00008 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 845 ; Char modified : 0/33775)
+==
+TOTAL :
+TOTAL LoC Deleted : 0
+TOTAL LoC Inserted : 0
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 

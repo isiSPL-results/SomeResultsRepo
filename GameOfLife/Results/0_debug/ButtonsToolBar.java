@@ -1,92 +1,93 @@
 
-//#if 1369422113 
-// Compilation Unit of /ButtonsToolBar.java 
- 
+//#if 1369422113
+// Compilation Unit of /ButtonsToolBar.java
 
-//#if -893861552 
+
+//#if -893861552
 import java.awt.FlowLayout;
-//#endif 
+//#endif
 
 
-//#if -2043437858 
+//#if -2043437858
 import java.awt.event.ActionEvent;
-//#endif 
+//#endif
 
 
-//#if -440059670 
+//#if -440059670
 import java.awt.event.ActionListener;
-//#endif 
+//#endif
 
 
-//#if 568517962 
+//#if 568517962
 import java.awt.event.MouseAdapter;
-//#endif 
+//#endif
 
 
-//#if 55871199 
+//#if 55871199
 import java.awt.event.MouseEvent;
-//#endif 
+//#endif
 
 
-//#if 569369306 
+//#if 569369306
 import java.io.File;
-//#endif 
+//#endif
 
 
-//#if -2080106889 
+//#if -2080106889
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if -1905328640 
+//#if -1905328640
 import java.net.URL;
-//#endif 
+//#endif
 
 
-//#if 6948562 
+//#if 6948562
 import javax.swing.AbstractAction;
-//#endif 
+//#endif
 
 
-//#if -1393137580 
+//#if -1393137580
 import javax.swing.Action;
-//#endif 
+//#endif
 
 
-//#if 287693912 
+//#if 287693912
 import javax.swing.ImageIcon;
-//#endif 
+//#endif
 
 
-//#if -916079152 
+//#if -916079152
 import javax.swing.JButton;
-//#endif 
+//#endif
 
 
-//#if 1296922069 
+//#if 1296922069
 import javax.swing.JFileChooser;
-//#endif 
+//#endif
 
 
-//#if 1738066768 
+//#if 1738066768
 import javax.swing.JPanel;
-//#endif 
+//#endif
 
 
-//#if 1790192281 
+//#if 1790192281
 import javax.swing.JToolBar;
-//#endif 
+//#endif
 
 
-//#if -1793765138 
-class ButtonsToolBar  { 
+//#if -1793765138
+class ButtonsToolBar
+{
 
-//#if 722711028 
-ButtonsToolBar(ModelObservable mod,  final GenerationScheduler sched)
-    { 
+//#if 722711028
+    ButtonsToolBar(ModelObservable mod,  final GenerationScheduler sched)
+    {
 
-//#if -1562281798 
-add(makeNavigationButton("open24","Load","Laden","Laden",new ActionListener() {
+//#if -1562281798
+        add(makeNavigationButton("open24","Load","Laden","Laden",new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 JFileChooser fc=new JFileChooser();
                 int resp=fc.showOpenDialog(ButtonsToolBar.this);
@@ -104,11 +105,11 @@ add(makeNavigationButton("open24","Load","Laden","Laden",new ActionListener() {
             }
         }
                                 ));
-//#endif 
+//#endif
 
 
-//#if 1663552570 
-add(makeNavigationButton("Save24","Save","Speichern","Speichern",new ActionListener() {
+//#if 1663552570
+        add(makeNavigationButton("Save24","Save","Speichern","Speichern",new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 JFileChooser fc=new JFileChooser();
                 int resp=fc.showSaveDialog(ButtonsToolBar.this);
@@ -126,16 +127,16 @@ add(makeNavigationButton("Save24","Save","Speichern","Speichern",new ActionListe
             }
         }
                                 ));
-//#endif 
+//#endif
 
-} 
+    }
 
-//#endif 
+//#endif
 
- } 
+}
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 

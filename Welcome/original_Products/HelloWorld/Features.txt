@@ -1,2 +1,0 @@
-
-WORLD := Says Hello to the World

@@ -1,45 +1,46 @@
 
-//#if 1470647848 
-// Compilation Unit of /EdgeIter.java 
- 
+//#if 1470647848
+// Compilation Unit of /EdgeIter.java
 
-//#if 1692032991 
+
+//#if 1692032991
 package GPL;
-//#endif 
+//#endif
 
 
-//#if -747717179 
-public class EdgeIter  { 
+//#if -747717179
+public class EdgeIter
+{
 
-//#if -1855771534 
-public boolean hasNext( )
-    { 
+//#if -1855771534
+    public boolean hasNext( )
+    {
 
-//#if 1438149446 
-return false;
-//#endif 
+//#if 1438149446
+        return false;
+//#endif
 
-} 
+    }
 
-//#endif 
-
-
-//#if 703479441 
-public EdgeIfc next( )
-    { 
-
-//#if -1761012671 
-return null;
-//#endif 
-
-} 
-
-//#endif 
-
- } 
-
-//#endif 
+//#endif
 
 
-//#endif 
+//#if 703479441
+    public EdgeIfc next( )
+    {
+
+//#if -1761012671
+        return null;
+//#endif
+
+    }
+
+//#endif
+
+}
+
+//#endif
+
+
+//#endif
 

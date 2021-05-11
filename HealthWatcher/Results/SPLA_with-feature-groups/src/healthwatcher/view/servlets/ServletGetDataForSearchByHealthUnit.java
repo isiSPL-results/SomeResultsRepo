@@ -1,7 +1,7 @@
 
-//#if -979336152 
-// Compilation Unit of /ServletGetDataForSearchByHealthUnit.java 
- 
+//#if -979336152
+// Compilation Unit of /ServletGetDataForSearchByHealthUnit.java
+
 package healthwatcher.view.servlets;
 import healthwatcher.Constants;
 import healthwatcher.model.healthguide.HealthUnit;
@@ -18,86 +18,74 @@ import lib.exceptions.TransactionException;
 import lib.util.HTMLCode;
 import lib.util.IteratorDsk;
 public class ServletGetDataForSearchByHealthUnit extends HWServlet
-  { 
-public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
-    { 
-PrintWriter out;
-response.setContentType("text/html");
-out = response.getWriter();
-out.println(HTMLCode.open("Queries - Specialties"));
-out.println("<body><h1>Queries:<br>Search Specialties of a Health unit</h1>");
-out.println("<p>Choose a health unit: </p>");
-out.println("<form method=\"POST\"action=\"http://"+Constants.SERVLET_SERVER_PATH+"ServletSearchSpecialtiesByHealthUnit\">");
-try //1
-{ 
-out.println("<div align=\"center\"><center><p><select name=\"codUnidadeSaude\" size=\"1\">");
-IteratorDsk repUS = facade.getPartialHealthUnitList();
-if(!repUS.hasNext())//1
-{ 
-out.println("</select></p></center></div>");
-out.println("<P> There isn't registered health units.</P>");
-} 
-else
-{ 
-HealthUnit us;
-do{ 
-us = (HealthUnit) repUS.next();
-out.println("<option value=\""+ us.getCode() + "\"> " + us.getDescription() + " </OPTION>");
-} 
- while (repUS.hasNext());//1
+{
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        PrintWriter out;
+        response.setContentType("text/html");
+        out = response.getWriter();
+        out.println(HTMLCode.open("Queries - Specialties"));
+        out.println("<body><h1>Queries:<br>Search Specialties of a Health unit</h1>");
+        out.println("<p>Choose a health unit: </p>");
+        out.println("<form method=\"POST\"action=\"http://"+Constants.SERVLET_SERVER_PATH+"ServletSearchSpecialtiesByHealthUnit\">");
+        try { //1
+            out.println("<div align=\"center\"><center><p><select name=\"codUnidadeSaude\" size=\"1\">");
+            IteratorDsk repUS = facade.getPartialHealthUnitList();
+            if(!repUS.hasNext()) { //1
+                out.println("</select></p></center></div>");
+                out.println("<P> There isn't registered health units.</P>");
+            } else {
+                HealthUnit us;
+                do {
+                    us = (HealthUnit) repUS.next();
+                    out.println("<option value=\""+ us.getCode() + "\"> " + us.getDescription() + " </OPTION>");
+                } while (repUS.hasNext()); //1
 
-repUS.close();
-out.println("</select></p></center></div>");
-out.println("<div align=\"center\"><center><p><input type=\"submit\" value=\"Consultar\" name=\"B1\"></p></center></div></form>");
-} 
+                repUS.close();
+                out.println("</select></p></center></div>");
+                out.println("<div align=\"center\"><center><p><input type=\"submit\" value=\"Consultar\" name=\"B1\"></p></center></div></form>");
+            }
 
-out.println(HTMLCode.closeQueries());
-} 
-catch(RemoteException e) //1
-{ 
-out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
-e.printStackTrace(out);
-} 
+            out.println(HTMLCode.closeQueries());
+        } catch(RemoteException e) { //1
+            out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
+            e.printStackTrace(out);
+        }
 
-catch (ObjectNotFoundException e) //1
-{ 
-out.println("</select></p></center></div>");
-out.println("<P> " + e.getMessage() + " </P>");
-out.println("<P> Nenhuma unidade de saude foi cadastrada</P>");
-} 
+        catch (ObjectNotFoundException e) { //1
+            out.println("</select></p></center></div>");
+            out.println("<P> " + e.getMessage() + " </P>");
+            out.println("<P> Nenhuma unidade de saude foi cadastrada</P>");
+        }
 
-catch (RepositoryException e) //1
-{ 
-out.println("</select></p></center></div>");
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (RepositoryException e) { //1
+            out.println("</select></p></center></div>");
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch (TransactionException e) //1
-{ 
-out.println("</select></p></center></div>");
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (TransactionException e) { //1
+            out.println("</select></p></center></div>");
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch (CommunicationException e) //1
-{ 
-out.println("</select></p></center></div>");
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (CommunicationException e) { //1
+            out.println("</select></p></center></div>");
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch(Exception e) //1
-{ 
-out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
-e.printStackTrace(out);
-} 
+        catch(Exception e) { //1
+            out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
+            e.printStackTrace(out);
+        }
 
-finally { 
-out.close();
-} 
+        finally {
+            out.close();
+        }
 
-} 
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

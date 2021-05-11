@@ -1,162 +1,162 @@
 
-//#if -429036845 
-// Compilation Unit of /ArrayRepositoryFactory.java 
- 
+//#if -429036845
+// Compilation Unit of /ArrayRepositoryFactory.java
 
-//#if -977315529 
+
+//#if -977315529
 package healthwatcher.data.factories;
-//#endif 
+//#endif
 
 
-//#if 70547090 
+//#if 70547090
 import healthwatcher.data.IComplaintRepository;
-//#endif 
+//#endif
 
 
-//#if -1509091295 
+//#if -1509091295
 import healthwatcher.data.IDiseaseRepository;
-//#endif 
+//#endif
 
 
-//#if 1661320983 
+//#if 1661320983
 import healthwatcher.data.IEmployeeRepository;
-//#endif 
+//#endif
 
 
-//#if -688148603 
+//#if -688148603
 import healthwatcher.data.IHealthUnitRepository;
-//#endif 
+//#endif
 
 
-//#if 272402704 
+//#if 272402704
 import healthwatcher.data.ISpecialityRepository;
-//#endif 
+//#endif
 
 
-//#if -900076063 
+//#if -900076063
 import healthwatcher.data.mem.ComplaintRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 1125789580 
+//#if 1125789580
 import healthwatcher.data.mem.DiseaseTypeRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 1905508432 
+//#if 1905508432
 import healthwatcher.data.mem.EmployeeRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 72804898 
+//#if 72804898
 import healthwatcher.data.mem.HealthUnitRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if -874033289 
+//#if -874033289
 import healthwatcher.data.mem.SpecialityRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if 254844244 
+//#if 254844244
 import healthwatcher.data.ISymptomRepository;
-//#endif 
+//#endif
 
 
-//#if 1534485983 
+//#if 1534485983
 import healthwatcher.data.mem.SymptomRepositoryArray;
-//#endif 
+//#endif
 
 
-//#if -573765086 
-public class ArrayRepositoryFactory extends 
-//#if 2129119234 
-AbstractRepositoryFactory
-//#endif 
+//#if -573765086
+public class ArrayRepositoryFactory extends
+//#if 2129119234
+    AbstractRepositoryFactory
+//#endif
 
-  { 
+{
 
-//#if 21169237 
-public IHealthUnitRepository createHealthUnitRepository()
-    { 
+//#if 21169237
+    public IHealthUnitRepository createHealthUnitRepository()
+    {
 
-//#if -58821095 
-return new HealthUnitRepositoryArray();
-//#endif 
+//#if -58821095
+        return new HealthUnitRepositoryArray();
+//#endif
 
-} 
+    }
 
-//#endif 
-
-
-//#if -34472471 
-public IComplaintRepository createComplaintRepository()
-    { 
-
-//#if -381007012 
-return new ComplaintRepositoryArray();
-//#endif 
-
-} 
-
-//#endif 
+//#endif
 
 
-//#if 1811632617 
-public ISymptomRepository createSymptomRepository()
-    { 
+//#if -34472471
+    public IComplaintRepository createComplaintRepository()
+    {
 
-//#if -1338420017 
-return new SymptomRepositoryArray();
-//#endif 
+//#if -381007012
+        return new ComplaintRepositoryArray();
+//#endif
 
-} 
+    }
 
-//#endif 
-
-
-//#if 1391088777 
-public IDiseaseRepository createDiseaseRepository()
-    { 
-
-//#if -386092917 
-return new DiseaseTypeRepositoryArray();
-//#endif 
-
-} 
-
-//#endif 
+//#endif
 
 
-//#if 1672607025 
-public IEmployeeRepository createEmployeeRepository()
-    { 
+//#if 1811632617
+    public ISymptomRepository createSymptomRepository()
+    {
 
-//#if -1675134209 
-return new EmployeeRepositoryArray();
-//#endif 
+//#if -1338420017
+        return new SymptomRepositoryArray();
+//#endif
 
-} 
+    }
 
-//#endif 
-
-
-//#if -84391214 
-public ISpecialityRepository createMedicalSpecialityRepository()
-    { 
-
-//#if -1206325292 
-return new SpecialityRepositoryArray();
-//#endif 
-
-} 
-
-//#endif 
-
- } 
-
-//#endif 
+//#endif
 
 
-//#endif 
+//#if 1391088777
+    public IDiseaseRepository createDiseaseRepository()
+    {
+
+//#if -386092917
+        return new DiseaseTypeRepositoryArray();
+//#endif
+
+    }
+
+//#endif
+
+
+//#if 1672607025
+    public IEmployeeRepository createEmployeeRepository()
+    {
+
+//#if -1675134209
+        return new EmployeeRepositoryArray();
+//#endif
+
+    }
+
+//#endif
+
+
+//#if -84391214
+    public ISpecialityRepository createMedicalSpecialityRepository()
+    {
+
+//#if -1206325292
+        return new SpecialityRepositoryArray();
+//#endif
+
+    }
+
+//#endif
+
+}
+
+//#endif
+
+
+//#endif
 

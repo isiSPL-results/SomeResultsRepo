@@ -1,117 +1,117 @@
 digraph G {
-  compound = true;
-  rankdir = "BT"; 
-  nodesep= 0.5;
-  ranksep =  10; 
+    compound = true;
+    rankdir = "BT";
+    nodesep= 0.5;
+    ranksep =  10;
 
- // CO-OCCURENCE GROUPS 
- subgraph "cluster_0" {
-		color=black;
-		node [style=filled,color=white]; 
-"DirectedWithNeighbors"; "StrongC"; "Directed"; "StronglyConnected"; "Transpose"; "WeightedOnlyVertices"; 
- label = "COOCURENCE_GRP_0";
-	}
- subgraph "cluster_1" {
-		color=black;
-		node [style=filled,color=white]; 
-"Unweighted"; "WithNeighbors"; 
- label = "COOCURENCE_GRP_1";
-	}
- subgraph "cluster_2" {
-		color=black;
-		node [style=filled,color=white]; 
-"UndirectedWithEdges"; "Weighted"; "WithEdges"; 
- label = "COOCURENCE_GRP_2";
-	}
+// CO-OCCURENCE GROUPS
+    subgraph "cluster_0" {
+        color=black;
+        node [style=filled,color=white];
+        "DirectedWithNeighbors"; "StrongC"; "Directed"; "StronglyConnected"; "Transpose"; "WeightedOnlyVertices";
+        label = "COOCURENCE_GRP_0";
+    }
+    subgraph "cluster_1" {
+        color=black;
+        node [style=filled,color=white];
+        "Unweighted"; "WithNeighbors";
+        label = "COOCURENCE_GRP_1";
+    }
+    subgraph "cluster_2" {
+        color=black;
+        node [style=filled,color=white];
+        "UndirectedWithEdges"; "Weighted"; "WithEdges";
+        label = "COOCURENCE_GRP_2";
+    }
 
- // IMPLICATION 
+// IMPLICATION
 //"A" -> "B" [lhead = cluster_0;color="blue"]
-"WeightedWithNeighbors" -> "MSTKruskal"[color="blue"]
-"MSTPrim" -> "Number"[color="blue"]
-"MSTPrim" -> "BFS"[color="blue"]
-"UndirectedWithNeighbors" -> "Connected"[color="blue"]
-"UndirectedWithNeighbors" -> "BFS"[color="blue"]
-"UndirectedWithNeighbors" -> "Unweighted"[ lhead = cluster_1;color="blue"]
-"DirectedWithNeighbors" -> "Cycle"[ ltail = cluster_0;color="blue"]
-"DirectedWithNeighbors" -> "Unweighted"[ ltail = cluster_0; lhead = cluster_1;color="blue"]
-"MSTKruskal" -> "UndirectedWithEdges"[ lhead = cluster_2;color="blue"]
-"MSTKruskal" -> "DFS"[color="blue"]
-"Number" -> "UndirectedWithEdges"[ lhead = cluster_2;color="blue"]
-"Connected" -> "Undirected"[color="blue"]
-"Cycle" -> "DFS"[color="blue"]
-"BFS" -> "Undirected"[color="blue"]
-"UndirectedWithEdges" -> "Undirected"[ ltail = cluster_2;color="blue"]
-"UndirectedWithEdges" -> "WeightedWithEdges"[ ltail = cluster_2;color="blue"]
-"DFS" -> "WeightedWithEdges"[color="blue"]
+    "WeightedWithNeighbors" -> "MSTKruskal"[color="blue"]
+    "MSTPrim" -> "Number"[color="blue"]
+    "MSTPrim" -> "BFS"[color="blue"]
+    "UndirectedWithNeighbors" -> "Connected"[color="blue"]
+    "UndirectedWithNeighbors" -> "BFS"[color="blue"]
+    "UndirectedWithNeighbors" -> "Unweighted"[ lhead = cluster_1; color="blue"]
+    "DirectedWithNeighbors" -> "Cycle"[ ltail = cluster_0; color="blue"]
+    "DirectedWithNeighbors" -> "Unweighted"[ ltail = cluster_0; lhead = cluster_1; color="blue"]
+    "MSTKruskal" -> "UndirectedWithEdges"[ lhead = cluster_2; color="blue"]
+    "MSTKruskal" -> "DFS"[color="blue"]
+    "Number" -> "UndirectedWithEdges"[ lhead = cluster_2; color="blue"]
+    "Connected" -> "Undirected"[color="blue"]
+    "Cycle" -> "DFS"[color="blue"]
+    "BFS" -> "Undirected"[color="blue"]
+    "UndirectedWithEdges" -> "Undirected"[ ltail = cluster_2; color="blue"]
+    "UndirectedWithEdges" -> "WeightedWithEdges"[ ltail = cluster_2; color="blue"]
+    "DFS" -> "WeightedWithEdges"[color="blue"]
 
- // MUTEX 
-//"A" ->! "C" [arrowhead=invdot;color="red";] 
-"WeightedWithNeighbors" -> "MSTPrim" [ arrowhead=normalicurvecurve;color="red";]
-"WeightedWithNeighbors" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"WeightedWithNeighbors" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"WeightedWithNeighbors" -> "Number" [ arrowhead=normalicurvecurve;color="red";]
-"WeightedWithNeighbors" -> "Connected" [ arrowhead=normalicurvecurve;color="red";]
-"WeightedWithNeighbors" -> "Cycle" [ arrowhead=normalicurvecurve;color="red";]
-"WeightedWithNeighbors" -> "BFS" [ arrowhead=normalicurvecurve;color="red";]
-"WeightedWithNeighbors" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "MSTKruskal" [ arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "Connected" [ arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "Cycle" [ arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"MSTPrim" -> "DFS" [ arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "MSTPrim" [ arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "MSTKruskal" [ arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "Number" [ arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "Cycle" [ arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "UndirectedWithEdges" [ lhead = cluster_2; arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "DFS" [ arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithNeighbors" -> "WeightedWithEdges" [ arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "WeightedWithNeighbors" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "MSTPrim" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "UndirectedWithNeighbors" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "MSTKruskal" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "Number" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "Connected" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "BFS" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "UndirectedWithEdges" [ ltail = cluster_0; lhead = cluster_2; arrowhead=normalicurvecurve;color="red";]
-"DirectedWithNeighbors" -> "Undirected" [ ltail = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"MSTKruskal" -> "MSTPrim" [ arrowhead=normalicurvecurve;color="red";]
-"MSTKruskal" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"MSTKruskal" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"MSTKruskal" -> "BFS" [ arrowhead=normalicurvecurve;color="red";]
-"MSTKruskal" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"Number" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"Number" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"Number" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"Number" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"Connected" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"Connected" -> "MSTPrim" [ arrowhead=normalicurvecurve;color="red";]
-"Connected" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"Cycle" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"Cycle" -> "MSTPrim" [ arrowhead=normalicurvecurve;color="red";]
-"Cycle" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"Cycle" -> "BFS" [ arrowhead=normalicurvecurve;color="red";]
-"BFS" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"BFS" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"BFS" -> "MSTKruskal" [ arrowhead=normalicurvecurve;color="red";]
-"BFS" -> "Cycle" [ arrowhead=normalicurvecurve;color="red";]
-"BFS" -> "DFS" [ arrowhead=normalicurvecurve;color="red";]
-"Unweighted" -> "WeightedWithNeighbors" [ ltail = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"Unweighted" -> "MSTPrim" [ ltail = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"Unweighted" -> "MSTKruskal" [ ltail = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"Unweighted" -> "Number" [ ltail = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"Unweighted" -> "UndirectedWithEdges" [ ltail = cluster_1; lhead = cluster_2; arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithEdges" -> "UndirectedWithNeighbors" [ ltail = cluster_2; arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithEdges" -> "DirectedWithNeighbors" [ ltail = cluster_2; lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"UndirectedWithEdges" -> "Unweighted" [ ltail = cluster_2; lhead = cluster_1; arrowhead=normalicurvecurve;color="red";]
-"DFS" -> "MSTPrim" [ arrowhead=normalicurvecurve;color="red";]
-"DFS" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
-"DFS" -> "BFS" [ arrowhead=normalicurvecurve;color="red";]
-"Undirected" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve;color="red";]
-"WeightedWithEdges" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve;color="red";]
+// MUTEX
+//"A" ->! "C" [arrowhead=invdot;color="red";]
+    "WeightedWithNeighbors" -> "MSTPrim" [ arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithNeighbors" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithNeighbors" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithNeighbors" -> "Number" [ arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithNeighbors" -> "Connected" [ arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithNeighbors" -> "Cycle" [ arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithNeighbors" -> "BFS" [ arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithNeighbors" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "MSTKruskal" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "Connected" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "Cycle" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "MSTPrim" -> "DFS" [ arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "MSTPrim" [ arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "MSTKruskal" [ arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "Number" [ arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "Cycle" [ arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "UndirectedWithEdges" [ lhead = cluster_2; arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "DFS" [ arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithNeighbors" -> "WeightedWithEdges" [ arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "WeightedWithNeighbors" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "MSTPrim" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "UndirectedWithNeighbors" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "MSTKruskal" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "Number" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "Connected" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "BFS" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "UndirectedWithEdges" [ ltail = cluster_0; lhead = cluster_2; arrowhead=normalicurvecurve; color="red";]
+    "DirectedWithNeighbors" -> "Undirected" [ ltail = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "MSTKruskal" -> "MSTPrim" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTKruskal" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTKruskal" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "MSTKruskal" -> "BFS" [ arrowhead=normalicurvecurve; color="red";]
+    "MSTKruskal" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "Number" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "Number" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "Number" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "Number" -> "Unweighted" [ lhead = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "Connected" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "Connected" -> "MSTPrim" [ arrowhead=normalicurvecurve; color="red";]
+    "Connected" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "Cycle" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "Cycle" -> "MSTPrim" [ arrowhead=normalicurvecurve; color="red";]
+    "Cycle" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "Cycle" -> "BFS" [ arrowhead=normalicurvecurve; color="red";]
+    "BFS" -> "WeightedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "BFS" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "BFS" -> "MSTKruskal" [ arrowhead=normalicurvecurve; color="red";]
+    "BFS" -> "Cycle" [ arrowhead=normalicurvecurve; color="red";]
+    "BFS" -> "DFS" [ arrowhead=normalicurvecurve; color="red";]
+    "Unweighted" -> "WeightedWithNeighbors" [ ltail = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "Unweighted" -> "MSTPrim" [ ltail = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "Unweighted" -> "MSTKruskal" [ ltail = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "Unweighted" -> "Number" [ ltail = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "Unweighted" -> "UndirectedWithEdges" [ ltail = cluster_1; lhead = cluster_2; arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithEdges" -> "UndirectedWithNeighbors" [ ltail = cluster_2; arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithEdges" -> "DirectedWithNeighbors" [ ltail = cluster_2; lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "UndirectedWithEdges" -> "Unweighted" [ ltail = cluster_2; lhead = cluster_1; arrowhead=normalicurvecurve; color="red";]
+    "DFS" -> "MSTPrim" [ arrowhead=normalicurvecurve; color="red";]
+    "DFS" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
+    "DFS" -> "BFS" [ arrowhead=normalicurvecurve; color="red";]
+    "Undirected" -> "DirectedWithNeighbors" [ lhead = cluster_0; arrowhead=normalicurvecurve; color="red";]
+    "WeightedWithEdges" -> "UndirectedWithNeighbors" [ arrowhead=normalicurvecurve; color="red";]
 }

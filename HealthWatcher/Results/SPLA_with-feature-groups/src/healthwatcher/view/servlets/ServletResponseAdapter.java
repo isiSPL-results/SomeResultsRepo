@@ -1,44 +1,44 @@
 
-//#if 1299956082 
-// Compilation Unit of /ServletResponseAdapter.java 
- 
+//#if 1299956082
+// Compilation Unit of /ServletResponseAdapter.java
+
 package healthwatcher.view.servlets;
 
-//#if -294690345 
+//#if -294690345
 import healthwatcher.view.command.CommandResponse;
-//#endif 
+//#endif
 
 
-//#if -234936316 
+//#if -234936316
 import java.io.IOException;
-//#endif 
+//#endif
 
 
-//#if 385283917 
+//#if 385283917
 import java.io.PrintWriter;
-//#endif 
+//#endif
 
 
-//#if -1854021172 
+//#if -1854021172
 import javax.servlet.http.HttpServletResponse;
-//#endif 
+//#endif
 
 public class ServletResponseAdapter implements CommandResponse
-  { 
-protected HttpServletResponse response;
-public PrintWriter getWriter() throws IOException
-    { 
-return this.response.getWriter();
-} 
+{
+    protected HttpServletResponse response;
+    public PrintWriter getWriter() throws IOException
+    {
+        return this.response.getWriter();
+    }
 
-public ServletResponseAdapter(HttpServletResponse response)
-    { 
-this.response = response;
-this.response.setContentType("text/html");
-} 
+    public ServletResponseAdapter(HttpServletResponse response)
+    {
+        this.response = response;
+        this.response.setContentType("text/html");
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

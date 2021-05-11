@@ -1,6 +1,6 @@
-   ,UndirectedWithEdges,MSTKruskal,DFS,Weighted,Undirected,WithEdges,WeightedWithEdges,WeightedWithNeighbors,Number,Connected,Cycle,MSTPrim,BFS,UndirectedWithNeighbors,Unweighted,WithNeighbors,DirectedWithNeighbors,StrongC,Directed,StronglyConnected,Transpose,WeightedOnlyVertices
+,UndirectedWithEdges,MSTKruskal,DFS,Weighted,Undirected,WithEdges,WeightedWithEdges,WeightedWithNeighbors,Number,Connected,Cycle,MSTPrim,BFS,UndirectedWithNeighbors,Unweighted,WithNeighbors,DirectedWithNeighbors,StrongC,Directed,StronglyConnected,Transpose,WeightedOnlyVertices
 product_1/,X,X,X,X,X,X,X,X,,,,,,,,,,,,,,
-product_2/,X,X,X,X,X,X,X,,X,X,X,,,,,,,,,,,
-product_3/,X,,,X,X,X,X,,X,,,X,X,,,,,,,,,
-product_4/,,,,,X,,,,,X,,,X,X,X,X,,,,,,
-product_5/,,,X,,,,X,,,,X,,,,X,X,X,X,X,X,X,X
+          product_2/,X,X,X,X,X,X,X,,X,X,X,,,,,,,,,,,
+          product_3/,X,,,X,X,X,X,,X,,,X,X,,,,,,,,,
+          product_4/,,,,,X,,,,,X,,,X,X,X,X,,,,,,
+          product_5/,,,X,,,,X,,,,X,,,,X,X,X,X,X,X,X,X

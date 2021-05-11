@@ -1,81 +1,82 @@
 
-//#if 871000878 
-// Compilation Unit of /ISpecialityRepository.java 
- 
+//#if 871000878
+// Compilation Unit of /ISpecialityRepository.java
 
-//#if -2008470280 
+
+//#if -2008470280
 package healthwatcher.data;
-//#endif 
+//#endif
 
 
-//#if -1293243428 
+//#if -1293243428
 import lib.exceptions.ObjectAlreadyInsertedException;
-//#endif 
+//#endif
 
 
-//#if -884866245 
+//#if -884866245
 import lib.exceptions.ObjectNotFoundException;
-//#endif 
+//#endif
 
 
-//#if -2050741451 
+//#if -2050741451
 import lib.exceptions.ObjectNotValidException;
-//#endif 
+//#endif
 
 
-//#if 1360984887 
+//#if 1360984887
 import lib.exceptions.RepositoryException;
-//#endif 
+//#endif
 
 
-//#if -85048560 
+//#if -85048560
 import lib.util.IteratorDsk;
-//#endif 
+//#endif
 
 
-//#if -659230346 
+//#if -659230346
 import healthwatcher.model.healthguide.MedicalSpeciality;
-//#endif 
+//#endif
 
 
-//#if -2017943437 
-public interface ISpecialityRepository  { 
+//#if -2017943437
+public interface ISpecialityRepository
+{
 
-//#if -728994384 
-public void insert(MedicalSpeciality esp) throws ObjectNotValidException,
+//#if -728994384
+    public void insert(MedicalSpeciality esp) throws ObjectNotValidException,
                ObjectAlreadyInsertedException, ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if 514889910 
-public void remove(int codigo) throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if 514889910
+    public void remove(int codigo) throws ObjectNotFoundException, RepositoryException;
+//#endif
 
 
-//#if -1643925180 
-public boolean exists(int num) throws RepositoryException;
-//#endif 
+//#if -1643925180
+    public boolean exists(int num) throws RepositoryException;
+//#endif
 
 
-//#if -1327167097 
-public void update(MedicalSpeciality esp) throws ObjectNotValidException,
+//#if -1327167097
+    public void update(MedicalSpeciality esp) throws ObjectNotValidException,
                ObjectNotFoundException, ObjectNotValidException, RepositoryException;
-//#endif 
+//#endif
 
 
-//#if -708247944 
-public MedicalSpeciality search(int codigo) throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if -708247944
+    public MedicalSpeciality search(int codigo) throws ObjectNotFoundException, RepositoryException;
+//#endif
 
 
-//#if -988181289 
-public IteratorDsk getSpecialityList() throws ObjectNotFoundException, RepositoryException;
-//#endif 
+//#if -988181289
+    public IteratorDsk getSpecialityList() throws ObjectNotFoundException, RepositoryException;
+//#endif
 
- } 
+}
 
-//#endif 
+//#endif
 
 
-//#endif 
+//#endif
 

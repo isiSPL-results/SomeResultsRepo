@@ -1,7 +1,7 @@
 
-//#if -1158004688 
-// Compilation Unit of /ServletGetDataForSearchByDiseaseType.java 
- 
+//#if -1158004688
+// Compilation Unit of /ServletGetDataForSearchByDiseaseType.java
+
 package healthwatcher.view.servlets;
 import healthwatcher.Constants;
 import healthwatcher.model.complaint.DiseaseType;
@@ -18,77 +18,66 @@ import lib.exceptions.TransactionException;
 import lib.util.HTMLCode;
 import lib.util.IteratorDsk;
 public class ServletGetDataForSearchByDiseaseType extends HWServlet
-  { 
-public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
-    { 
-PrintWriter out;
-response.setContentType("text/html");
-out = response.getWriter();
-out.println(HTMLCode.open("Queries - Disease information"));
-out.println("<body><h1>Queries:<br>Querie about diseases</h1>");
-out.println("<p>Choose a disease: </p>");
-out.println("<form method=\"POST\" action=\"http://"+Constants.SERVLET_SERVER_PATH+"ServletSearchDiseaseData\">");
-try //1
-{ 
-out.println("<div align=\"center\"><center><p><select name=\"codTipoDoenca\" size=\"1\">");
-IteratorDsk repTP = facade.getDiseaseTypeList();
-if(repTP==null||!repTP.hasNext())//1
-{ 
-out.println("</select></p></center></div>");
-out.println("<p><font color=\"red\"><b> There isn't diseases registered.</b></font></p>");
-} 
-else
-{ 
-DiseaseType tp;
-do{ 
-tp = (DiseaseType) repTP.next();
-out.println("<option value=\""+ tp.getCode() + "\"> " + tp.getName()+ " </OPTION>");
-} 
- while (repTP.hasNext());//1
+{
+    public void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException
+    {
+        PrintWriter out;
+        response.setContentType("text/html");
+        out = response.getWriter();
+        out.println(HTMLCode.open("Queries - Disease information"));
+        out.println("<body><h1>Queries:<br>Querie about diseases</h1>");
+        out.println("<p>Choose a disease: </p>");
+        out.println("<form method=\"POST\" action=\"http://"+Constants.SERVLET_SERVER_PATH+"ServletSearchDiseaseData\">");
+        try { //1
+            out.println("<div align=\"center\"><center><p><select name=\"codTipoDoenca\" size=\"1\">");
+            IteratorDsk repTP = facade.getDiseaseTypeList();
+            if(repTP==null||!repTP.hasNext()) { //1
+                out.println("</select></p></center></div>");
+                out.println("<p><font color=\"red\"><b> There isn't diseases registered.</b></font></p>");
+            } else {
+                DiseaseType tp;
+                do {
+                    tp = (DiseaseType) repTP.next();
+                    out.println("<option value=\""+ tp.getCode() + "\"> " + tp.getName()+ " </OPTION>");
+                } while (repTP.hasNext()); //1
 
-repTP.close();
-out.println("</select></p></center></div>");
-out.println("<div align=\"center\"><center><p><input type=\"submit\" value=\"Consultar\" name=\"B1\"></p></center></div></form>");
-} 
+                repTP.close();
+                out.println("</select></p></center></div>");
+                out.println("<div align=\"center\"><center><p><input type=\"submit\" value=\"Consultar\" name=\"B1\"></p></center></div></form>");
+            }
 
-out.println(HTMLCode.closeQueries());
-} 
-catch(RemoteException e) //1
-{ 
-out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
-e.printStackTrace(out);
-} 
+            out.println(HTMLCode.closeQueries());
+        } catch(RemoteException e) { //1
+            out.println(lib.util.HTMLCode.errorPage("Comunitation error, please try again later."));
+            e.printStackTrace(out);
+        }
 
-catch (ObjectNotFoundException e) //1
-{ 
-out.println(HTMLCode.errorPageQueries("There isn't registered diseases"));
-} 
+        catch (ObjectNotFoundException e) { //1
+            out.println(HTMLCode.errorPageQueries("There isn't registered diseases"));
+        }
 
-catch (RepositoryException e) //1
-{ 
-out.println("</select></p></center></div>");
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (RepositoryException e) { //1
+            out.println("</select></p></center></div>");
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch (TransactionException e) //1
-{ 
-out.println("</select></p></center></div>");
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (TransactionException e) { //1
+            out.println("</select></p></center></div>");
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-catch (CommunicationException e) //1
-{ 
-out.println("<P> " + e.getMessage() + " </P>");
-} 
+        catch (CommunicationException e) { //1
+            out.println("<P> " + e.getMessage() + " </P>");
+        }
 
-finally { 
-out.close();
-} 
+        finally {
+            out.close();
+        }
 
-} 
+    }
 
- } 
+}
 
 
-//#endif 
+//#endif
 

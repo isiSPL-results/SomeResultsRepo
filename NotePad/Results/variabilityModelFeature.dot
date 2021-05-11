@@ -1,17 +1,18 @@
 digraph G {
-  compound = true;
-  rankdir = "BT"; 
-  nodesep= 0.5;
-  ranksep =  10; 
+    compound = true;
+    rankdir = "BT";
+    nodesep= 0.5;
+    ranksep =  10;
 
- // CO-OCCURENCE GROUPS 
+// CO-OCCURENCE GROUPS
 
- // IMPLICATION 
+// IMPLICATION
 //"A" -> "B" [lhead = cluster_0;color="blue"]
-"Finder" -> "Notepad"[color="blue"]
-"Cut" -> "Notepad"[color="blue"]
-"Undo" -> "Notepad"[color="blue"]
+    "Finder"
+    -> "Notepad"[color="blue"]
+        "Cut" -> "Notepad"[color="blue"]
+        "Undo" -> "Notepad"[color="blue"]
 
- // MUTEX 
-//"A" ->! "C" [arrowhead=invdot;color="red";] 
-}
+// MUTEX
+//"A" ->! "C" [arrowhead=invdot;color="red";]
+    }

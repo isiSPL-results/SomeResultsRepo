@@ -1,0 +1,2284 @@
+starting Integration
+------------
+Integration Product : P1 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 36;   Char : 1104
+## BoardManager.java LoC : 97;  Char : 3283
+## Field.java LoC : 39;   Char : 1005
+## ForcedField.java LoC : 1;  Char : 11
+## ForcedNumber.java LoC : 1;   Char : 11
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 1;  Char : 11
+## Gui.java LoC : 101;  Char : 3353
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 83;   Char : 2944
+## ListenerFactory.java LoC : 19;   Char : 496
+## LoadFileListener.java LoC : 28;  Char : 869
+## LoadStateListener.java LoC : 1;  Char : 11
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 1;  Char : 11
+## SetPossibilitiesListener.java LoC : 1;   Char : 11
+## SolutionHintListener.java LoC : 1;   Char : 11
+## Solver.java LoC : 1;   Char : 11
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 1;   Char : 11
+## TOTAL : LoC : 733;   Char : 23952
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P1/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P1/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P10 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 169;  Char : 5827
+## BoardManager.java LoC : 284;   Char : 9740
+## Field.java LoC : 128;  Char : 3710
+## ForcedField.java LoC : 23;   Char : 851
+## ForcedNumber.java LoC : 35;  Char : 1339
+## GenerateSudokuListener.java LoC : 26;  Char : 708
+## Guesser.java LoC : 46;   Char : 1764
+## Gui.java LoC : 213;  Char : 7964
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 106;  Char : 4078
+## ListenerFactory.java LoC : 44;   Char : 1208
+## LoadFileListener.java LoC : 34;  Char : 1178
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 1;   Char : 11
+## SolutionHintListener.java LoC : 24;  Char : 654
+## Solver.java LoC : 7;   Char : 150
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 61;   Char : 2038
+## UndoListener.java LoC : 16;  Char : 360
+## TOTAL : LoC : 1588;  Char : 53793
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P10/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P10/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P2 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 64;   Char : 2018
+## BoardManager.java LoC : 136;   Char : 4478
+## Field.java LoC : 74;   Char : 2073
+## ForcedField.java LoC : 1;  Char : 11
+## ForcedNumber.java LoC : 1;   Char : 11
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 1;  Char : 11
+## Gui.java LoC : 129;  Char : 4571
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 83;   Char : 2944
+## ListenerFactory.java LoC : 29;   Char : 778
+## LoadFileListener.java LoC : 28;  Char : 869
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 1;   Char : 11
+## SolutionHintListener.java LoC : 1;   Char : 11
+## Solver.java LoC : 1;   Char : 11
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 1;   Char : 11
+## TOTAL : LoC : 923;   Char : 30043
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P2/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P2/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P3 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 64;   Char : 2018
+## BoardManager.java LoC : 144;   Char : 4667
+## Field.java LoC : 74;   Char : 2073
+## ForcedField.java LoC : 1;  Char : 11
+## ForcedNumber.java LoC : 1;   Char : 11
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 1;  Char : 11
+## Gui.java LoC : 142;  Char : 5083
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 83;   Char : 2944
+## ListenerFactory.java LoC : 34;   Char : 907
+## LoadFileListener.java LoC : 28;  Char : 869
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 1;   Char : 11
+## SolutionHintListener.java LoC : 1;   Char : 11
+## Solver.java LoC : 1;   Char : 11
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 16;  Char : 360
+## TOTAL : LoC : 964;   Char : 31222
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P3/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P3/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P4 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 64;   Char : 2018
+## BoardManager.java LoC : 151;   Char : 4871
+## Field.java LoC : 74;   Char : 2073
+## ForcedField.java LoC : 1;  Char : 11
+## ForcedNumber.java LoC : 1;   Char : 11
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 1;  Char : 11
+## Gui.java LoC : 156;  Char : 5709
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 83;   Char : 2944
+## ListenerFactory.java LoC : 39;   Char : 1063
+## LoadFileListener.java LoC : 28;  Char : 869
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 24;  Char : 863
+## SolutionHintListener.java LoC : 1;   Char : 11
+## Solver.java LoC : 1;   Char : 11
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 16;  Char : 360
+## TOTAL : LoC : 1013;  Char : 33060
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P4/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P4/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P5 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 36;   Char : 1104
+## BoardManager.java LoC : 104;   Char : 3487
+## Field.java LoC : 39;   Char : 1005
+## ForcedField.java LoC : 1;  Char : 11
+## ForcedNumber.java LoC : 1;   Char : 11
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 1;  Char : 11
+## Gui.java LoC : 115;  Char : 3979
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 83;   Char : 2944
+## ListenerFactory.java LoC : 24;   Char : 652
+## LoadFileListener.java LoC : 28;  Char : 869
+## LoadStateListener.java LoC : 1;  Char : 11
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 1;  Char : 11
+## SetPossibilitiesListener.java LoC : 24;  Char : 863
+## SolutionHintListener.java LoC : 1;   Char : 11
+## Solver.java LoC : 1;   Char : 11
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 1;   Char : 11
+## TOTAL : LoC : 782;   Char : 25790
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P5/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P5/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P6 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 64;   Char : 2018
+## BoardManager.java LoC : 143;   Char : 4682
+## Field.java LoC : 74;   Char : 2073
+## ForcedField.java LoC : 1;  Char : 11
+## ForcedNumber.java LoC : 1;   Char : 11
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 1;  Char : 11
+## Gui.java LoC : 143;  Char : 5197
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 83;   Char : 2944
+## ListenerFactory.java LoC : 34;   Char : 934
+## LoadFileListener.java LoC : 28;  Char : 869
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 24;  Char : 863
+## SolutionHintListener.java LoC : 1;   Char : 11
+## Solver.java LoC : 1;   Char : 11
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 1;   Char : 11
+## TOTAL : LoC : 972;   Char : 31881
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P6/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P6/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P7 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 143;  Char : 4892
+## BoardManager.java LoC : 284;   Char : 9768
+## Field.java LoC : 123;  Char : 3590
+## ForcedField.java LoC : 23;   Char : 851
+## ForcedNumber.java LoC : 35;  Char : 1339
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 46;   Char : 1764
+## Gui.java LoC : 213;  Char : 7982
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 106;  Char : 4078
+## ListenerFactory.java LoC : 44;   Char : 1210
+## LoadFileListener.java LoC : 34;  Char : 1178
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 24;  Char : 863
+## SolutionHintListener.java LoC : 24;  Char : 654
+## Solver.java LoC : 7;   Char : 150
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 16;  Char : 360
+## TOTAL : LoC : 1495;  Char : 50914
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P7/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P7/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P8 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 143;  Char : 4892
+## BoardManager.java LoC : 277;   Char : 9564
+## Field.java LoC : 123;  Char : 3590
+## ForcedField.java LoC : 23;   Char : 851
+## ForcedNumber.java LoC : 35;  Char : 1339
+## GenerateSudokuListener.java LoC : 1;   Char : 11
+## Guesser.java LoC : 46;   Char : 1764
+## Gui.java LoC : 199;  Char : 7356
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 106;  Char : 4078
+## ListenerFactory.java LoC : 39;   Char : 1054
+## LoadFileListener.java LoC : 34;  Char : 1178
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 1;   Char : 11
+## SolutionHintListener.java LoC : 24;  Char : 654
+## Solver.java LoC : 7;   Char : 150
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 1;  Char : 11
+## UndoListener.java LoC : 16;  Char : 360
+## TOTAL : LoC : 1446;  Char : 49076
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P8/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P8/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+------------
+Integration Product : P9 
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9 /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9 
+## AbstractEnum.java LoC : 102;   Char : 3327
+## Board.java LoC : 169;  Char : 5827
+## BoardManager.java LoC : 291;   Char : 9944
+## Field.java LoC : 128;  Char : 3710
+## ForcedField.java LoC : 23;   Char : 851
+## ForcedNumber.java LoC : 35;  Char : 1339
+## GenerateSudokuListener.java LoC : 26;  Char : 708
+## Guesser.java LoC : 46;   Char : 1764
+## Gui.java LoC : 227;  Char : 8590
+## GuiBoard.java LoC : 54;  Char : 2341
+## GuiBox.java LoC : 59;  Char : 2479
+## GuiField.java LoC : 20;  Char : 408
+## GuiFieldPopupMenuListener.java LoC : 106;  Char : 4078
+## ListenerFactory.java LoC : 49;   Char : 1364
+## LoadFileListener.java LoC : 34;  Char : 1178
+## LoadStateListener.java LoC : 27;   Char : 762
+## Loader.java LoC : 23;  Char : 593
+## NotSolvableException.java LoC : 11;  Char : 202
+## PopupListener.java LoC : 19;   Char : 472
+## R4Feature.java LoC : 11;   Char : 322
+## SaveStateListener.java LoC : 25;   Char : 674
+## SetPossibilitiesListener.java LoC : 24;  Char : 863
+## SolutionHintListener.java LoC : 24;  Char : 654
+## Solver.java LoC : 7;   Char : 150
+## Structure.java LoC : 20;   Char : 633
+## SudokuGenerator.java LoC : 61;   Char : 2038
+## UndoListener.java LoC : 16;  Char : 360
+## TOTAL : LoC : 1637;  Char : 55631
+*********************
+Gumtree : AbstractEnum.java vs AbstractEnum.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/AbstractEnum.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/AbstractEnum.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Board.java vs Board.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/Board.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/Board.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : BoardManager.java vs BoardManager.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/BoardManager.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/BoardManager.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Field.java vs Field.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/Field.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/Field.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedField.java vs ForcedField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/ForcedField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/ForcedField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ForcedNumber.java vs ForcedNumber.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/ForcedNumber.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/ForcedNumber.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GenerateSudokuListener.java vs GenerateSudokuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/GenerateSudokuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/GenerateSudokuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Guesser.java vs Guesser.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/Guesser.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/Guesser.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Gui.java vs Gui.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/Gui.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/Gui.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBoard.java vs GuiBoard.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/GuiBoard.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/GuiBoard.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiBox.java vs GuiBox.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/GuiBox.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/GuiBox.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiField.java vs GuiField.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/GuiField.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/GuiField.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : GuiFieldPopupMenuListener.java vs GuiFieldPopupMenuListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/GuiFieldPopupMenuListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/GuiFieldPopupMenuListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : ListenerFactory.java vs ListenerFactory.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/ListenerFactory.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/ListenerFactory.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadFileListener.java vs LoadFileListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/LoadFileListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/LoadFileListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : LoadStateListener.java vs LoadStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/LoadStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/LoadStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Loader.java vs Loader.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/Loader.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/Loader.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : NotSolvableException.java vs NotSolvableException.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/NotSolvableException.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/NotSolvableException.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : PopupListener.java vs PopupListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/PopupListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/PopupListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : R4Feature.java vs R4Feature.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/R4Feature.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/R4Feature.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SaveStateListener.java vs SaveStateListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/SaveStateListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/SaveStateListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SetPossibilitiesListener.java vs SetPossibilitiesListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/SetPossibilitiesListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/SetPossibilitiesListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SolutionHintListener.java vs SolutionHintListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/SolutionHintListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/SolutionHintListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Solver.java vs Solver.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/Solver.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/Solver.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : Structure.java vs Structure.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/Structure.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/Structure.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : SudokuGenerator.java vs SudokuGenerator.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/SudokuGenerator.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/SudokuGenerator.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+*********************
+Gumtree : UndoListener.java vs UndoListener.java
+gumtree webdiff /Users/nicolas/isiSPL/Products/P9/p/UndoListener.java /Users/nicolas/isiSPL/Results/Experimentation/Integration_Products/P9/p/UndoListener.java
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+_____________
+
+
+///////////////////////////////////////////////////////////////////////////
+
+
+================== RESULT =====================
+Number of Original Products : 10
+(Integration) Number of Products obtained from Artefact Configurations : 10
+(Localisation) Number of Products obtained from Feature Configurations : 10
+Number of Files : in between [27 - 27]
+=======
+
+  ==========      INTEGRATION SCORE    =============
+   By Products
+  For P1 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 733 ; Char modified : 0/23952)
+  For P10 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 1588 ; Char modified : 0/53793)
+  For P2 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 923 ; Char modified : 0/30043)
+  For P3 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 964 ; Char modified : 0/31222)
+  For P4 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 1013 ; Char modified : 0/33060)
+  For P5 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 782 ; Char modified : 0/25790)
+  For P6 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 972 ; Char modified : 0/31881)
+  For P7 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 1495 ; Char modified : 0/50914)
+  For P8 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 1446 ; Char modified : 0/49076)
+  For P9 :
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
+similarity = 100.0%; LOC : 1637 ; Char modified : 0/55631)
+==
+TOTAL :
+TOTAL LoC Deleted : 0
+TOTAL LoC Inserted : 0
+deletes :  0  LoC : 0
+inserts :  0  LoC : 0
+updates :  0 
+  moves :  0 
